@@ -89,11 +89,6 @@ export class ToolGateway {
     const input = parsed.data;
     const inputHash = hashPayload({ tool: req.tool, input });
 
-    if (def.precheck) {
-      const reason = await def.precheck(tx, input);
-      if (reason) return this.deny(tx, req, def.policy, reason, inputHash, input);
-    }
-
     // Idempotent replay comes before limits and approvals: a retry of a finished call is free.
     if (req.idempotencyKey && !req.dryRun) {
       const prior = await tx.maybeOne<{ id: string; status: string; output: unknown }>(
@@ -105,6 +100,12 @@ export class ToolGateway {
         return { kind: "result", result: { status: "succeeded", toolCallId: prior.id, output: prior.output, replayed: true } };
       }
       if (prior?.status === "running") return this.deny(tx, req, def.policy, "an identical call is already in progress");
+    }
+
+    // Preconditions (e.g. recipient unsubscribed) are re-checked at execution time, after approval.
+    if (def.precheck) {
+      const reason = await def.precheck(tx, input);
+      if (reason) return this.deny(tx, req, def.policy, reason, inputHash, input);
     }
 
     const rate = await tx.one<{ n: number }>(

@@ -21,8 +21,11 @@ export interface JobQueue {
   /** Claim the next due job, or null. The claim is exclusive until complete/fail. */
   claim(types?: string[]): Promise<Job | null>;
   complete(jobId: string): Promise<void>;
-  /** Record a failure. Retries with backoff until maxAttempts, then marks the job dead. */
-  fail(jobId: string, error: string): Promise<"retry" | "dead">;
+  /**
+   * Record a failure. Retries with backoff until maxAttempts, then marks the job dead.
+   * `permanent` failures (retrying can't help) go straight to dead.
+   */
+  fail(jobId: string, error: string, permanent?: boolean): Promise<"retry" | "dead">;
 }
 
 export const backoffMs = (attempt: number): number => Math.min(60_000 * 2 ** (attempt - 1), 30 * 60_000);
@@ -70,11 +73,11 @@ export class InMemoryQueue implements JobQueue {
     if (job) job.status = "done";
   }
 
-  async fail(jobId: string, error: string): Promise<"retry" | "dead"> {
+  async fail(jobId: string, error: string, permanent = false): Promise<"retry" | "dead"> {
     const job = this.jobs.get(jobId);
     if (!job) return "dead";
     job.lastError = error;
-    if (job.attempts >= job.maxAttempts) {
+    if (permanent || job.attempts >= job.maxAttempts) {
       job.status = "dead";
       return "dead";
     }

@@ -65,8 +65,11 @@ export async function decideApproval(
     [approvalId, status, ctx.actor.id, note.slice(0, 1000)]);
   await recordAudit(tx, {
     actorType: ctx.actor.type, actorId: ctx.actor.id, action: `approval.${status}`, entityType: "approval",
-    entityId: approvalId, approvalId, correlationId: ctx.correlationId,
-    data: { tool: approval.tool, subject_type: approval.subject_type, subject_id: approval.subject_id },
+    // Logged on the request's correlation id so the whole chain (request -> decision -> execution)
+    // can be replayed from one id; the reviewer's own request id is kept alongside.
+    entityId: approvalId, approvalId, correlationId: approval.correlation_id,
+    data: { tool: approval.tool, subject_type: approval.subject_type, subject_id: approval.subject_id,
+      decided_in: ctx.correlationId },
   });
   return updated;
 }

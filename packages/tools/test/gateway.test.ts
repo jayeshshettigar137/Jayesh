@@ -212,7 +212,7 @@ describe("gateway controls", () => {
       tx.rows<{ action: string; actor_type: string; actor_id: string; approval_id: string | null }>(
         "SELECT action, actor_type, actor_id, approval_id FROM audit_events WHERE correlation_id = $1 ORDER BY id",
         [correlationId]));
-    expect(events.map((e) => e.action)).toEqual(["approval.requested", "tool.started", "tool.succeeded"]);
+    expect(events.map((e) => e.action)).toEqual(["approval.requested", "approval.approved", "tool.started", "tool.succeeded"]);
     expect(events.at(-1)).toMatchObject({ actor_type: "agent", actor_id: "relayflow.support_agent", approval_id: approvalId });
     const calls = await testDb().withWorkspace(ws, (tx) =>
       tx.rows<{ status: string }>("SELECT status FROM tool_calls WHERE correlation_id = $1 ORDER BY created_at", [correlationId]));

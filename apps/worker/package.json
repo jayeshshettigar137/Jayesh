@@ -2,5 +2,7 @@
   "name": "@relayos/worker",
   "version": "0.1.0",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "exports": { ".": "./src/worker.ts" },
+  "dependencies": { "@relayos/shared": "*", "@relayos/db": "*", "@relayos/domain": "*", "@relayos/agents": "*" }
 }

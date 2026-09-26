@@ -55,12 +55,12 @@ export class PgQueue implements JobQueue {
     );
   }
 
-  async fail(jobId: string, error: string): Promise<"retry" | "dead"> {
+  async fail(jobId: string, error: string, permanent = false): Promise<"retry" | "dead"> {
     return this.db.system(async (tx) => {
       const job = await tx.maybeOne<{ attempts: number; max_attempts: number }>(
         "SELECT attempts, max_attempts FROM jobs WHERE id = $1 FOR UPDATE", [jobId]);
       if (!job) return "dead";
-      const dead = job.attempts >= job.max_attempts;
+      const dead = permanent || job.attempts >= job.max_attempts;
       await tx.exec(
         `UPDATE jobs SET status = $2, last_error = $3, locked_at = NULL, updated_at = now(),
            run_at = now() + make_interval(secs => $4) WHERE id = $1`,

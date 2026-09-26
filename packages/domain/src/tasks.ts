@@ -73,7 +73,11 @@ export async function transitionTask(
     if (!opts.approvalId) throw new DomainError("this task requires a human approval", "approval_required");
     const approval = await tx.maybeOne<{ status: string; subject_id: string }>(
       "SELECT status, subject_id FROM approvals WHERE id = $1", [opts.approvalId]);
-    if (!approval || approval.status !== "approved" || approval.subject_id !== task.id) {
+    // The approval must be granted (or already used by the approved action) and belong to this task:
+    // either about the task itself or the approval the task is linked to (e.g. its outbound message).
+    const granted = approval && (approval.status === "approved" || approval.status === "consumed");
+    const linked = approval && (approval.subject_id === task.id || task.approval_id === opts.approvalId);
+    if (!granted || !linked) {
       throw new DomainError("approval is missing, not granted, or for a different task", "approval_required");
     }
   }
