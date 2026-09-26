@@ -1,0 +1,11 @@
+{
+  "name": "@relayos/domain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@relayos/shared": "*", "@relayos/db": "*", "@relayos/policy": "*", "@relayos/tools": "*",
+    "@relayos/agents": "*", "zod": "*"
+  }
+}

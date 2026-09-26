@@ -1,8 +1,6 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-*.db
-*.db-wal
-*.db-shm
+node_modules/
+.next/
+*.tsbuildinfo
 .env
-.venv/
+.env.local
+coverage/

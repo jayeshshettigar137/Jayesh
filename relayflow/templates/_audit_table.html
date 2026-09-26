@@ -1,3 +1,0 @@
-{% if entries %}<div class="tbl"><table><tr><th>When (UTC)</th><th>Actor</th><th>Action</th><th>Entity</th><th>Details</th></tr>
-{% for e in entries %}<tr><td class="muted">{{ e.created_at[:19].replace('T',' ') }}</td><td>{{ e.actor_type }}:{{ e.actor_id }}</td><td>{{ e.action }}</td><td>{{ e.entity_type }}{% if e.entity_id %} #{{ e.entity_id }}{% endif %}</td><td><code>{{ e.details_json }}</code></td></tr>{% endfor %}
-</table></div>{% else %}<p class="muted">No entries.</p>{% endif %}

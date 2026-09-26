@@ -1,6 +1,0 @@
-{% if leads %}<div class="tbl"><table><tr><th>Lead</th><th>Service</th><th>Status</th><th>Next action</th><th>Received</th></tr>
-{% for l in leads %}<tr>
-<td><a href="/leads/{{ l.id }}">{{ l.name or l.email or l.phone }}</a></td><td>{{ l.service }}</td>
-<td><span class="pill {{ l.status }}">{{ l.status }}</span></td><td>{{ l.next_action }}</td><td class="muted">{{ l.created_at[:16].replace('T',' ') }}</td>
-</tr>{% endfor %}</table></div>
-{% else %}<p class="muted">No leads yet. Share your intake form or connect the webhook from <a href="/settings">Settings</a>.</p>{% endif %}
