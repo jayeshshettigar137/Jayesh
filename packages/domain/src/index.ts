@@ -7,3 +7,4 @@ export * from "./services";
 export * from "./leads";
 export * from "./registry";
 export * from "./followups";
+export * from "./billing";

@@ -24,6 +24,8 @@ const EnvSchema = z
     STRIPE_PRICE_FOLLOWUP_KIT: z.string().optional(),
     STRIPE_PRICE_RELAYOPS_SETUP: z.string().optional(),
     ALLOW_LIVE_PAYMENTS: bool,
+    /** Slug of RelayOS's own workspace; the landing page's audit form posts leads there. */
+    SALES_FORM_SLUG: z.string().regex(/^[a-z0-9-]+$/).optional(),
     AGENT_DAILY_SPEND_LIMIT_USD: z.coerce.number().nonnegative().default(5),
   })
   .superRefine((env, ctx) => {
