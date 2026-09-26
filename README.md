@@ -20,6 +20,7 @@ A faceless chess challenge, content brand and digital business in one repository
 | [`docs/03-content-strategy.md`](docs/03-content-strategy.md) | Pillars, Instagram/YouTube plans, repurposing engine, 30-day content calendar, winner loop |
 | [`docs/04-monetization-and-funnel.md`](docs/04-monetization-and-funnel.md) | Stage-gated products, funnel, pricing guardrails, AI product roadmap |
 | [`docs/05-privacy-and-trust.md`](docs/05-privacy-and-trust.md) | Anonymity checklist, fair-play proof, brand principles |
+| [`docs/06-channel-launch-kit.md`](docs/06-channel-launch-kit.md) | Recording setup, Instagram/YouTube setup and bios, posting schedule, launch week post by post |
 | [`templates/`](templates) | Game review, daily log and weekly review templates |
 | [`data/`](data) | **Real** tracking data. The CSVs start empty (headers only) |
 | [`tracker/`](tracker) | Python CLI that turns the CSVs into the daily report, the mistake database and content analytics |

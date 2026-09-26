@@ -29,7 +29,7 @@ Decide the **rating pool publicly on Day 1** (recommended: **Rapid**, since ~70%
 
 **Game mix:** ~70% Rapid · ~20% Blitz · ~10% Bullet (bullet only as a fun or content session, never when tilted).
 
-Suggested time control: **15|10** (or 10|0 if the schedule is tight). 15|10 gives time to actually calculate, which is the skill being trained. Adjust on Day 7 based on data.
+Main time control: **10|0** (counts as Rapid on Chess.com). Play every rated challenge game at 10|0 so the reported rating stays one clean pool. If `time` is a top-2 mistake category after Day 7, test 15|10. Record every game (see `06-channel-launch-kit.md`).
 
 ---
 
