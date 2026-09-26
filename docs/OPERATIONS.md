@@ -1,61 +1,58 @@
-# RelayFlow operations runbook
+# RelayOS operations runbook
 
-## Launch-gate status (PRD §8)
+## Environments (TRD §2, §11)
 
-| Gate | Status |
-|---|---|
-| A new workspace can be created | Done: `/signup` (test: `test_end_to_end_launch_gate`) |
-| A lead can be received and displayed | Done: web form and webhook, lead page |
-| An agent can prepare a summary and follow-up draft | Done: `service.prepare_lead` |
-| The draft requires approval before sending | Done: `service.send_message` refuses unapproved messages |
-| Every action is logged | Done: `audit_log` table, `/audit` |
-| Stripe test and production flows are verified | **Manual.** Follow the checklist below in test mode, then live mode. |
-| Basic backup and rollback procedures exist | Done: see below |
+| Stage | Where | Data | LLM | Email | Payments |
+|---|---|---|---|---|---|
+| 1. Local mock tools | laptop / CI | synthetic (`npm run db:seed`) | mock | mock outbox | off |
+| 2. Staging | staging host | synthetic only | Anthropic (spend-capped) | mock outbox | Stripe test mode |
+| 3. Pilot | production host, one workspace | real, one customer | Anthropic | real provider | test → live after sign-off |
+| 4. Production | production host | real | Anthropic | real provider | live |
 
-## Backup
+Every side effect needs manual approval through stage 3. Widening autonomy (stage 5) needs 30 days of clean logs and passing evaluations, plus a code change to `APPROVAL_REQUIRED_CATEGORIES`, reviewed by a human.
 
-The database is a single SQLite file (`RELAYFLOW_DB`). Take consistent online backups with the backup API. It is safe while the server is running.
+## Processes
 
-```bash
-python -m relayflow backup /backups/relayflow-$(date -u +%Y%m%dT%H%M%SZ).db
+- **Web:** `npm run build && npm start -w @relayos/web` (Next.js on port 3000). Health check: `GET /api/health` returns 200 when the database is reachable.
+- **Worker:** `npm run worker`. Run one or more instances. Jobs are claimed with `SKIP LOCKED`, so extra workers are safe. A job locked for more than 10 minutes (crashed worker) is reclaimed automatically.
+- **Migrations:** `npm run db:migrate`, using the owner role (`DATABASE_ADMIN_URL`). The app and worker connect with the non-superuser `relayos_app` role (`DATABASE_URL`) so row-level security applies.
+
+## Monitoring (TRD §10: detect agent failure within 15 minutes)
+
+Alert on these log lines. Logs are structured JSON on stdout.
+
+- `level=error`: any occurrence
+- `msg="job failed"` with `outcome=dead`: an agent job was escalated to a human
+- `msg="tool call denied"`: expected occasionally. A spike means an agent is misbehaving or under attack.
+- `/api/health` non-200 for more than 2 minutes
+
+Quick SQL checks (run as the owner role):
+
+```sql
+-- Stuck or dead jobs
+SELECT type, status, count(*), max(updated_at) FROM jobs WHERE status IN ('running','dead') GROUP BY 1,2;
+-- Escalations in the last day
+SELECT count(*) FROM lead_events WHERE type = 'agent.escalated' AND created_at > now() - interval '1 day';
+-- Agent spend today by workspace
+SELECT workspace_id, sum(cost_usd) FROM agent_runs WHERE started_at > date_trunc('day', now()) GROUP BY 1;
 ```
 
-- Schedule it hourly by cron and keep 48 hourly and 30 daily copies.
-- Copy the backups off the host (for example to object storage). A backup on the same disk is not a backup.
-- Test a restore monthly. Restore into a scratch path, start the app against it with `RELAYFLOW_DB=...`, and log in.
+## Backup and restore
 
-## Restore
-
-1. Stop the app.
-2. Move the current database aside: `mv relayflow.db relayflow.db.broken` (also `-wal` and `-shm` if present).
-3. Copy the chosen backup into place as `relayflow.db`.
-4. Start the app and check `/healthz`, a login, and the latest audit entries.
-5. Stripe is the source of truth for billing. After a restore, replay missed webhooks from the Stripe Dashboard (Developers → Events → Resend) for the gap period.
+- Use managed Postgres with point-in-time recovery, or take `pg_dump -Fc` hourly and keep 48 hourly and 30 daily copies off-host.
+- **Take a backup immediately before every deploy that includes a migration.**
+- Test a restore monthly. Restore into a scratch database, point a local web instance at it, and log in.
+- Stripe is the source of truth for payments. After a restore, resend missed webhooks from the Stripe Dashboard for the gap period. The order upsert is idempotent.
 
 ## Deploy and rollback
 
-- Deploy from a tagged git commit. Record the previous tag before each deploy.
-- **Take a backup immediately before every deploy.**
-- Schema changes are additive only (`CREATE TABLE/INDEX IF NOT EXISTS`, new nullable columns). Destructive database changes (dropping or rewriting columns or tables) need human approval (PRD §6) and a written migration plus restore test.
-- **Rollback:** check out the previous tag and restart. Additive schema changes mean the old code runs against the new database. If a deploy corrupted data, restore the pre-deploy backup as described above.
+1. Deploy from a tagged commit, and record the previous tag.
+2. Back up the database, then run `npm run db:migrate`.
+3. Deploy web and worker, then check `/api/health` and one login.
+4. **Rollback:** redeploy the previous tag. If the release included a migration, run `npm run db:rollback` (every migration has a tested `down`; see `packages/db/test`). A down migration that drops data needs human approval (PRD §6). If in doubt, restore the pre-deploy backup instead.
 
-## Stripe verification checklist
+## Incident: suspected prompt injection or bad draft sent
 
-Run this once in **test mode** and again in **live mode** before charging customers.
-
-1. Create a Product "RelayFlow" with a recurring $99/month Price. Set `STRIPE_PRICE_ID`.
-2. Set `STRIPE_SECRET_KEY` (`sk_test_...` or `sk_live_...`).
-3. Add a webhook endpoint `https://<host>/stripe/webhook` with these events: `checkout.session.completed`, `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`, `invoice.payment_failed`. Set `STRIPE_WEBHOOK_SECRET`.
-4. Enable the Customer Portal in Stripe settings (allow cancel and payment-method update).
-5. As a workspace owner, go to Billing → Subscribe and pay with test card `4242 4242 4242 4242`. Expect the status to become `active` and `billing.checkout_completed` to appear in the audit log.
-6. Go to Manage billing → cancel. Expect the status to become `canceled` at period end, or immediately if configured, and `billing.subscription_updated` or `billing.subscription_deleted` to appear in the audit log.
-7. Pay with the declining card `4000 0000 0000 0341`. Expect `billing.payment_failed`.
-8. Send a webhook with a bad signature (for example `curl -X POST .../stripe/webhook`). Expect HTTP 400.
-9. In live mode, repeat steps 5–6 with a real card and refund the charge from the Stripe Dashboard. Refunds are human-only (PRD §6).
-
-## Email go-live checklist
-
-1. Run in `RELAYFLOW_MAIL_MODE=outbox` until drafts have been reviewed with the first customer.
-2. Configure SMTP with a domain that has SPF, DKIM, and DMARC set up. Use the business's domain or a verified sending domain.
-3. Set each workspace's reply-to address so customer replies reach the office.
-4. Switch to `RELAYFLOW_MAIL_MODE=smtp`, send one approved message to an internal address, and confirm it arrived and that `message.sent` was logged with the SMTP delivery note.
+1. Pause sending: approvals stay queued, so tell reviewers to stop approving.
+2. Find the chain: `SELECT * FROM audit_events WHERE correlation_id = '<id>' ORDER BY id;`. The agent's prompt and response are in `agent_messages` for the run.
+3. If a message went out, contact the customer personally. Add a regression case to `tests/evals/adversarial.test.ts`.

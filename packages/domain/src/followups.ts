@@ -4,7 +4,7 @@ import {
 } from "@relayos/agents";
 import { recordAudit, type Tx } from "@relayos/db";
 import { DomainError, NotFoundError, newId, type ActionContext, type Actor } from "@relayos/shared";
-import { decideApproval, getApproval, type ToolResult } from "@relayos/tools";
+import { decideApproval, getApproval, spentTodayUsd, type ToolResult } from "@relayos/tools";
 import { addLeadEvent, getLead } from "./leads";
 import type { RelayServices } from "./services";
 import { createTask, transitionTask, type TaskRow } from "./tasks";
@@ -49,6 +49,16 @@ export async function prepareLead(
       "SELECT id, approval_id FROM outbound_messages WHERE lead_id = $1 AND status <> 'cancelled' LIMIT 1", [leadId]);
     if (lead.summary && (existing || !lead.email || lead.unsubscribed_at)) return { done: true as const, existing };
 
+    // Model spend counts against the same daily agent budget the gateway enforces for tools.
+    const spent = await spentTodayUsd(tx);
+    if (spent >= svc.env.AGENT_DAILY_SPEND_LIMIT_USD) {
+      await recordAudit(tx, {
+        actorType: "agent", actorId: LEAD_INTAKE_AGENT, action: "agent.budget_exhausted", entityType: "lead",
+        entityId: leadId, correlationId, data: { spent_usd: spent, limit_usd: svc.env.AGENT_DAILY_SPEND_LIMIT_USD },
+      });
+      return { done: false as const, budgetExhausted: true as const };
+    }
+
     let task = await leadTask(tx, leadId);
     if (!task) {
       task = await createTask(tx, ctx, LEAD_INTAKE_AGENT, {
@@ -84,6 +94,10 @@ export async function prepareLead(
 
   if (setup.done) {
     return { status: "already_prepared", messageId: setup.existing?.id, approvalId: setup.existing?.approval_id ?? undefined };
+  }
+  if ("budgetExhausted" in setup) {
+    // Retryable: the worker backs off and escalates to a human if the budget stays exhausted.
+    throw new LlmUnavailableError("daily agent budget exhausted", true);
   }
   const { lead, ws, task, runId, user } = setup;
 

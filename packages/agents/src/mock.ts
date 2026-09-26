@@ -61,7 +61,7 @@ const CATEGORY_WORDS: [LeadAnalysis["category"], RegExp][] = [
   ["hvac", /\b(hvac|a\/?c|air condition\w*|furnace|heat pump|thermostat|no heat|cooling|heating)\b/i],
   ["plumbing", /\b(plumb\w*|leak\w*|pipe|drain|toilet|faucet|water heater|clog\w*|sewer)\b/i],
   ["roofing", /\b(roof\w*|shingle\w*|gutter\w*)\b/i],
-  ["electrical", /\b(electric\w*|outlet|breaker|panel|wiring|circuit)\b/i],
+  ["electrical", /\b(electric\w*|outlets?|breakers?|panels?|wiring|circuits?)\b/i],
   ["cleaning", /\b(clean\w*|maid|janitor\w*)\b/i],
   ["remodeling", /\b(remodel\w*|renovat\w*|kitchen|bathroom)\b/i],
 ];
