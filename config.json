@@ -1,0 +1,19 @@
+{
+  "challenge_name": "The 2000 Project",
+  "start_date": "2026-10-01",
+  "challenge_days": 30,
+  "start_rating": 1500,
+  "target_rating": 2000,
+  "historical_peak": 1700,
+  "rating_pool": "rapid",
+  "credential": "2× Goa State Champion (U7 & U9)",
+  "pillar_targets": {
+    "journey": 0.40,
+    "educational": 0.25,
+    "entertainment": 0.20,
+    "personality": 0.10,
+    "product": 0.05
+  },
+  "free_lead_magnet": "1500 → 2000 Training Plan (free)",
+  "low_ticket_product": "1500 → 2000 Chess Improvement Pack (₹499–₹999)"
+}

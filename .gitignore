@@ -1,0 +1,18 @@
+# Generated reports can contain private notes. Commit them on purpose if you want to.
+reports/
+
+# Secrets / identity
+.env
+*.env
+data/private/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Raw recordings and exports (large, may contain identifying metadata)
+recordings/
+*.mp4
+*.mov
+*.pgn

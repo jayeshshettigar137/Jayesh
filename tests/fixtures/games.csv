@@ -1,0 +1,13 @@
+date,day,time_control,color,opponent_rating,result,rating_after,accuracy,opening,mistake_categories,first_uncomfortable_move,key_lesson,content_worthy
+2026-10-01,1,900+10,white,1495,W,1508,82,Italian Game,,,,
+2026-10-01,1,900+10,black,1520,L,1500,70,Caro-Kann,tactical;time,18,Missed back-rank mate threat,y
+2026-10-01,1,900+10,white,1490,W,1512,84,Italian Game,,,,
+2026-10-02,2,900+10,black,1530,W,1521,80,Caro-Kann,,,,
+2026-10-02,2,900+10,white,1600,W,1533,88,Scotch Game,,,,y
+2026-10-02,2,900+10,black,1540,L,1525,74,Queens Gambit Declined,opening,9,Didn't know the plan after c4-c5,
+2026-10-02,2,900+10,white,1580,W,1547,91,Italian Game,,,,
+2026-10-03,3,900+10,black,1550,L,1538,70,Caro-Kann,tactical,22,Hanging knight after ...Bf5,
+2026-10-03,3,900+10,white,1545,L,1524,68,Italian Game,calculation;time,15,,
+2026-10-03,3,900+10,black,1530,L,1510,65,Queens Gambit Declined,tactical;opening,11,Fork on e5,y
+2026-10-03,3,900+10,white,1505,L,1494,74,Italian Game,time,30,Flagged in winning endgame,
+2026-10-03,3,900+10,black,1470,W,1486,84,Caro-Kann,,,,

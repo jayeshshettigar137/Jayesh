@@ -1,0 +1,4 @@
+date,day,rating,peak_rating,games,wins,losses,draws,avg_accuracy,training_hours,tactics_score,calc_score,endgame_score,followers_gained,email_subscribers,product_sales,notes
+2026-10-01,1,1512,1512,3,2,1,0,78.5,5,82,60,70,40,5,0,sample
+2026-10-02,2,1547,1547,4,3,1,0,81.0,5.5,85,65,70,120,12,0,sample
+2026-10-03,3,1486,1547,5,1,4,0,72.3,4,80,58,65,300,30,0,sample
