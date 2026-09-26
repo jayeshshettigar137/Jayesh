@@ -1,0 +1,24 @@
+{% extends "base.html" %}{% block title %}Dashboard · RelayFlow{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<div class="grid" style="margin-bottom:16px">
+  <div class="card stat"><div class="n">{{ stats.total_leads }}</div><div class="l">Leads ({{ stats.leads_7d }} in last 7 days)</div></div>
+  <div class="card stat"><div class="n">{% if stats.median_response_minutes is not none %}{{ '%.0f'|format(stats.median_response_minutes) }} min{% else %}–{% endif %}</div><div class="l">Median first response</div></div>
+  <div class="card stat"><div class="n">{{ stats.awaiting_first_response }}</div><div class="l">Awaiting first response</div></div>
+  <div class="card stat"><div class="n">{{ stats.drafts_pending }}</div><div class="l">Follow-ups awaiting approval</div></div>
+  <div class="card stat"><div class="n">{{ stats.booked_jobs }}</div><div class="l">Booked jobs ({{ stats.booked_7d }} this week)</div></div>
+  <div class="card stat"><div class="n">{% if stats.win_rate is not none %}{{ '%.0f'|format(stats.win_rate*100) }}%{% else %}–{% endif %}</div><div class="l">Win rate (booked ÷ closed)</div></div>
+</div>
+<div class="card"><h2>Pipeline</h2><div class="row">
+{% for s, n in stats.by_status.items() %}<a class="pill {{ s }}" href="/leads?status={{ s }}">{{ s }}: {{ n }}</a>{% endfor %}
+<span class="muted">· {{ stats.messages_sent }} follow-ups sent{% if stats.messages_failed %}, {{ stats.messages_failed }} failed{% endif %}</span>
+</div></div>
+<div class="card"><h2>Awaiting approval</h2>
+{% if pending %}<div class="tbl"><table><tr><th>Lead</th><th>Subject</th><th>Status</th></tr>
+{% for m in pending %}<tr><td><a href="/leads/{{ m.lead_id }}">{{ m.lead_name or 'Lead #' ~ m.lead_id }}</a></td><td>{{ m.subject }}</td><td><span class="pill {{ m.status }}">{{ m.status }}</span>{% if m.flags %} <span class="pill flag">flagged</span>{% endif %}</td></tr>{% endfor %}
+</table></div><p><a href="/approvals">Review all →</a></p>{% else %}<p class="muted">Nothing waiting. New leads get a prepared draft here automatically.</p>{% endif %}
+</div>
+<div class="card"><h2>Newest leads</h2>
+{% include "_lead_table.html" %}
+</div>
+{% endblock %}

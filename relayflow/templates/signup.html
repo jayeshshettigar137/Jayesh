@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}Create workspace · RelayFlow{% endblock %}
+{% block content %}
+<div class="card" style="max-width:460px;margin:40px auto">
+<h1>Create your RelayFlow workspace</h1>
+<form method="post" action="/signup">
+  <label>Business name</label><input name="business" required value="{{ form.business if form else '' }}">
+  <label>Your name</label><input name="name" value="{{ form.name if form else '' }}">
+  <label>Email</label><input name="email" type="email" required value="{{ form.email if form else '' }}">
+  <label>Password (10+ characters)</label><input name="password" type="password" minlength="10" required>
+  <p><button>Create workspace</button></p>
+</form>
+<p class="muted">Already have an account? <a href="/login">Log in</a></p>
+</div>
+{% endblock %}

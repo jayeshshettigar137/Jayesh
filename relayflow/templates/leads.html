@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% block title %}Leads · RelayFlow{% endblock %}
+{% block content %}
+<h1>Leads</h1>
+<div class="card"><div class="row">
+<a class="pill {{ '' if status else 'new' }}" href="/leads">all</a>
+{% for s in statuses %}<a class="pill {{ s if s == status else '' }}" href="/leads?status={{ s }}">{{ s }}</a>{% endfor %}
+</div></div>
+<div class="card">{% include "_lead_table.html" %}</div>
+<details class="card"><summary><strong>Add a lead manually</strong> (phone call, walk-in)</summary>
+<form method="post" action="/leads"><input type="hidden" name="csrf" value="{{ csrf }}">
+<div class="grid">
+<div><label>Name</label><input name="name"></div><div><label>Email</label><input name="email" type="email"></div>
+<div><label>Phone</label><input name="phone"></div><div><label>Address</label><input name="address"></div>
+<div><label>Service</label><input name="service"></div><div><label>Source</label><input name="source" value="phone"></div>
+</div>
+<label>Notes</label><textarea name="message"></textarea>
+<p><button>Add lead</button></p></form></details>
+{% endblock %}

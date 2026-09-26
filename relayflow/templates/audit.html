@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block title %}Audit log · RelayFlow{% endblock %}
+{% block content %}
+<h1>Audit log</h1>
+<p class="muted">Every agent, user, webhook, and billing action. Newest first (last 300). <a href="/audit.csv">Download full CSV</a></p>
+<div class="card">{% include "_audit_table.html" %}</div>
+{% endblock %}
