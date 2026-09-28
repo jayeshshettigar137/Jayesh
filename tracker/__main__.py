@@ -60,7 +60,7 @@ def main(argv=None):
             return
         pages, schedule, pre = build_plan(found, config, daily)
         out = write_plan(pages, schedule, pre, found, args.out or Path(args.folder) / "_posting_plan")
-        print(f"{len(found)} recording(s) → {len(pages)} day plan(s), {len(schedule)} scheduled post(s).")
+        print(f"{len(found)} recording(s) -> {len(pages)} day plan(s), {len(schedule)} scheduled post(s).")
         print(f"Plan written to {out}")
         if pre:
             print(f"{len(pre)} pre-challenge recording(s) listed in _file-name-check.md")
