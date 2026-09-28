@@ -20,6 +20,11 @@ def main(argv=None):
     sub.add_parser("status", help="one-line status for bio/Stories")
     sub.add_parser("mistakes", help="recurring-mistake database")
     sub.add_parser("content", help="content analytics + winner variations")
+    clips = sub.add_parser("clips", help="build the posting plan from a folder of game recordings")
+    clips.add_argument("--folder", required=True, help=r'recordings folder, e.g. "J:\chess clips"')
+    clips.add_argument("--out", help="where to write the plan (default: <folder>/_posting_plan)")
+    clips.add_argument("--log-games", action="store_true",
+                       help="also add games with a result in the file name to data/games.csv")
     fetch = sub.add_parser("fetch", help="import games from Chess.com (needs CHESSCOM_USERNAME)")
     fetch.add_argument("--month", required=True, help="YYYY-MM")
     fetch.add_argument("--all-pools", action="store_true", help="include all time classes, not just the pool")
@@ -44,6 +49,24 @@ def main(argv=None):
         print(mistakes_report(games, config))
     elif args.command == "content":
         print(content_report(data.load_content(args.data_dir), config["pillar_targets"]))
+    elif args.command == "clips":
+        from pathlib import Path
+
+        from .clips import build_plan, scan, to_game_rows, write_plan
+        from .fetch import append_new
+        found = scan(args.folder, config["start_date"])
+        if not found:
+            print(f"No video files found in {args.folder}")
+            return
+        pages, schedule, pre = build_plan(found, config, daily)
+        out = write_plan(pages, schedule, pre, found, args.out or Path(args.folder) / "_posting_plan")
+        print(f"{len(found)} recording(s) → {len(pages)} day plan(s), {len(schedule)} scheduled post(s).")
+        print(f"Plan written to {out}")
+        if pre:
+            print(f"{len(pre)} pre-challenge recording(s) listed in _file-name-check.md")
+        if args.log_games:
+            added = append_new(to_game_rows(found), Path(args.data_dir) / "games.csv")
+            print(f"Added {added} game(s) to games.csv. Fill in mistake_categories and key_lesson.")
     elif args.command == "fetch":
         from .fetch import run
         print(run(config, args.data_dir, args.month, args.all_pools))

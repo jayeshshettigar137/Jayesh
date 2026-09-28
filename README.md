@@ -21,6 +21,7 @@ A faceless chess challenge, content brand and digital business in one repository
 | [`docs/04-monetization-and-funnel.md`](docs/04-monetization-and-funnel.md) | Stage-gated products, funnel, pricing guardrails, AI product roadmap |
 | [`docs/05-privacy-and-trust.md`](docs/05-privacy-and-trust.md) | Anonymity checklist, fair-play proof, brand principles |
 | [`docs/06-channel-launch-kit.md`](docs/06-channel-launch-kit.md) | Recording setup, Instagram/YouTube setup and bios, posting schedule, launch week post by post |
+| [`make_posting_plan.bat`](make_posting_plan.bat) | Windows double-click: builds the posting plan from `J:\chess clips` |
 | [`templates/`](templates) | Game review, daily log and weekly review templates |
 | [`data/`](data) | **Real** tracking data. The CSVs start empty (headers only) |
 | [`tracker/`](tracker) | Python CLI that turns the CSVs into the daily report, the mistake database and content analytics |
@@ -45,6 +46,7 @@ python3 -m tracker report --save       # also write reports/day-XX.md
 python3 -m tracker mistakes            # recurring-mistake database
 python3 -m tracker content             # winning hooks/topics/formats + variations to make next
 python3 -m tracker status              # one-line challenge status (good for bio/Story updates)
+python3 -m tracker clips --folder "J:\chess clips" --log-games   # posting plan from your recordings
 ```
 
 To see what the output looks like before you have your own data, point it at the test fixtures. They're **sample data, not real results**:

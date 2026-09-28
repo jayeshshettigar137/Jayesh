@@ -227,3 +227,75 @@ Then do more of what's winning: **70% proven formats / 30% experiments** (see th
 - [ ] 3 launch Reels + the Day 1 YouTube video recorded, edited and privacy-checked
 - [ ] Free training plan page ready (or ready by Day 5)
 - [ ] Rating pool (Rapid, 10|0) announced in the first video
+
+---
+
+## 9. Automatic posting plan from your recordings folder
+
+The tracker reads the **file names** in your recordings folder (e.g. `J:\chess clips`) and writes everything for each slot of the daily schedule: which clip to use, style, title card, hook, voiceover outline, Instagram caption + hashtags, YouTube Short title and description, pinned comment, Story text, and on Sundays the long-form title options, outline and thumbnail text.
+
+It never opens the videos. It only knows what the file name says. Anything it can't know (what you missed, the move you played, the lesson) is left as a `[FILL: ...]` slot for you to write from your game review.
+
+### One-time setup on your PC (Windows)
+
+1. Install Python from python.org and tick **"Add python.exe to PATH"** during install.
+2. Download this repo (GitHub → Code → Download ZIP, or `git clone`) to e.g. `C:\the2000project`.
+3. Set the real `start_date` and `start_rating` in `config.json`.
+4. Double-click **`make_posting_plan.bat`**. It reads `J:\chess clips` (edit the `RECORDINGS` line if the folder changes).
+
+Output goes to `J:\chess clips\_posting_plan\`:
+
+| File | What |
+|---|---|
+| `2026-10-02.md` (one per day) | Everything to post that day, slot by slot |
+| `schedule.csv` | Every post with date/time/platform/clip/hook (opens in Excel) |
+| `_file-name-check.md` | Words it didn't understand, files missing a result or rating, and pre-challenge recordings |
+
+Re-run it after every session. With `--log-games` (the .bat does this) it also adds each game to `data/games.csv`. Then fill in `mistake_categories` and `key_lesson` there.
+
+### How to name recordings
+
+Any order, separated by `_` or spaces. Everything is optional, but **result + rating** make the hooks use real numbers.
+
+```
+D5_G3_L_1532_vs1610_caro_blunder_black.mp4
+│  │  │  │     │      │     │       └ colour: white / black
+│  │  │  │     │      │     └ style words (table below)
+│  │  │  │     │      └ opening
+│  │  │  │     └ opponent rating (vs1610)
+│  │  │  └ your rating AFTER the game
+│  │  └ W / L / D (or win / loss / draw)
+│  └ game number that day
+└ challenge day (D5 or day5)
+```
+
+If there's no `D5`, the day comes from the date in the name (OBS default `2026-10-05 21-14-05.mkv`) or the file date.
+
+**Style words the tool recognises:**
+
+| Write | Becomes |
+|---|---|
+| `blunder`, `hung`, `missed`, `threw`, `tilt` | Mistake breakdown (educational) |
+| `queen sac` | Queen sacrifice highlight (top priority) |
+| `sac`, `gambit`, `brilliant`, `comeback`, `swindle`, `trap`, `upset` | Highlight (entertainment) |
+| `mate`, `backrank`, `smothered` (in a win) | "Can you find the mate?" puzzle |
+| `scramble`, `flag`, `flagged`, `lowtime` | Time-scramble clip |
+| `endgame`, `convert` | Endgame lesson |
+| `attack`, `aggressive`, `positional`, `grind` | Game highlight |
+| an opening (`italian`, `caro`, `sicilian`, `london`, `qgd`, `scotch`, …) | Opening lesson + opening hashtag |
+| nothing special | Rating update (journey) |
+
+**Don't put opponent usernames in file names.** The tool ignores unknown words and won't use them in captions, but file names can still leak (screen shares, uploads).
+
+### How clips are picked
+
+- **Reel B, 19:30:** the strongest clip from **today** (drama + journey).
+- **Reel A, 13:00:** the best lesson/puzzle from **yesterday** that hasn't been posted yet.
+- A clip is never scheduled twice. Other games are listed as backup clips for Stories.
+- **Sunday:** title options match the real week (gain vs loss), plus an outline built from the week's top clips.
+
+### What still needs you
+
+- Posting itself: schedule the posts in **Meta Business Suite** (Instagram) and **YouTube Studio** using the times in `schedule.csv`. The tool can't log in to your accounts.
+- The `[FILL]` lines, from your real game review.
+- A final privacy check of every exported clip.
