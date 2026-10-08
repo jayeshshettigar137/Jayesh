@@ -1,0 +1,1021 @@
+id,business_type,product_pattern,idea,scalability_1to5,crowding_1to5,buyer_budget_1to5,reachability_1to5,regulation_0to3,mvp_weeks_solo_with_AI,weeks_to_deploy,suggested_stack,score
+792,marketing agencies,weekly KPI digest,"Marketing agencies: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,5,0,2,3,Connectors + cron + LLM summary,25.9
+872,ecommerce stores,weekly KPI digest,"Ecommerce stores: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,5,0,2,3,Connectors + cron + LLM summary,25.9
+772,recruiting agencies,weekly KPI digest,"Recruiting agencies: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,4,1,4,5,Connectors + cron + LLM summary,25.8
+352,real estate agents,weekly KPI digest,"Real estate agents: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,5,1,3,4,Connectors + cron + LLM summary,25.6
+372,property managers,weekly KPI digest,"Property managers: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,4,2,5,6,Connectors + cron + LLM summary,25.5
+652,accounting firms,weekly KPI digest,"Accounting firms: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,4,2,5,6,Connectors + cron + LLM summary,25.5
+692,small law firms,weekly KPI digest,"Small law firms: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,4,3,6,7,Connectors + cron + LLM summary,25.2
+732,insurance brokers,weekly KPI digest,"Insurance brokers: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,4,3,6,7,Connectors + cron + LLM summary,25.2
+432,electricians & plumbers,weekly KPI digest,"Electricians & plumbers: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,4,0,2,3,Connectors + cron + LLM summary,24.9
+412,general contractors,weekly KPI digest,"General contractors: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,1,4,5,Connectors + cron + LLM summary,24.8
+452,HVAC companies,weekly KPI digest,"Hvac companies: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,1,4,5,Connectors + cron + LLM summary,24.8
+892,3PL & warehouse operators,weekly KPI digest,"3pl & warehouse operators: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,1,4,5,Connectors + cron + LLM summary,24.8
+512,auto repair shops,weekly KPI digest,"Auto repair shops: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,4,1,3,4,Connectors + cron + LLM summary,24.6
+672,bookkeepers,weekly KPI digest,"Bookkeepers: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,4,1,3,4,Connectors + cron + LLM summary,24.6
+12,dental clinics,weekly KPI digest,"Dental clinics: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,2,5,6,Connectors + cron + LLM summary,24.5
+532,car dealers,weekly KPI digest,"Car dealers: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,2,5,6,Connectors + cron + LLM summary,24.5
+952,solar installers,weekly KPI digest,"Solar installers: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,2,5,6,Connectors + cron + LLM summary,24.5
+632,coaches & consultants,weekly KPI digest,"Coaches & consultants: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,5,0,2,3,Connectors + cron + LLM summary,24.4
+832,course creators,weekly KPI digest,"Course creators: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,5,0,2,3,Connectors + cron + LLM summary,24.4
+852,podcasters,weekly KPI digest,"Podcasters: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,5,0,2,3,Connectors + cron + LLM summary,24.4
+752,mortgage brokers,weekly KPI digest,"Mortgage brokers: automatic weekly report of bookings, revenue and no-shows by email",5,3,5,3,3,6,7,Connectors + cron + LLM summary,24.2
+212,small hotels & guesthouses,weekly KPI digest,"Small hotels & guesthouses: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,1,3,4,Connectors + cron + LLM summary,23.6
+332,event venues,weekly KPI digest,"Event venues: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,1,3,4,Connectors + cron + LLM summary,23.6
+781,marketing agencies,document chaser,Marketing agencies: auto-request and chase missing campaign reports from clients by email/WhatsApp until complete,4,3,4,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,23.6
+789,marketing agencies,compliance tracker,"Marketing agencies: track licences, certificates and renewals with automatic alerts",4,3,4,5,0,3,4,Next.js + Postgres + email alerts,23.6
+861,ecommerce stores,document chaser,Ecommerce stores: auto-request and chase missing product listings from shoppers by email/WhatsApp until complete,4,3,4,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,23.6
+869,ecommerce stores,compliance tracker,"Ecommerce stores: track licences, certificates and renewals with automatic alerts",4,3,4,5,0,3,4,Next.js + Postgres + email alerts,23.6
+761,recruiting agencies,document chaser,Recruiting agencies: auto-request and chase missing job orders from candidates by email/WhatsApp until complete,4,3,5,4,1,5,6,Next.js + Supabase + Twilio/WhatsApp API,23.5
+769,recruiting agencies,compliance tracker,"Recruiting agencies: track licences, certificates and renewals with automatic alerts",4,3,5,4,1,5,6,Next.js + Postgres + email alerts,23.5
+292,wedding planners,weekly KPI digest,"Wedding planners: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,0,2,3,Connectors + cron + LLM summary,23.4
+472,cleaning companies,weekly KPI digest,"Cleaning companies: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,0,2,3,Connectors + cron + LLM summary,23.4
+492,landscapers,weekly KPI digest,"Landscapers: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,0,2,3,Connectors + cron + LLM summary,23.4
+32,physiotherapy clinics,weekly KPI digest,"Physiotherapy clinics: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,2,4,5,Connectors + cron + LLM summary,23.3
+52,veterinary clinics,weekly KPI digest,"Veterinary clinics: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,2,4,5,Connectors + cron + LLM summary,23.3
+341,real estate agents,document chaser,Real estate agents: auto-request and chase missing listings from buyers by email/WhatsApp until complete,4,3,4,5,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,23.3
+349,real estate agents,compliance tracker,"Real estate agents: track licences, certificates and renewals with automatic alerts",4,3,4,5,1,4,5,Next.js + Postgres + email alerts,23.3
+912,trucking & fleet owners,weekly KPI digest,"Trucking & fleet owners: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,2,4,5,Connectors + cron + LLM summary,23.3
+361,property managers,document chaser,Property managers: auto-request and chase missing lease documents from tenants by email/WhatsApp until complete,4,3,5,4,2,6,7,Next.js + Supabase + Twilio/WhatsApp API,23.2
+369,property managers,compliance tracker,"Property managers: track licences, certificates and renewals with automatic alerts",4,3,5,4,2,6,7,Next.js + Postgres + email alerts,23.2
+641,accounting firms,document chaser,Accounting firms: auto-request and chase missing tax documents from clients by email/WhatsApp until complete,4,3,5,4,2,6,7,Next.js + Supabase + Twilio/WhatsApp API,23.2
+649,accounting firms,compliance tracker,"Accounting firms: track licences, certificates and renewals with automatic alerts",4,3,5,4,2,6,7,Next.js + Postgres + email alerts,23.2
+92,gyms & fitness studios,weekly KPI digest,"Gyms & fitness studios: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,1,3,4,Connectors + cron + LLM summary,23.1
+172,restaurants,weekly KPI digest,"Restaurants: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,1,3,4,Connectors + cron + LLM summary,23.1
+392,home inspectors,weekly KPI digest,"Home inspectors: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,1,3,4,Connectors + cron + LLM summary,23.1
+572,tutoring centers,weekly KPI digest,"Tutoring centers: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,1,3,4,Connectors + cron + LLM summary,23.1
+712,immigration consultants,weekly KPI digest,"Immigration consultants: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,3,5,6,Connectors + cron + LLM summary,23.0
+972,pharmacies,weekly KPI digest,"Pharmacies: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,3,3,5,6,Connectors + cron + LLM summary,23.0
+312,photographers & videographers,weekly KPI digest,"Photographers & videographers: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,5,0,2,3,Connectors + cron + LLM summary,22.9
+681,small law firms,document chaser,Small law firms: auto-request and chase missing case documents from clients by email/WhatsApp until complete,4,3,5,4,3,7,8,Next.js + Supabase + Twilio/WhatsApp API,22.9
+689,small law firms,compliance tracker,"Small law firms: track licences, certificates and renewals with automatic alerts",4,3,5,4,3,7,8,Next.js + Postgres + email alerts,22.9
+721,insurance brokers,document chaser,Insurance brokers: auto-request and chase missing policy renewals from policyholders by email/WhatsApp until complete,4,3,5,4,3,7,8,Next.js + Supabase + Twilio/WhatsApp API,22.9
+729,insurance brokers,compliance tracker,"Insurance brokers: track licences, certificates and renewals with automatic alerts",4,3,5,4,3,7,8,Next.js + Postgres + email alerts,22.9
+785,marketing agencies,review requester,Marketing agencies: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,4,5,0,2,3,Next.js + Google Business API + SMS,22.9
+797,marketing agencies,content generator,"Marketing agencies: social posts, emails and ads generated from your real campaign reports and brand voice",5,5,4,5,0,2,3,LLM + scheduler,22.9
+812,freelancers,weekly KPI digest,"Freelancers: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,5,0,2,3,Connectors + cron + LLM summary,22.9
+865,ecommerce stores,review requester,Ecommerce stores: ask happy shoppers for reviews at the right moment and route unhappy ones privately,5,5,4,5,0,2,3,Next.js + Google Business API + SMS,22.9
+877,ecommerce stores,content generator,"Ecommerce stores: social posts, emails and ads generated from your real product listings and brand voice",5,5,4,5,0,2,3,LLM + scheduler,22.9
+72,therapists & counselors,weekly KPI digest,"Therapists & counselors: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,4,2,4,5,Connectors + cron + LLM summary,22.8
+765,recruiting agencies,review requester,Recruiting agencies: ask happy candidates for reviews at the right moment and route unhappy ones privately,5,5,5,4,1,4,5,Next.js + Google Business API + SMS,22.8
+777,recruiting agencies,content generator,"Recruiting agencies: social posts, emails and ads generated from your real job orders and brand voice",5,5,5,4,1,4,5,LLM + scheduler,22.8
+345,real estate agents,review requester,Real estate agents: ask happy buyers for reviews at the right moment and route unhappy ones privately,5,5,4,5,1,3,4,Next.js + Google Business API + SMS,22.6
+357,real estate agents,content generator,"Real estate agents: social posts, emails and ads generated from your real listings and brand voice",5,5,4,5,1,3,4,LLM + scheduler,22.6
+421,electricians & plumbers,document chaser,Electricians & plumbers: auto-request and chase missing job quotes from customers by email/WhatsApp until complete,4,3,4,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,22.6
+429,electricians & plumbers,compliance tracker,"Electricians & plumbers: track licences, certificates and renewals with automatic alerts",4,3,4,4,0,3,4,Next.js + Postgres + email alerts,22.6
+365,property managers,review requester,Property managers: ask happy tenants for reviews at the right moment and route unhappy ones privately,5,5,5,4,2,5,6,Next.js + Google Business API + SMS,22.5
+377,property managers,content generator,"Property managers: social posts, emails and ads generated from your real lease documents and brand voice",5,5,5,4,2,5,6,LLM + scheduler,22.5
+401,general contractors,document chaser,General contractors: auto-request and chase missing estimates from homeowners by email/WhatsApp until complete,4,3,5,3,1,5,6,Next.js + Supabase + Twilio/WhatsApp API,22.5
+409,general contractors,compliance tracker,"General contractors: track licences, certificates and renewals with automatic alerts",4,3,5,3,1,5,6,Next.js + Postgres + email alerts,22.5
+441,HVAC companies,document chaser,Hvac companies: auto-request and chase missing service tickets from customers by email/WhatsApp until complete,4,3,5,3,1,5,6,Next.js + Supabase + Twilio/WhatsApp API,22.5
+449,HVAC companies,compliance tracker,"Hvac companies: track licences, certificates and renewals with automatic alerts",4,3,5,3,1,5,6,Next.js + Postgres + email alerts,22.5
+645,accounting firms,review requester,Accounting firms: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,5,4,2,5,6,Next.js + Google Business API + SMS,22.5
+657,accounting firms,content generator,"Accounting firms: social posts, emails and ads generated from your real tax documents and brand voice",5,5,5,4,2,5,6,LLM + scheduler,22.5
+790,marketing agencies,price benchmark,"Marketing agencies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,5,0,5,6,Next.js + LLM extraction + Postgres,22.5
+870,ecommerce stores,price benchmark,"Ecommerce stores: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,5,0,5,6,Next.js + LLM extraction + Postgres,22.5
+881,3PL & warehouse operators,document chaser,3pl & warehouse operators: auto-request and chase missing inbound shipments from merchants by email/WhatsApp until complete,4,3,5,3,1,5,6,Next.js + Supabase + Twilio/WhatsApp API,22.5
+889,3PL & warehouse operators,compliance tracker,"3pl & warehouse operators: track licences, certificates and renewals with automatic alerts",4,3,5,3,1,5,6,Next.js + Postgres + email alerts,22.5
+770,recruiting agencies,price benchmark,"Recruiting agencies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,4,1,7,8,Next.js + LLM extraction + Postgres,22.4
+782,marketing agencies,intake & onboarding forms,Marketing agencies: smart intake form that collects campaign reports from clients and pre-fills your system,4,4,4,5,0,2,3,Next.js + Supabase + form builder,22.4
+862,ecommerce stores,intake & onboarding forms,Ecommerce stores: smart intake form that collects product listings from shoppers and pre-fills your system,4,4,4,5,0,2,3,Next.js + Supabase + form builder,22.4
+501,auto repair shops,document chaser,Auto repair shops: auto-request and chase missing repair estimates from car owners by email/WhatsApp until complete,4,3,4,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,22.3
+509,auto repair shops,compliance tracker,"Auto repair shops: track licences, certificates and renewals with automatic alerts",4,3,4,4,1,4,5,Next.js + Postgres + email alerts,22.3
+592,private schools,weekly KPI digest,"Private schools: automatic weekly report of bookings, revenue and no-shows by email",5,3,4,2,2,4,5,Connectors + cron + LLM summary,22.3
+661,bookkeepers,document chaser,Bookkeepers: auto-request and chase missing receipts from clients by email/WhatsApp until complete,4,3,4,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,22.3
+669,bookkeepers,compliance tracker,"Bookkeepers: track licences, certificates and renewals with automatic alerts",4,3,4,4,1,4,5,Next.js + Postgres + email alerts,22.3
+762,recruiting agencies,intake & onboarding forms,Recruiting agencies: smart intake form that collects job orders from candidates and pre-fills your system,4,4,5,4,1,4,5,Next.js + Supabase + form builder,22.3
+1,dental clinics,document chaser,Dental clinics: auto-request and chase missing treatment plans from patients by email/WhatsApp until complete,4,3,5,3,2,6,7,Next.js + Supabase + Twilio/WhatsApp API,22.2
+9,dental clinics,compliance tracker,"Dental clinics: track licences, certificates and renewals with automatic alerts",4,3,5,3,2,6,7,Next.js + Postgres + email alerts,22.2
+350,real estate agents,price benchmark,"Real estate agents: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,5,1,6,7,Next.js + LLM extraction + Postgres,22.2
+521,car dealers,document chaser,Car dealers: auto-request and chase missing vehicle listings from buyers by email/WhatsApp until complete,4,3,5,3,2,6,7,Next.js + Supabase + Twilio/WhatsApp API,22.2
+529,car dealers,compliance tracker,"Car dealers: track licences, certificates and renewals with automatic alerts",4,3,5,3,2,6,7,Next.js + Postgres + email alerts,22.2
+685,small law firms,review requester,Small law firms: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,5,4,3,6,7,Next.js + Google Business API + SMS,22.2
+697,small law firms,content generator,"Small law firms: social posts, emails and ads generated from your real case documents and brand voice",5,5,5,4,3,6,7,LLM + scheduler,22.2
+725,insurance brokers,review requester,Insurance brokers: ask happy policyholders for reviews at the right moment and route unhappy ones privately,5,5,5,4,3,6,7,Next.js + Google Business API + SMS,22.2
+737,insurance brokers,content generator,"Insurance brokers: social posts, emails and ads generated from your real policy renewals and brand voice",5,5,5,4,3,6,7,LLM + scheduler,22.2
+941,solar installers,document chaser,Solar installers: auto-request and chase missing site surveys from homeowners by email/WhatsApp until complete,4,3,5,3,2,6,7,Next.js + Supabase + Twilio/WhatsApp API,22.2
+949,solar installers,compliance tracker,"Solar installers: track licences, certificates and renewals with automatic alerts",4,3,5,3,2,6,7,Next.js + Postgres + email alerts,22.2
+152,spas & wellness centers,weekly KPI digest,"Spas & wellness centers: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,3,1,3,4,Connectors + cron + LLM summary,22.1
+232,homestays & villas,weekly KPI digest,"Homestays & villas: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,3,1,3,4,Connectors + cron + LLM summary,22.1
+252,travel agencies,weekly KPI digest,"Travel agencies: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,3,1,3,4,Connectors + cron + LLM summary,22.1
+272,tour operators,weekly KPI digest,"Tour operators: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,3,1,3,4,Connectors + cron + LLM summary,22.1
+342,real estate agents,intake & onboarding forms,Real estate agents: smart intake form that collects listings from buyers and pre-fills your system,4,4,4,5,1,3,4,Next.js + Supabase + form builder,22.1
+370,property managers,price benchmark,"Property managers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,4,2,8,9,Next.js + LLM extraction + Postgres,22.1
+621,coaches & consultants,document chaser,Coaches & consultants: auto-request and chase missing session notes from clients by email/WhatsApp until complete,4,3,3,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,22.1
+629,coaches & consultants,compliance tracker,"Coaches & consultants: track licences, certificates and renewals with automatic alerts",4,3,3,5,0,3,4,Next.js + Postgres + email alerts,22.1
+650,accounting firms,price benchmark,"Accounting firms: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,4,2,8,9,Next.js + LLM extraction + Postgres,22.1
+793,marketing agencies,contract & e-sign,Marketing agencies: generate agreements around campaign reports and collect e-signatures,4,4,4,5,0,3,4,PDF templates + e-sign API,22.1
+796,marketing agencies,voice-note to record,Marketing agencies: record a voice note after each visit and get structured notes for clients,4,4,4,5,0,3,4,Whisper/STT + LLM + webhooks,22.1
+798,marketing agencies,win-back campaigns,Marketing agencies: find lapsed clients and send personalised win-back messages,4,4,4,5,0,3,4,CSV/API import + LLM + SMS,22.1
+799,marketing agencies,referral & loyalty,Marketing agencies: simple referral and loyalty program for clients with no app to install,4,4,4,5,0,3,4,Next.js + QR/links + Stripe,22.1
+821,course creators,document chaser,Course creators: auto-request and chase missing course content from students by email/WhatsApp until complete,4,3,3,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,22.1
+829,course creators,compliance tracker,"Course creators: track licences, certificates and renewals with automatic alerts",4,3,3,5,0,3,4,Next.js + Postgres + email alerts,22.1
+841,podcasters,document chaser,Podcasters: auto-request and chase missing episode assets from guests by email/WhatsApp until complete,4,3,3,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,22.1
+849,podcasters,compliance tracker,"Podcasters: track licences, certificates and renewals with automatic alerts",4,3,3,5,0,3,4,Next.js + Postgres + email alerts,22.1
+873,ecommerce stores,contract & e-sign,Ecommerce stores: generate agreements around product listings and collect e-signatures,4,4,4,5,0,3,4,PDF templates + e-sign API,22.1
+876,ecommerce stores,voice-note to record,Ecommerce stores: record a voice note after each visit and get structured notes for shoppers,4,4,4,5,0,3,4,Whisper/STT + LLM + webhooks,22.1
+878,ecommerce stores,win-back campaigns,Ecommerce stores: find lapsed shoppers and send personalised win-back messages,4,4,4,5,0,3,4,CSV/API import + LLM + SMS,22.1
+879,ecommerce stores,referral & loyalty,Ecommerce stores: simple referral and loyalty program for shoppers with no app to install,4,4,4,5,0,3,4,Next.js + QR/links + Stripe,22.1
+362,property managers,intake & onboarding forms,Property managers: smart intake form that collects lease documents from tenants and pre-fills your system,4,4,5,4,2,5,6,Next.js + Supabase + form builder,22.0
+642,accounting firms,intake & onboarding forms,Accounting firms: smart intake form that collects tax documents from clients and pre-fills your system,4,4,5,4,2,5,6,Next.js + Supabase + form builder,22.0
+773,recruiting agencies,contract & e-sign,Recruiting agencies: generate agreements around job orders and collect e-signatures,4,4,5,4,1,5,6,PDF templates + e-sign API,22.0
+776,recruiting agencies,voice-note to record,Recruiting agencies: record a voice note after each visit and get structured notes for candidates,4,4,5,4,1,5,6,Whisper/STT + LLM + webhooks,22.0
+778,recruiting agencies,win-back campaigns,Recruiting agencies: find lapsed candidates and send personalised win-back messages,4,4,5,4,1,5,6,CSV/API import + LLM + SMS,22.0
+779,recruiting agencies,referral & loyalty,Recruiting agencies: simple referral and loyalty program for candidates with no app to install,4,4,5,4,1,5,6,Next.js + QR/links + Stripe,22.0
+132,salons & barbershops,weekly KPI digest,"Salons & barbershops: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,4,0,2,3,Connectors + cron + LLM summary,21.9
+192,cafes & bakeries,weekly KPI digest,"Cafes & bakeries: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,4,0,2,3,Connectors + cron + LLM summary,21.9
+425,electricians & plumbers,review requester,Electricians & plumbers: ask happy customers for reviews at the right moment and route unhappy ones privately,5,5,4,4,0,2,3,Next.js + Google Business API + SMS,21.9
+437,electricians & plumbers,content generator,"Electricians & plumbers: social posts, emails and ads generated from your real job quotes and brand voice",5,5,4,4,0,2,3,LLM + scheduler,21.9
+741,mortgage brokers,document chaser,Mortgage brokers: auto-request and chase missing loan documents from borrowers by email/WhatsApp until complete,4,3,5,3,3,7,8,Next.js + Supabase + Twilio/WhatsApp API,21.9
+749,mortgage brokers,compliance tracker,"Mortgage brokers: track licences, certificates and renewals with automatic alerts",4,3,5,3,3,7,8,Next.js + Postgres + email alerts,21.9
+1012,event photographers,weekly KPI digest,"Event photographers: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,4,0,2,3,Connectors + cron + LLM summary,21.9
+353,real estate agents,contract & e-sign,Real estate agents: generate agreements around listings and collect e-signatures,4,4,4,5,1,4,5,PDF templates + e-sign API,21.8
+356,real estate agents,voice-note to record,Real estate agents: record a voice note after each visit and get structured notes for buyers,4,4,4,5,1,4,5,Whisper/STT + LLM + webhooks,21.8
+358,real estate agents,win-back campaigns,Real estate agents: find lapsed buyers and send personalised win-back messages,4,4,4,5,1,4,5,CSV/API import + LLM + SMS,21.8
+359,real estate agents,referral & loyalty,Real estate agents: simple referral and loyalty program for buyers with no app to install,4,4,4,5,1,4,5,Next.js + QR/links + Stripe,21.8
+405,general contractors,review requester,General contractors: ask happy homeowners for reviews at the right moment and route unhappy ones privately,5,5,5,3,1,4,5,Next.js + Google Business API + SMS,21.8
+417,general contractors,content generator,"General contractors: social posts, emails and ads generated from your real estimates and brand voice",5,5,5,3,1,4,5,LLM + scheduler,21.8
+445,HVAC companies,review requester,Hvac companies: ask happy customers for reviews at the right moment and route unhappy ones privately,5,5,5,3,1,4,5,Next.js + Google Business API + SMS,21.8
+457,HVAC companies,content generator,"Hvac companies: social posts, emails and ads generated from your real service tickets and brand voice",5,5,5,3,1,4,5,LLM + scheduler,21.8
+612,daycares & preschools,weekly KPI digest,"Daycares & preschools: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,3,2,4,5,Connectors + cron + LLM summary,21.8
+690,small law firms,price benchmark,"Small law firms: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,4,3,9,10,Next.js + LLM extraction + Postgres,21.8
+730,insurance brokers,price benchmark,"Insurance brokers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,4,3,9,10,Next.js + LLM extraction + Postgres,21.8
+885,3PL & warehouse operators,review requester,3pl & warehouse operators: ask happy merchants for reviews at the right moment and route unhappy ones privately,5,5,5,3,1,4,5,Next.js + Google Business API + SMS,21.8
+897,3PL & warehouse operators,content generator,"3pl & warehouse operators: social posts, emails and ads generated from your real inbound shipments and brand voice",5,5,5,3,1,4,5,LLM + scheduler,21.8
+373,property managers,contract & e-sign,Property managers: generate agreements around lease documents and collect e-signatures,4,4,5,4,2,6,7,PDF templates + e-sign API,21.7
+376,property managers,voice-note to record,Property managers: record a voice note after each visit and get structured notes for tenants,4,4,5,4,2,6,7,Whisper/STT + LLM + webhooks,21.7
+378,property managers,win-back campaigns,Property managers: find lapsed tenants and send personalised win-back messages,4,4,5,4,2,6,7,CSV/API import + LLM + SMS,21.7
+379,property managers,referral & loyalty,Property managers: simple referral and loyalty program for tenants with no app to install,4,4,5,4,2,6,7,Next.js + QR/links + Stripe,21.7
+653,accounting firms,contract & e-sign,Accounting firms: generate agreements around tax documents and collect e-signatures,4,4,5,4,2,6,7,PDF templates + e-sign API,21.7
+656,accounting firms,voice-note to record,Accounting firms: record a voice note after each visit and get structured notes for clients,4,4,5,4,2,6,7,Whisper/STT + LLM + webhooks,21.7
+658,accounting firms,win-back campaigns,Accounting firms: find lapsed clients and send personalised win-back messages,4,4,5,4,2,6,7,CSV/API import + LLM + SMS,21.7
+659,accounting firms,referral & loyalty,Accounting firms: simple referral and loyalty program for clients with no app to install,4,4,5,4,2,6,7,Next.js + QR/links + Stripe,21.7
+682,small law firms,intake & onboarding forms,Small law firms: smart intake form that collects case documents from clients and pre-fills your system,4,4,5,4,3,6,7,Next.js + Supabase + form builder,21.7
+722,insurance brokers,intake & onboarding forms,Insurance brokers: smart intake form that collects policy renewals from policyholders and pre-fills your system,4,4,5,4,3,6,7,Next.js + Supabase + form builder,21.7
+112,yoga & pilates studios,weekly KPI digest,"Yoga & pilates studios: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,4,1,3,4,Connectors + cron + LLM summary,21.6
+505,auto repair shops,review requester,Auto repair shops: ask happy car owners for reviews at the right moment and route unhappy ones privately,5,5,4,4,1,3,4,Next.js + Google Business API + SMS,21.6
+517,auto repair shops,content generator,"Auto repair shops: social posts, emails and ads generated from your real repair estimates and brand voice",5,5,4,4,1,3,4,LLM + scheduler,21.6
+665,bookkeepers,review requester,Bookkeepers: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,4,4,1,3,4,Next.js + Google Business API + SMS,21.6
+677,bookkeepers,content generator,"Bookkeepers: social posts, emails and ads generated from your real receipts and brand voice",5,5,4,4,1,3,4,LLM + scheduler,21.6
+783,marketing agencies,quote generator,Marketing agencies: turn notes or photos into a professional quote for clients in minutes,3,3,4,5,0,3,4,Next.js + LLM vision + PDF,21.6
+863,ecommerce stores,quote generator,Ecommerce stores: turn notes or photos into a professional quote for shoppers in minutes,3,3,4,5,0,3,4,Next.js + LLM vision + PDF,21.6
+5,dental clinics,review requester,Dental clinics: ask happy patients for reviews at the right moment and route unhappy ones privately,5,5,5,3,2,5,6,Next.js + Google Business API + SMS,21.5
+17,dental clinics,content generator,"Dental clinics: social posts, emails and ads generated from your real treatment plans and brand voice",5,5,5,3,2,5,6,LLM + scheduler,21.5
+430,electricians & plumbers,price benchmark,"Electricians & plumbers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,4,0,5,6,Next.js + LLM extraction + Postgres,21.5
+525,car dealers,review requester,Car dealers: ask happy buyers for reviews at the right moment and route unhappy ones privately,5,5,5,3,2,5,6,Next.js + Google Business API + SMS,21.5
+537,car dealers,content generator,"Car dealers: social posts, emails and ads generated from your real vehicle listings and brand voice",5,5,5,3,2,5,6,LLM + scheduler,21.5
+763,recruiting agencies,quote generator,Recruiting agencies: turn notes or photos into a professional quote for candidates in minutes,3,3,5,4,1,5,6,Next.js + LLM vision + PDF,21.5
+945,solar installers,review requester,Solar installers: ask happy homeowners for reviews at the right moment and route unhappy ones privately,5,5,5,3,2,5,6,Next.js + Google Business API + SMS,21.5
+957,solar installers,content generator,"Solar installers: social posts, emails and ads generated from your real site surveys and brand voice",5,5,5,3,2,5,6,LLM + scheduler,21.5
+410,general contractors,price benchmark,"General contractors: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,1,7,8,Next.js + LLM extraction + Postgres,21.4
+422,electricians & plumbers,intake & onboarding forms,Electricians & plumbers: smart intake form that collects job quotes from customers and pre-fills your system,4,4,4,4,0,2,3,Next.js + Supabase + form builder,21.4
+450,HVAC companies,price benchmark,"Hvac companies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,1,7,8,Next.js + LLM extraction + Postgres,21.4
+625,coaches & consultants,review requester,Coaches & consultants: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,3,5,0,2,3,Next.js + Google Business API + SMS,21.4
+637,coaches & consultants,content generator,"Coaches & consultants: social posts, emails and ads generated from your real session notes and brand voice",5,5,3,5,0,2,3,LLM + scheduler,21.4
+693,small law firms,contract & e-sign,Small law firms: generate agreements around case documents and collect e-signatures,4,4,5,4,3,7,8,PDF templates + e-sign API,21.4
+696,small law firms,voice-note to record,Small law firms: record a voice note after each visit and get structured notes for clients,4,4,5,4,3,7,8,Whisper/STT + LLM + webhooks,21.4
+698,small law firms,win-back campaigns,Small law firms: find lapsed clients and send personalised win-back messages,4,4,5,4,3,7,8,CSV/API import + LLM + SMS,21.4
+699,small law firms,referral & loyalty,Small law firms: simple referral and loyalty program for clients with no app to install,4,4,5,4,3,7,8,Next.js + QR/links + Stripe,21.4
+733,insurance brokers,contract & e-sign,Insurance brokers: generate agreements around policy renewals and collect e-signatures,4,4,5,4,3,7,8,PDF templates + e-sign API,21.4
+736,insurance brokers,voice-note to record,Insurance brokers: record a voice note after each visit and get structured notes for policyholders,4,4,5,4,3,7,8,Whisper/STT + LLM + webhooks,21.4
+738,insurance brokers,win-back campaigns,Insurance brokers: find lapsed policyholders and send personalised win-back messages,4,4,5,4,3,7,8,CSV/API import + LLM + SMS,21.4
+739,insurance brokers,referral & loyalty,Insurance brokers: simple referral and loyalty program for policyholders with no app to install,4,4,5,4,3,7,8,Next.js + QR/links + Stripe,21.4
+825,course creators,review requester,Course creators: ask happy students for reviews at the right moment and route unhappy ones privately,5,5,3,5,0,2,3,Next.js + Google Business API + SMS,21.4
+837,course creators,content generator,"Course creators: social posts, emails and ads generated from your real course content and brand voice",5,5,3,5,0,2,3,LLM + scheduler,21.4
+845,podcasters,review requester,Podcasters: ask happy guests for reviews at the right moment and route unhappy ones privately,5,5,3,5,0,2,3,Next.js + Google Business API + SMS,21.4
+857,podcasters,content generator,"Podcasters: social posts, emails and ads generated from your real episode assets and brand voice",5,5,3,5,0,2,3,LLM + scheduler,21.4
+890,3PL & warehouse operators,price benchmark,"3pl & warehouse operators: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,1,7,8,Next.js + LLM extraction + Postgres,21.4
+201,small hotels & guesthouses,document chaser,Small hotels & guesthouses: auto-request and chase missing bookings from guests by email/WhatsApp until complete,4,3,4,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,21.3
+209,small hotels & guesthouses,compliance tracker,"Small hotels & guesthouses: track licences, certificates and renewals with automatic alerts",4,3,4,3,1,4,5,Next.js + Postgres + email alerts,21.3
+321,event venues,document chaser,Event venues: auto-request and chase missing event contracts from organizers by email/WhatsApp until complete,4,3,4,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,21.3
+329,event venues,compliance tracker,"Event venues: track licences, certificates and renewals with automatic alerts",4,3,4,3,1,4,5,Next.js + Postgres + email alerts,21.3
+343,real estate agents,quote generator,Real estate agents: turn notes or photos into a professional quote for buyers in minutes,3,3,4,5,1,4,5,Next.js + LLM vision + PDF,21.3
+402,general contractors,intake & onboarding forms,General contractors: smart intake form that collects estimates from homeowners and pre-fills your system,4,4,5,3,1,4,5,Next.js + Supabase + form builder,21.3
+442,HVAC companies,intake & onboarding forms,Hvac companies: smart intake form that collects service tickets from customers and pre-fills your system,4,4,5,3,1,4,5,Next.js + Supabase + form builder,21.3
+882,3PL & warehouse operators,intake & onboarding forms,3pl & warehouse operators: smart intake form that collects inbound shipments from merchants and pre-fills your system,4,4,5,3,1,4,5,Next.js + Supabase + form builder,21.3
+363,property managers,quote generator,Property managers: turn notes or photos into a professional quote for tenants in minutes,3,3,5,4,2,6,7,Next.js + LLM vision + PDF,21.2
+510,auto repair shops,price benchmark,"Auto repair shops: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,4,1,6,7,Next.js + LLM extraction + Postgres,21.2
+643,accounting firms,quote generator,Accounting firms: turn notes or photos into a professional quote for clients in minutes,3,3,5,4,2,6,7,Next.js + LLM vision + PDF,21.2
+670,bookkeepers,price benchmark,"Bookkeepers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,4,1,6,7,Next.js + LLM extraction + Postgres,21.2
+745,mortgage brokers,review requester,Mortgage brokers: ask happy borrowers for reviews at the right moment and route unhappy ones privately,5,5,5,3,3,6,7,Next.js + Google Business API + SMS,21.2
+757,mortgage brokers,content generator,"Mortgage brokers: social posts, emails and ads generated from your real loan documents and brand voice",5,5,5,3,3,6,7,LLM + scheduler,21.2
+10,dental clinics,price benchmark,"Dental clinics: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,2,8,9,Next.js + LLM extraction + Postgres,21.1
+281,wedding planners,document chaser,Wedding planners: auto-request and chase missing vendor quotes from couples by email/WhatsApp until complete,4,3,3,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,21.1
+289,wedding planners,compliance tracker,"Wedding planners: track licences, certificates and renewals with automatic alerts",4,3,3,4,0,3,4,Next.js + Postgres + email alerts,21.1
+433,electricians & plumbers,contract & e-sign,Electricians & plumbers: generate agreements around job quotes and collect e-signatures,4,4,4,4,0,3,4,PDF templates + e-sign API,21.1
+436,electricians & plumbers,voice-note to record,Electricians & plumbers: record a voice note after each visit and get structured notes for customers,4,4,4,4,0,3,4,Whisper/STT + LLM + webhooks,21.1
+438,electricians & plumbers,win-back campaigns,Electricians & plumbers: find lapsed customers and send personalised win-back messages,4,4,4,4,0,3,4,CSV/API import + LLM + SMS,21.1
+439,electricians & plumbers,referral & loyalty,Electricians & plumbers: simple referral and loyalty program for customers with no app to install,4,4,4,4,0,3,4,Next.js + QR/links + Stripe,21.1
+461,cleaning companies,document chaser,Cleaning companies: auto-request and chase missing recurring jobs from customers by email/WhatsApp until complete,4,3,3,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,21.1
+469,cleaning companies,compliance tracker,"Cleaning companies: track licences, certificates and renewals with automatic alerts",4,3,3,4,0,3,4,Next.js + Postgres + email alerts,21.1
+481,landscapers,document chaser,Landscapers: auto-request and chase missing seasonal quotes from customers by email/WhatsApp until complete,4,3,3,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,21.1
+489,landscapers,compliance tracker,"Landscapers: track licences, certificates and renewals with automatic alerts",4,3,3,4,0,3,4,Next.js + Postgres + email alerts,21.1
+502,auto repair shops,intake & onboarding forms,Auto repair shops: smart intake form that collects repair estimates from car owners and pre-fills your system,4,4,4,4,1,3,4,Next.js + Supabase + form builder,21.1
+530,car dealers,price benchmark,"Car dealers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,2,8,9,Next.js + LLM extraction + Postgres,21.1
+662,bookkeepers,intake & onboarding forms,Bookkeepers: smart intake form that collects receipts from clients and pre-fills your system,4,4,4,4,1,3,4,Next.js + Supabase + form builder,21.1
+932,farms & agribusiness,weekly KPI digest,"Farms & agribusiness: automatic weekly report of bookings, revenue and no-shows by email",5,3,3,2,1,3,4,Connectors + cron + LLM summary,21.1
+950,solar installers,price benchmark,"Solar installers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,2,8,9,Next.js + LLM extraction + Postgres,21.1
+2,dental clinics,intake & onboarding forms,Dental clinics: smart intake form that collects treatment plans from patients and pre-fills your system,4,4,5,3,2,5,6,Next.js + Supabase + form builder,21.0
+21,physiotherapy clinics,document chaser,Physiotherapy clinics: auto-request and chase missing care plans from patients by email/WhatsApp until complete,4,3,4,3,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,21.0
+29,physiotherapy clinics,compliance tracker,"Physiotherapy clinics: track licences, certificates and renewals with automatic alerts",4,3,4,3,2,5,6,Next.js + Postgres + email alerts,21.0
+41,veterinary clinics,document chaser,Veterinary clinics: auto-request and chase missing vaccination records from pet owners by email/WhatsApp until complete,4,3,4,3,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,21.0
+49,veterinary clinics,compliance tracker,"Veterinary clinics: track licences, certificates and renewals with automatic alerts",4,3,4,3,2,5,6,Next.js + Postgres + email alerts,21.0
+413,general contractors,contract & e-sign,General contractors: generate agreements around estimates and collect e-signatures,4,4,5,3,1,5,6,PDF templates + e-sign API,21.0
+416,general contractors,voice-note to record,General contractors: record a voice note after each visit and get structured notes for homeowners,4,4,5,3,1,5,6,Whisper/STT + LLM + webhooks,21.0
+418,general contractors,win-back campaigns,General contractors: find lapsed homeowners and send personalised win-back messages,4,4,5,3,1,5,6,CSV/API import + LLM + SMS,21.0
+419,general contractors,referral & loyalty,General contractors: simple referral and loyalty program for homeowners with no app to install,4,4,5,3,1,5,6,Next.js + QR/links + Stripe,21.0
+453,HVAC companies,contract & e-sign,Hvac companies: generate agreements around service tickets and collect e-signatures,4,4,5,3,1,5,6,PDF templates + e-sign API,21.0
+456,HVAC companies,voice-note to record,Hvac companies: record a voice note after each visit and get structured notes for customers,4,4,5,3,1,5,6,Whisper/STT + LLM + webhooks,21.0
+458,HVAC companies,win-back campaigns,Hvac companies: find lapsed customers and send personalised win-back messages,4,4,5,3,1,5,6,CSV/API import + LLM + SMS,21.0
+459,HVAC companies,referral & loyalty,Hvac companies: simple referral and loyalty program for customers with no app to install,4,4,5,3,1,5,6,Next.js + QR/links + Stripe,21.0
+522,car dealers,intake & onboarding forms,Car dealers: smart intake form that collects vehicle listings from buyers and pre-fills your system,4,4,5,3,2,5,6,Next.js + Supabase + form builder,21.0
+630,coaches & consultants,price benchmark,"Coaches & consultants: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,5,0,5,6,Next.js + LLM extraction + Postgres,21.0
+830,course creators,price benchmark,"Course creators: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,5,0,5,6,Next.js + LLM extraction + Postgres,21.0
+850,podcasters,price benchmark,"Podcasters: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,5,0,5,6,Next.js + LLM extraction + Postgres,21.0
+893,3PL & warehouse operators,contract & e-sign,3pl & warehouse operators: generate agreements around inbound shipments and collect e-signatures,4,4,5,3,1,5,6,PDF templates + e-sign API,21.0
+896,3PL & warehouse operators,voice-note to record,3pl & warehouse operators: record a voice note after each visit and get structured notes for merchants,4,4,5,3,1,5,6,Whisper/STT + LLM + webhooks,21.0
+898,3PL & warehouse operators,win-back campaigns,3pl & warehouse operators: find lapsed merchants and send personalised win-back messages,4,4,5,3,1,5,6,CSV/API import + LLM + SMS,21.0
+899,3PL & warehouse operators,referral & loyalty,3pl & warehouse operators: simple referral and loyalty program for merchants with no app to install,4,4,5,3,1,5,6,Next.js + QR/links + Stripe,21.0
+901,trucking & fleet owners,document chaser,Trucking & fleet owners: auto-request and chase missing trip logs from drivers by email/WhatsApp until complete,4,3,4,3,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,21.0
+909,trucking & fleet owners,compliance tracker,"Trucking & fleet owners: track licences, certificates and renewals with automatic alerts",4,3,4,3,2,5,6,Next.js + Postgres + email alerts,21.0
+942,solar installers,intake & onboarding forms,Solar installers: smart intake form that collects site surveys from homeowners and pre-fills your system,4,4,5,3,2,5,6,Next.js + Supabase + form builder,21.0
+622,coaches & consultants,intake & onboarding forms,Coaches & consultants: smart intake form that collects session notes from clients and pre-fills your system,4,4,3,5,0,2,3,Next.js + Supabase + form builder,20.9
+683,small law firms,quote generator,Small law firms: turn notes or photos into a professional quote for clients in minutes,3,3,5,4,3,7,8,Next.js + LLM vision + PDF,20.9
+723,insurance brokers,quote generator,Insurance brokers: turn notes or photos into a professional quote for policyholders in minutes,3,3,5,4,3,7,8,Next.js + LLM vision + PDF,20.9
+784,marketing agencies,no-show reducer,Marketing agencies: automated reminders and rebooking for clients to cut no-shows,4,5,4,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,20.9
+822,course creators,intake & onboarding forms,Course creators: smart intake form that collects course content from students and pre-fills your system,4,4,3,5,0,2,3,Next.js + Supabase + form builder,20.9
+842,podcasters,intake & onboarding forms,Podcasters: smart intake form that collects episode assets from guests and pre-fills your system,4,4,3,5,0,2,3,Next.js + Supabase + form builder,20.9
+864,ecommerce stores,no-show reducer,Ecommerce stores: automated reminders and rebooking for shoppers to cut no-shows,4,5,4,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,20.9
+992,churches & community groups,weekly KPI digest,"Churches & community groups: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,3,0,2,3,Connectors + cron + LLM summary,20.9
+81,gyms & fitness studios,document chaser,Gyms & fitness studios: auto-request and chase missing memberships from members by email/WhatsApp until complete,4,3,3,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,20.8
+89,gyms & fitness studios,compliance tracker,"Gyms & fitness studios: track licences, certificates and renewals with automatic alerts",4,3,3,4,1,4,5,Next.js + Postgres + email alerts,20.8
+161,restaurants,document chaser,Restaurants: auto-request and chase missing reservations from diners by email/WhatsApp until complete,4,3,3,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,20.8
+169,restaurants,compliance tracker,"Restaurants: track licences, certificates and renewals with automatic alerts",4,3,3,4,1,4,5,Next.js + Postgres + email alerts,20.8
+381,home inspectors,document chaser,Home inspectors: auto-request and chase missing inspection reports from clients by email/WhatsApp until complete,4,3,3,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,20.8
+389,home inspectors,compliance tracker,"Home inspectors: track licences, certificates and renewals with automatic alerts",4,3,3,4,1,4,5,Next.js + Postgres + email alerts,20.8
+513,auto repair shops,contract & e-sign,Auto repair shops: generate agreements around repair estimates and collect e-signatures,4,4,4,4,1,4,5,PDF templates + e-sign API,20.8
+516,auto repair shops,voice-note to record,Auto repair shops: record a voice note after each visit and get structured notes for car owners,4,4,4,4,1,4,5,Whisper/STT + LLM + webhooks,20.8
+518,auto repair shops,win-back campaigns,Auto repair shops: find lapsed car owners and send personalised win-back messages,4,4,4,4,1,4,5,CSV/API import + LLM + SMS,20.8
+519,auto repair shops,referral & loyalty,Auto repair shops: simple referral and loyalty program for car owners with no app to install,4,4,4,4,1,4,5,Next.js + QR/links + Stripe,20.8
+561,tutoring centers,document chaser,Tutoring centers: auto-request and chase missing progress reports from parents by email/WhatsApp until complete,4,3,3,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,20.8
+569,tutoring centers,compliance tracker,"Tutoring centers: track licences, certificates and renewals with automatic alerts",4,3,3,4,1,4,5,Next.js + Postgres + email alerts,20.8
+673,bookkeepers,contract & e-sign,Bookkeepers: generate agreements around receipts and collect e-signatures,4,4,4,4,1,4,5,PDF templates + e-sign API,20.8
+676,bookkeepers,voice-note to record,Bookkeepers: record a voice note after each visit and get structured notes for clients,4,4,4,4,1,4,5,Whisper/STT + LLM + webhooks,20.8
+678,bookkeepers,win-back campaigns,Bookkeepers: find lapsed clients and send personalised win-back messages,4,4,4,4,1,4,5,CSV/API import + LLM + SMS,20.8
+679,bookkeepers,referral & loyalty,Bookkeepers: simple referral and loyalty program for clients with no app to install,4,4,4,4,1,4,5,Next.js + QR/links + Stripe,20.8
+750,mortgage brokers,price benchmark,"Mortgage brokers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,5,3,3,9,10,Next.js + LLM extraction + Postgres,20.8
+764,recruiting agencies,no-show reducer,Recruiting agencies: automated reminders and rebooking for candidates to cut no-shows,4,5,5,4,1,4,5,Twilio/WhatsApp + cron + Calendar API,20.8
+13,dental clinics,contract & e-sign,Dental clinics: generate agreements around treatment plans and collect e-signatures,4,4,5,3,2,6,7,PDF templates + e-sign API,20.7
+16,dental clinics,voice-note to record,Dental clinics: record a voice note after each visit and get structured notes for patients,4,4,5,3,2,6,7,Whisper/STT + LLM + webhooks,20.7
+18,dental clinics,win-back campaigns,Dental clinics: find lapsed patients and send personalised win-back messages,4,4,5,3,2,6,7,CSV/API import + LLM + SMS,20.7
+19,dental clinics,referral & loyalty,Dental clinics: simple referral and loyalty program for patients with no app to install,4,4,5,3,2,6,7,Next.js + QR/links + Stripe,20.7
+533,car dealers,contract & e-sign,Car dealers: generate agreements around vehicle listings and collect e-signatures,4,4,5,3,2,6,7,PDF templates + e-sign API,20.7
+536,car dealers,voice-note to record,Car dealers: record a voice note after each visit and get structured notes for buyers,4,4,5,3,2,6,7,Whisper/STT + LLM + webhooks,20.7
+538,car dealers,win-back campaigns,Car dealers: find lapsed buyers and send personalised win-back messages,4,4,5,3,2,6,7,CSV/API import + LLM + SMS,20.7
+539,car dealers,referral & loyalty,Car dealers: simple referral and loyalty program for buyers with no app to install,4,4,5,3,2,6,7,Next.js + QR/links + Stripe,20.7
+701,immigration consultants,document chaser,Immigration consultants: auto-request and chase missing application checklists from applicants by email/WhatsApp until complete,4,3,4,3,3,6,7,Next.js + Supabase + Twilio/WhatsApp API,20.7
+709,immigration consultants,compliance tracker,"Immigration consultants: track licences, certificates and renewals with automatic alerts",4,3,4,3,3,6,7,Next.js + Postgres + email alerts,20.7
+742,mortgage brokers,intake & onboarding forms,Mortgage brokers: smart intake form that collects loan documents from borrowers and pre-fills your system,4,4,5,3,3,6,7,Next.js + Supabase + form builder,20.7
+953,solar installers,contract & e-sign,Solar installers: generate agreements around site surveys and collect e-signatures,4,4,5,3,2,6,7,PDF templates + e-sign API,20.7
+956,solar installers,voice-note to record,Solar installers: record a voice note after each visit and get structured notes for homeowners,4,4,5,3,2,6,7,Whisper/STT + LLM + webhooks,20.7
+958,solar installers,win-back campaigns,Solar installers: find lapsed homeowners and send personalised win-back messages,4,4,5,3,2,6,7,CSV/API import + LLM + SMS,20.7
+959,solar installers,referral & loyalty,Solar installers: simple referral and loyalty program for homeowners with no app to install,4,4,5,3,2,6,7,Next.js + QR/links + Stripe,20.7
+961,pharmacies,document chaser,Pharmacies: auto-request and chase missing prescription refills from patients by email/WhatsApp until complete,4,3,4,3,3,6,7,Next.js + Supabase + Twilio/WhatsApp API,20.7
+969,pharmacies,compliance tracker,"Pharmacies: track licences, certificates and renewals with automatic alerts",4,3,4,3,3,6,7,Next.js + Postgres + email alerts,20.7
+205,small hotels & guesthouses,review requester,Small hotels & guesthouses: ask happy guests for reviews at the right moment and route unhappy ones privately,5,5,4,3,1,3,4,Next.js + Google Business API + SMS,20.6
+217,small hotels & guesthouses,content generator,"Small hotels & guesthouses: social posts, emails and ads generated from your real bookings and brand voice",5,5,4,3,1,3,4,LLM + scheduler,20.6
+301,photographers & videographers,document chaser,Photographers & videographers: auto-request and chase missing shoot briefs from clients by email/WhatsApp until complete,4,3,2,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,20.6
+309,photographers & videographers,compliance tracker,"Photographers & videographers: track licences, certificates and renewals with automatic alerts",4,3,2,5,0,3,4,Next.js + Postgres + email alerts,20.6
+325,event venues,review requester,Event venues: ask happy organizers for reviews at the right moment and route unhappy ones privately,5,5,4,3,1,3,4,Next.js + Google Business API + SMS,20.6
+337,event venues,content generator,"Event venues: social posts, emails and ads generated from your real event contracts and brand voice",5,5,4,3,1,3,4,LLM + scheduler,20.6
+344,real estate agents,no-show reducer,Real estate agents: automated reminders and rebooking for buyers to cut no-shows,4,5,4,5,1,3,4,Twilio/WhatsApp + cron + Calendar API,20.6
+423,electricians & plumbers,quote generator,Electricians & plumbers: turn notes or photos into a professional quote for customers in minutes,3,3,4,4,0,3,4,Next.js + LLM vision + PDF,20.6
+552,driving schools,weekly KPI digest,"Driving schools: automatic weekly report of bookings, revenue and no-shows by email",5,3,2,3,1,3,4,Connectors + cron + LLM summary,20.6
+633,coaches & consultants,contract & e-sign,Coaches & consultants: generate agreements around session notes and collect e-signatures,4,4,3,5,0,3,4,PDF templates + e-sign API,20.6
+636,coaches & consultants,voice-note to record,Coaches & consultants: record a voice note after each visit and get structured notes for clients,4,4,3,5,0,3,4,Whisper/STT + LLM + webhooks,20.6
+638,coaches & consultants,win-back campaigns,Coaches & consultants: find lapsed clients and send personalised win-back messages,4,4,3,5,0,3,4,CSV/API import + LLM + SMS,20.6
+639,coaches & consultants,referral & loyalty,Coaches & consultants: simple referral and loyalty program for clients with no app to install,4,4,3,5,0,3,4,Next.js + QR/links + Stripe,20.6
+786,marketing agencies,payment chaser,Marketing agencies: automatic polite payment reminders and pay links for overdue campaign reports,4,5,4,5,0,3,4,Stripe/Razorpay + email/SMS,20.6
+788,marketing agencies,lead follow-up,Marketing agencies: instant multi-step follow-up for every new enquiry from clients,4,5,4,5,0,3,4,Webhooks + LLM + email/SMS,20.6
+801,freelancers,document chaser,Freelancers: auto-request and chase missing project briefs from clients by email/WhatsApp until complete,4,3,2,5,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,20.6
+809,freelancers,compliance tracker,"Freelancers: track licences, certificates and renewals with automatic alerts",4,3,2,5,0,3,4,Next.js + Postgres + email alerts,20.6
+833,course creators,contract & e-sign,Course creators: generate agreements around course content and collect e-signatures,4,4,3,5,0,3,4,PDF templates + e-sign API,20.6
+836,course creators,voice-note to record,Course creators: record a voice note after each visit and get structured notes for students,4,4,3,5,0,3,4,Whisper/STT + LLM + webhooks,20.6
+838,course creators,win-back campaigns,Course creators: find lapsed students and send personalised win-back messages,4,4,3,5,0,3,4,CSV/API import + LLM + SMS,20.6
+839,course creators,referral & loyalty,Course creators: simple referral and loyalty program for students with no app to install,4,4,3,5,0,3,4,Next.js + QR/links + Stripe,20.6
+853,podcasters,contract & e-sign,Podcasters: generate agreements around episode assets and collect e-signatures,4,4,3,5,0,3,4,PDF templates + e-sign API,20.6
+856,podcasters,voice-note to record,Podcasters: record a voice note after each visit and get structured notes for guests,4,4,3,5,0,3,4,Whisper/STT + LLM + webhooks,20.6
+858,podcasters,win-back campaigns,Podcasters: find lapsed guests and send personalised win-back messages,4,4,3,5,0,3,4,CSV/API import + LLM + SMS,20.6
+859,podcasters,referral & loyalty,Podcasters: simple referral and loyalty program for guests with no app to install,4,4,3,5,0,3,4,Next.js + QR/links + Stripe,20.6
+866,ecommerce stores,payment chaser,Ecommerce stores: automatic polite payment reminders and pay links for overdue product listings,4,5,4,5,0,3,4,Stripe/Razorpay + email/SMS,20.6
+868,ecommerce stores,lead follow-up,Ecommerce stores: instant multi-step follow-up for every new enquiry from shoppers,4,5,4,5,0,3,4,Webhooks + LLM + email/SMS,20.6
+61,therapists & counselors,document chaser,Therapists & counselors: auto-request and chase missing intake forms from clients by email/WhatsApp until complete,4,3,3,4,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,20.5
+69,therapists & counselors,compliance tracker,"Therapists & counselors: track licences, certificates and renewals with automatic alerts",4,3,3,4,2,5,6,Next.js + Postgres + email alerts,20.5
+364,property managers,no-show reducer,Property managers: automated reminders and rebooking for tenants to cut no-shows,4,5,5,4,2,5,6,Twilio/WhatsApp + cron + Calendar API,20.5
+403,general contractors,quote generator,General contractors: turn notes or photos into a professional quote for homeowners in minutes,3,3,5,3,1,5,6,Next.js + LLM vision + PDF,20.5
+443,HVAC companies,quote generator,Hvac companies: turn notes or photos into a professional quote for customers in minutes,3,3,5,3,1,5,6,Next.js + LLM vision + PDF,20.5
+644,accounting firms,no-show reducer,Accounting firms: automated reminders and rebooking for clients to cut no-shows,4,5,5,4,2,5,6,Twilio/WhatsApp + cron + Calendar API,20.5
+766,recruiting agencies,payment chaser,Recruiting agencies: automatic polite payment reminders and pay links for overdue job orders,4,5,5,4,1,5,6,Stripe/Razorpay + email/SMS,20.5
+768,recruiting agencies,lead follow-up,Recruiting agencies: instant multi-step follow-up for every new enquiry from candidates,4,5,5,4,1,5,6,Webhooks + LLM + email/SMS,20.5
+883,3PL & warehouse operators,quote generator,3pl & warehouse operators: turn notes or photos into a professional quote for merchants in minutes,3,3,5,3,1,5,6,Next.js + LLM vision + PDF,20.5
+285,wedding planners,review requester,Wedding planners: ask happy couples for reviews at the right moment and route unhappy ones privately,5,5,3,4,0,2,3,Next.js + Google Business API + SMS,20.4
+297,wedding planners,content generator,"Wedding planners: social posts, emails and ads generated from your real vendor quotes and brand voice",5,5,3,4,0,2,3,LLM + scheduler,20.4
+465,cleaning companies,review requester,Cleaning companies: ask happy customers for reviews at the right moment and route unhappy ones privately,5,5,3,4,0,2,3,Next.js + Google Business API + SMS,20.4
+477,cleaning companies,content generator,"Cleaning companies: social posts, emails and ads generated from your real recurring jobs and brand voice",5,5,3,4,0,2,3,LLM + scheduler,20.4
+485,landscapers,review requester,Landscapers: ask happy customers for reviews at the right moment and route unhappy ones privately,5,5,3,4,0,2,3,Next.js + Google Business API + SMS,20.4
+497,landscapers,content generator,"Landscapers: social posts, emails and ads generated from your real seasonal quotes and brand voice",5,5,3,4,0,2,3,LLM + scheduler,20.4
+753,mortgage brokers,contract & e-sign,Mortgage brokers: generate agreements around loan documents and collect e-signatures,4,4,5,3,3,7,8,PDF templates + e-sign API,20.4
+756,mortgage brokers,voice-note to record,Mortgage brokers: record a voice note after each visit and get structured notes for borrowers,4,4,5,3,3,7,8,Whisper/STT + LLM + webhooks,20.4
+758,mortgage brokers,win-back campaigns,Mortgage brokers: find lapsed borrowers and send personalised win-back messages,4,4,5,3,3,7,8,CSV/API import + LLM + SMS,20.4
+759,mortgage brokers,referral & loyalty,Mortgage brokers: simple referral and loyalty program for borrowers with no app to install,4,4,5,3,3,7,8,Next.js + QR/links + Stripe,20.4
+25,physiotherapy clinics,review requester,Physiotherapy clinics: ask happy patients for reviews at the right moment and route unhappy ones privately,5,5,4,3,2,4,5,Next.js + Google Business API + SMS,20.3
+37,physiotherapy clinics,content generator,"Physiotherapy clinics: social posts, emails and ads generated from your real care plans and brand voice",5,5,4,3,2,4,5,LLM + scheduler,20.3
+45,veterinary clinics,review requester,Veterinary clinics: ask happy pet owners for reviews at the right moment and route unhappy ones privately,5,5,4,3,2,4,5,Next.js + Google Business API + SMS,20.3
+57,veterinary clinics,content generator,"Veterinary clinics: social posts, emails and ads generated from your real vaccination records and brand voice",5,5,4,3,2,4,5,LLM + scheduler,20.3
+346,real estate agents,payment chaser,Real estate agents: automatic polite payment reminders and pay links for overdue listings,4,5,4,5,1,4,5,Stripe/Razorpay + email/SMS,20.3
+348,real estate agents,lead follow-up,Real estate agents: instant multi-step follow-up for every new enquiry from buyers,4,5,4,5,1,4,5,Webhooks + LLM + email/SMS,20.3
+503,auto repair shops,quote generator,Auto repair shops: turn notes or photos into a professional quote for car owners in minutes,3,3,4,4,1,4,5,Next.js + LLM vision + PDF,20.3
+663,bookkeepers,quote generator,Bookkeepers: turn notes or photos into a professional quote for clients in minutes,3,3,4,4,1,4,5,Next.js + LLM vision + PDF,20.3
+905,trucking & fleet owners,review requester,Trucking & fleet owners: ask happy drivers for reviews at the right moment and route unhappy ones privately,5,5,4,3,2,4,5,Next.js + Google Business API + SMS,20.3
+917,trucking & fleet owners,content generator,"Trucking & fleet owners: social posts, emails and ads generated from your real trip logs and brand voice",5,5,4,3,2,4,5,LLM + scheduler,20.3
+3,dental clinics,quote generator,Dental clinics: turn notes or photos into a professional quote for patients in minutes,3,3,5,3,2,6,7,Next.js + LLM vision + PDF,20.2
+210,small hotels & guesthouses,price benchmark,"Small hotels & guesthouses: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,1,6,7,Next.js + LLM extraction + Postgres,20.2
+330,event venues,price benchmark,"Event venues: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,1,6,7,Next.js + LLM extraction + Postgres,20.2
+366,property managers,payment chaser,Property managers: automatic polite payment reminders and pay links for overdue lease documents,4,5,5,4,2,6,7,Stripe/Razorpay + email/SMS,20.2
+368,property managers,lead follow-up,Property managers: instant multi-step follow-up for every new enquiry from tenants,4,5,5,4,2,6,7,Webhooks + LLM + email/SMS,20.2
+523,car dealers,quote generator,Car dealers: turn notes or photos into a professional quote for buyers in minutes,3,3,5,3,2,6,7,Next.js + LLM vision + PDF,20.2
+646,accounting firms,payment chaser,Accounting firms: automatic polite payment reminders and pay links for overdue tax documents,4,5,5,4,2,6,7,Stripe/Razorpay + email/SMS,20.2
+648,accounting firms,lead follow-up,Accounting firms: instant multi-step follow-up for every new enquiry from clients,4,5,5,4,2,6,7,Webhooks + LLM + email/SMS,20.2
+684,small law firms,no-show reducer,Small law firms: automated reminders and rebooking for clients to cut no-shows,4,5,5,4,3,6,7,Twilio/WhatsApp + cron + Calendar API,20.2
+724,insurance brokers,no-show reducer,Insurance brokers: automated reminders and rebooking for policyholders to cut no-shows,4,5,5,4,3,6,7,Twilio/WhatsApp + cron + Calendar API,20.2
+943,solar installers,quote generator,Solar installers: turn notes or photos into a professional quote for homeowners in minutes,3,3,5,3,2,6,7,Next.js + LLM vision + PDF,20.2
+85,gyms & fitness studios,review requester,Gyms & fitness studios: ask happy members for reviews at the right moment and route unhappy ones privately,5,5,3,4,1,3,4,Next.js + Google Business API + SMS,20.1
+97,gyms & fitness studios,content generator,"Gyms & fitness studios: social posts, emails and ads generated from your real memberships and brand voice",5,5,3,4,1,3,4,LLM + scheduler,20.1
+165,restaurants,review requester,Restaurants: ask happy diners for reviews at the right moment and route unhappy ones privately,5,5,3,4,1,3,4,Next.js + Google Business API + SMS,20.1
+177,restaurants,content generator,"Restaurants: social posts, emails and ads generated from your real reservations and brand voice",5,5,3,4,1,3,4,LLM + scheduler,20.1
+202,small hotels & guesthouses,intake & onboarding forms,Small hotels & guesthouses: smart intake form that collects bookings from guests and pre-fills your system,4,4,4,3,1,3,4,Next.js + Supabase + form builder,20.1
+322,event venues,intake & onboarding forms,Event venues: smart intake form that collects event contracts from organizers and pre-fills your system,4,4,4,3,1,3,4,Next.js + Supabase + form builder,20.1
+385,home inspectors,review requester,Home inspectors: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,3,4,1,3,4,Next.js + Google Business API + SMS,20.1
+397,home inspectors,content generator,"Home inspectors: social posts, emails and ads generated from your real inspection reports and brand voice",5,5,3,4,1,3,4,LLM + scheduler,20.1
+565,tutoring centers,review requester,Tutoring centers: ask happy parents for reviews at the right moment and route unhappy ones privately,5,5,3,4,1,3,4,Next.js + Google Business API + SMS,20.1
+577,tutoring centers,content generator,"Tutoring centers: social posts, emails and ads generated from your real progress reports and brand voice",5,5,3,4,1,3,4,LLM + scheduler,20.1
+623,coaches & consultants,quote generator,Coaches & consultants: turn notes or photos into a professional quote for clients in minutes,3,3,3,5,0,3,4,Next.js + LLM vision + PDF,20.1
+823,course creators,quote generator,Course creators: turn notes or photos into a professional quote for students in minutes,3,3,3,5,0,3,4,Next.js + LLM vision + PDF,20.1
+843,podcasters,quote generator,Podcasters: turn notes or photos into a professional quote for guests in minutes,3,3,3,5,0,3,4,Next.js + LLM vision + PDF,20.1
+290,wedding planners,price benchmark,"Wedding planners: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,0,5,6,Next.js + LLM extraction + Postgres,20.0
+470,cleaning companies,price benchmark,"Cleaning companies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,0,5,6,Next.js + LLM extraction + Postgres,20.0
+490,landscapers,price benchmark,"Landscapers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,0,5,6,Next.js + LLM extraction + Postgres,20.0
+581,private schools,document chaser,Private schools: auto-request and chase missing admissions forms from parents by email/WhatsApp until complete,4,3,4,2,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,20.0
+589,private schools,compliance tracker,"Private schools: track licences, certificates and renewals with automatic alerts",4,3,4,2,2,5,6,Next.js + Postgres + email alerts,20.0
+705,immigration consultants,review requester,Immigration consultants: ask happy applicants for reviews at the right moment and route unhappy ones privately,5,5,4,3,3,5,6,Next.js + Google Business API + SMS,20.0
+717,immigration consultants,content generator,"Immigration consultants: social posts, emails and ads generated from your real application checklists and brand voice",5,5,4,3,3,5,6,LLM + scheduler,20.0
+965,pharmacies,review requester,Pharmacies: ask happy patients for reviews at the right moment and route unhappy ones privately,5,5,4,3,3,5,6,Next.js + Google Business API + SMS,20.0
+977,pharmacies,content generator,"Pharmacies: social posts, emails and ads generated from your real prescription refills and brand voice",5,5,4,3,3,5,6,LLM + scheduler,20.0
+30,physiotherapy clinics,price benchmark,"Physiotherapy clinics: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,2,7,8,Next.js + LLM extraction + Postgres,19.9
+50,veterinary clinics,price benchmark,"Veterinary clinics: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,2,7,8,Next.js + LLM extraction + Postgres,19.9
+282,wedding planners,intake & onboarding forms,Wedding planners: smart intake form that collects vendor quotes from couples and pre-fills your system,4,4,3,4,0,2,3,Next.js + Supabase + form builder,19.9
+305,photographers & videographers,review requester,Photographers & videographers: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,2,5,0,2,3,Next.js + Google Business API + SMS,19.9
+317,photographers & videographers,content generator,"Photographers & videographers: social posts, emails and ads generated from your real shoot briefs and brand voice",5,5,2,5,0,2,3,LLM + scheduler,19.9
+424,electricians & plumbers,no-show reducer,Electricians & plumbers: automated reminders and rebooking for customers to cut no-shows,4,5,4,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,19.9
+462,cleaning companies,intake & onboarding forms,Cleaning companies: smart intake form that collects recurring jobs from customers and pre-fills your system,4,4,3,4,0,2,3,Next.js + Supabase + form builder,19.9
+482,landscapers,intake & onboarding forms,Landscapers: smart intake form that collects seasonal quotes from customers and pre-fills your system,4,4,3,4,0,2,3,Next.js + Supabase + form builder,19.9
+686,small law firms,payment chaser,Small law firms: automatic polite payment reminders and pay links for overdue case documents,4,5,5,4,3,7,8,Stripe/Razorpay + email/SMS,19.9
+688,small law firms,lead follow-up,Small law firms: instant multi-step follow-up for every new enquiry from clients,4,5,5,4,3,7,8,Webhooks + LLM + email/SMS,19.9
+726,insurance brokers,payment chaser,Insurance brokers: automatic polite payment reminders and pay links for overdue policy renewals,4,5,5,4,3,7,8,Stripe/Razorpay + email/SMS,19.9
+728,insurance brokers,lead follow-up,Insurance brokers: instant multi-step follow-up for every new enquiry from policyholders,4,5,5,4,3,7,8,Webhooks + LLM + email/SMS,19.9
+743,mortgage brokers,quote generator,Mortgage brokers: turn notes or photos into a professional quote for borrowers in minutes,3,3,5,3,3,7,8,Next.js + LLM vision + PDF,19.9
+805,freelancers,review requester,Freelancers: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,2,5,0,2,3,Next.js + Google Business API + SMS,19.9
+817,freelancers,content generator,"Freelancers: social posts, emails and ads generated from your real project briefs and brand voice",5,5,2,5,0,2,3,LLM + scheduler,19.9
+910,trucking & fleet owners,price benchmark,"Trucking & fleet owners: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,2,7,8,Next.js + LLM extraction + Postgres,19.9
+22,physiotherapy clinics,intake & onboarding forms,Physiotherapy clinics: smart intake form that collects care plans from patients and pre-fills your system,4,4,4,3,2,4,5,Next.js + Supabase + form builder,19.8
+42,veterinary clinics,intake & onboarding forms,Veterinary clinics: smart intake form that collects vaccination records from pet owners and pre-fills your system,4,4,4,3,2,4,5,Next.js + Supabase + form builder,19.8
+65,therapists & counselors,review requester,Therapists & counselors: ask happy clients for reviews at the right moment and route unhappy ones privately,5,5,3,4,2,4,5,Next.js + Google Business API + SMS,19.8
+77,therapists & counselors,content generator,"Therapists & counselors: social posts, emails and ads generated from your real intake forms and brand voice",5,5,3,4,2,4,5,LLM + scheduler,19.8
+141,spas & wellness centers,document chaser,Spas & wellness centers: auto-request and chase missing packages from guests by email/WhatsApp until complete,4,3,3,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,19.8
+149,spas & wellness centers,compliance tracker,"Spas & wellness centers: track licences, certificates and renewals with automatic alerts",4,3,3,3,1,4,5,Next.js + Postgres + email alerts,19.8
+213,small hotels & guesthouses,contract & e-sign,Small hotels & guesthouses: generate agreements around bookings and collect e-signatures,4,4,4,3,1,4,5,PDF templates + e-sign API,19.8
+216,small hotels & guesthouses,voice-note to record,Small hotels & guesthouses: record a voice note after each visit and get structured notes for guests,4,4,4,3,1,4,5,Whisper/STT + LLM + webhooks,19.8
+218,small hotels & guesthouses,win-back campaigns,Small hotels & guesthouses: find lapsed guests and send personalised win-back messages,4,4,4,3,1,4,5,CSV/API import + LLM + SMS,19.8
+219,small hotels & guesthouses,referral & loyalty,Small hotels & guesthouses: simple referral and loyalty program for guests with no app to install,4,4,4,3,1,4,5,Next.js + QR/links + Stripe,19.8
+221,homestays & villas,document chaser,Homestays & villas: auto-request and chase missing check-in documents from guests by email/WhatsApp until complete,4,3,3,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,19.8
+229,homestays & villas,compliance tracker,"Homestays & villas: track licences, certificates and renewals with automatic alerts",4,3,3,3,1,4,5,Next.js + Postgres + email alerts,19.8
+241,travel agencies,document chaser,Travel agencies: auto-request and chase missing itineraries from travelers by email/WhatsApp until complete,4,3,3,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,19.8
+249,travel agencies,compliance tracker,"Travel agencies: track licences, certificates and renewals with automatic alerts",4,3,3,3,1,4,5,Next.js + Postgres + email alerts,19.8
+261,tour operators,document chaser,Tour operators: auto-request and chase missing trip bookings from travelers by email/WhatsApp until complete,4,3,3,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,19.8
+269,tour operators,compliance tracker,"Tour operators: track licences, certificates and renewals with automatic alerts",4,3,3,3,1,4,5,Next.js + Postgres + email alerts,19.8
+333,event venues,contract & e-sign,Event venues: generate agreements around event contracts and collect e-signatures,4,4,4,3,1,4,5,PDF templates + e-sign API,19.8
+336,event venues,voice-note to record,Event venues: record a voice note after each visit and get structured notes for organizers,4,4,4,3,1,4,5,Whisper/STT + LLM + webhooks,19.8
+338,event venues,win-back campaigns,Event venues: find lapsed organizers and send personalised win-back messages,4,4,4,3,1,4,5,CSV/API import + LLM + SMS,19.8
+339,event venues,referral & loyalty,Event venues: simple referral and loyalty program for organizers with no app to install,4,4,4,3,1,4,5,Next.js + QR/links + Stripe,19.8
+404,general contractors,no-show reducer,General contractors: automated reminders and rebooking for homeowners to cut no-shows,4,5,5,3,1,4,5,Twilio/WhatsApp + cron + Calendar API,19.8
+444,HVAC companies,no-show reducer,Hvac companies: automated reminders and rebooking for customers to cut no-shows,4,5,5,3,1,4,5,Twilio/WhatsApp + cron + Calendar API,19.8
+791,marketing agencies,client portal,"Marketing agencies: simple portal where clients see status, campaign reports and next steps",3,4,4,5,0,4,5,Next.js + Supabase auth,19.8
+795,marketing agencies,inventory alerts,Marketing agencies: low-stock and reorder alerts with one-tap supplier orders,3,4,4,5,0,4,5,Next.js + Postgres + email,19.8
+871,ecommerce stores,client portal,"Ecommerce stores: simple portal where shoppers see status, product listings and next steps",3,4,4,5,0,4,5,Next.js + Supabase auth,19.8
+875,ecommerce stores,inventory alerts,Ecommerce stores: low-stock and reorder alerts with one-tap supplier orders,3,4,4,5,0,4,5,Next.js + Postgres + email,19.8
+884,3PL & warehouse operators,no-show reducer,3pl & warehouse operators: automated reminders and rebooking for merchants to cut no-shows,4,5,5,3,1,4,5,Twilio/WhatsApp + cron + Calendar API,19.8
+902,trucking & fleet owners,intake & onboarding forms,Trucking & fleet owners: smart intake form that collects trip logs from drivers and pre-fills your system,4,4,4,3,2,4,5,Next.js + Supabase + form builder,19.8
+90,gyms & fitness studios,price benchmark,"Gyms & fitness studios: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,1,6,7,Next.js + LLM extraction + Postgres,19.7
+170,restaurants,price benchmark,"Restaurants: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,1,6,7,Next.js + LLM extraction + Postgres,19.7
+390,home inspectors,price benchmark,"Home inspectors: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,1,6,7,Next.js + LLM extraction + Postgres,19.7
+570,tutoring centers,price benchmark,"Tutoring centers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,1,6,7,Next.js + LLM extraction + Postgres,19.7
+771,recruiting agencies,client portal,"Recruiting agencies: simple portal where candidates see status, job orders and next steps",3,4,5,4,1,6,7,Next.js + Supabase auth,19.7
+775,recruiting agencies,inventory alerts,Recruiting agencies: low-stock and reorder alerts with one-tap supplier orders,3,4,5,4,1,6,7,Next.js + Postgres + email,19.7
+82,gyms & fitness studios,intake & onboarding forms,Gyms & fitness studios: smart intake form that collects memberships from members and pre-fills your system,4,4,3,4,1,3,4,Next.js + Supabase + form builder,19.6
+121,salons & barbershops,document chaser,Salons & barbershops: auto-request and chase missing bookings from customers by email/WhatsApp until complete,4,3,2,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,19.6
+129,salons & barbershops,compliance tracker,"Salons & barbershops: track licences, certificates and renewals with automatic alerts",4,3,2,4,0,3,4,Next.js + Postgres + email alerts,19.6
+162,restaurants,intake & onboarding forms,Restaurants: smart intake form that collects reservations from diners and pre-fills your system,4,4,3,4,1,3,4,Next.js + Supabase + form builder,19.6
+181,cafes & bakeries,document chaser,Cafes & bakeries: auto-request and chase missing orders from regulars by email/WhatsApp until complete,4,3,2,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,19.6
+189,cafes & bakeries,compliance tracker,"Cafes & bakeries: track licences, certificates and renewals with automatic alerts",4,3,2,4,0,3,4,Next.js + Postgres + email alerts,19.6
+293,wedding planners,contract & e-sign,Wedding planners: generate agreements around vendor quotes and collect e-signatures,4,4,3,4,0,3,4,PDF templates + e-sign API,19.6
+296,wedding planners,voice-note to record,Wedding planners: record a voice note after each visit and get structured notes for couples,4,4,3,4,0,3,4,Whisper/STT + LLM + webhooks,19.6
+298,wedding planners,win-back campaigns,Wedding planners: find lapsed couples and send personalised win-back messages,4,4,3,4,0,3,4,CSV/API import + LLM + SMS,19.6
+299,wedding planners,referral & loyalty,Wedding planners: simple referral and loyalty program for couples with no app to install,4,4,3,4,0,3,4,Next.js + QR/links + Stripe,19.6
+382,home inspectors,intake & onboarding forms,Home inspectors: smart intake form that collects inspection reports from clients and pre-fills your system,4,4,3,4,1,3,4,Next.js + Supabase + form builder,19.6
+426,electricians & plumbers,payment chaser,Electricians & plumbers: automatic polite payment reminders and pay links for overdue job quotes,4,5,4,4,0,3,4,Stripe/Razorpay + email/SMS,19.6
+428,electricians & plumbers,lead follow-up,Electricians & plumbers: instant multi-step follow-up for every new enquiry from customers,4,5,4,4,0,3,4,Webhooks + LLM + email/SMS,19.6
+473,cleaning companies,contract & e-sign,Cleaning companies: generate agreements around recurring jobs and collect e-signatures,4,4,3,4,0,3,4,PDF templates + e-sign API,19.6
+476,cleaning companies,voice-note to record,Cleaning companies: record a voice note after each visit and get structured notes for customers,4,4,3,4,0,3,4,Whisper/STT + LLM + webhooks,19.6
+478,cleaning companies,win-back campaigns,Cleaning companies: find lapsed customers and send personalised win-back messages,4,4,3,4,0,3,4,CSV/API import + LLM + SMS,19.6
+479,cleaning companies,referral & loyalty,Cleaning companies: simple referral and loyalty program for customers with no app to install,4,4,3,4,0,3,4,Next.js + QR/links + Stripe,19.6
+493,landscapers,contract & e-sign,Landscapers: generate agreements around seasonal quotes and collect e-signatures,4,4,3,4,0,3,4,PDF templates + e-sign API,19.6
+496,landscapers,voice-note to record,Landscapers: record a voice note after each visit and get structured notes for customers,4,4,3,4,0,3,4,Whisper/STT + LLM + webhooks,19.6
+498,landscapers,win-back campaigns,Landscapers: find lapsed customers and send personalised win-back messages,4,4,3,4,0,3,4,CSV/API import + LLM + SMS,19.6
+499,landscapers,referral & loyalty,Landscapers: simple referral and loyalty program for customers with no app to install,4,4,3,4,0,3,4,Next.js + QR/links + Stripe,19.6
+504,auto repair shops,no-show reducer,Auto repair shops: automated reminders and rebooking for car owners to cut no-shows,4,5,4,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,19.6
+562,tutoring centers,intake & onboarding forms,Tutoring centers: smart intake form that collects progress reports from parents and pre-fills your system,4,4,3,4,1,3,4,Next.js + Supabase + form builder,19.6
+664,bookkeepers,no-show reducer,Bookkeepers: automated reminders and rebooking for clients to cut no-shows,4,5,4,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,19.6
+710,immigration consultants,price benchmark,"Immigration consultants: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,3,8,9,Next.js + LLM extraction + Postgres,19.6
+970,pharmacies,price benchmark,"Pharmacies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,3,3,8,9,Next.js + LLM extraction + Postgres,19.6
+1001,event photographers,document chaser,Event photographers: auto-request and chase missing photo galleries from attendees by email/WhatsApp until complete,4,3,2,4,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,19.6
+1009,event photographers,compliance tracker,"Event photographers: track licences, certificates and renewals with automatic alerts",4,3,2,4,0,3,4,Next.js + Postgres + email alerts,19.6
+4,dental clinics,no-show reducer,Dental clinics: automated reminders and rebooking for patients to cut no-shows,4,5,5,3,2,5,6,Twilio/WhatsApp + cron + Calendar API,19.5
+33,physiotherapy clinics,contract & e-sign,Physiotherapy clinics: generate agreements around care plans and collect e-signatures,4,4,4,3,2,5,6,PDF templates + e-sign API,19.5
+36,physiotherapy clinics,voice-note to record,Physiotherapy clinics: record a voice note after each visit and get structured notes for patients,4,4,4,3,2,5,6,Whisper/STT + LLM + webhooks,19.5
+38,physiotherapy clinics,win-back campaigns,Physiotherapy clinics: find lapsed patients and send personalised win-back messages,4,4,4,3,2,5,6,CSV/API import + LLM + SMS,19.5
+39,physiotherapy clinics,referral & loyalty,Physiotherapy clinics: simple referral and loyalty program for patients with no app to install,4,4,4,3,2,5,6,Next.js + QR/links + Stripe,19.5
+53,veterinary clinics,contract & e-sign,Veterinary clinics: generate agreements around vaccination records and collect e-signatures,4,4,4,3,2,5,6,PDF templates + e-sign API,19.5
+56,veterinary clinics,voice-note to record,Veterinary clinics: record a voice note after each visit and get structured notes for pet owners,4,4,4,3,2,5,6,Whisper/STT + LLM + webhooks,19.5
+58,veterinary clinics,win-back campaigns,Veterinary clinics: find lapsed pet owners and send personalised win-back messages,4,4,4,3,2,5,6,CSV/API import + LLM + SMS,19.5
+59,veterinary clinics,referral & loyalty,Veterinary clinics: simple referral and loyalty program for pet owners with no app to install,4,4,4,3,2,5,6,Next.js + QR/links + Stripe,19.5
+310,photographers & videographers,price benchmark,"Photographers & videographers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,5,0,5,6,Next.js + LLM extraction + Postgres,19.5
+351,real estate agents,client portal,"Real estate agents: simple portal where buyers see status, listings and next steps",3,4,4,5,1,5,6,Next.js + Supabase auth,19.5
+355,real estate agents,inventory alerts,Real estate agents: low-stock and reorder alerts with one-tap supplier orders,3,4,4,5,1,5,6,Next.js + Postgres + email,19.5
+406,general contractors,payment chaser,General contractors: automatic polite payment reminders and pay links for overdue estimates,4,5,5,3,1,5,6,Stripe/Razorpay + email/SMS,19.5
+408,general contractors,lead follow-up,General contractors: instant multi-step follow-up for every new enquiry from homeowners,4,5,5,3,1,5,6,Webhooks + LLM + email/SMS,19.5
+446,HVAC companies,payment chaser,Hvac companies: automatic polite payment reminders and pay links for overdue service tickets,4,5,5,3,1,5,6,Stripe/Razorpay + email/SMS,19.5
+448,HVAC companies,lead follow-up,Hvac companies: instant multi-step follow-up for every new enquiry from customers,4,5,5,3,1,5,6,Webhooks + LLM + email/SMS,19.5
+524,car dealers,no-show reducer,Car dealers: automated reminders and rebooking for buyers to cut no-shows,4,5,5,3,2,5,6,Twilio/WhatsApp + cron + Calendar API,19.5
+601,daycares & preschools,document chaser,Daycares & preschools: auto-request and chase missing enrolment forms from parents by email/WhatsApp until complete,4,3,3,3,2,5,6,Next.js + Supabase + Twilio/WhatsApp API,19.5
+609,daycares & preschools,compliance tracker,"Daycares & preschools: track licences, certificates and renewals with automatic alerts",4,3,3,3,2,5,6,Next.js + Postgres + email alerts,19.5
+702,immigration consultants,intake & onboarding forms,Immigration consultants: smart intake form that collects application checklists from applicants and pre-fills your system,4,4,4,3,3,5,6,Next.js + Supabase + form builder,19.5
+810,freelancers,price benchmark,"Freelancers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,5,0,5,6,Next.js + LLM extraction + Postgres,19.5
+886,3PL & warehouse operators,payment chaser,3pl & warehouse operators: automatic polite payment reminders and pay links for overdue inbound shipments,4,5,5,3,1,5,6,Stripe/Razorpay + email/SMS,19.5
+888,3PL & warehouse operators,lead follow-up,3pl & warehouse operators: instant multi-step follow-up for every new enquiry from merchants,4,5,5,3,1,5,6,Webhooks + LLM + email/SMS,19.5
+913,trucking & fleet owners,contract & e-sign,Trucking & fleet owners: generate agreements around trip logs and collect e-signatures,4,4,4,3,2,5,6,PDF templates + e-sign API,19.5
+916,trucking & fleet owners,voice-note to record,Trucking & fleet owners: record a voice note after each visit and get structured notes for drivers,4,4,4,3,2,5,6,Whisper/STT + LLM + webhooks,19.5
+918,trucking & fleet owners,win-back campaigns,Trucking & fleet owners: find lapsed drivers and send personalised win-back messages,4,4,4,3,2,5,6,CSV/API import + LLM + SMS,19.5
+919,trucking & fleet owners,referral & loyalty,Trucking & fleet owners: simple referral and loyalty program for drivers with no app to install,4,4,4,3,2,5,6,Next.js + QR/links + Stripe,19.5
+944,solar installers,no-show reducer,Solar installers: automated reminders and rebooking for homeowners to cut no-shows,4,5,5,3,2,5,6,Twilio/WhatsApp + cron + Calendar API,19.5
+962,pharmacies,intake & onboarding forms,Pharmacies: smart intake form that collects prescription refills from patients and pre-fills your system,4,4,4,3,3,5,6,Next.js + Supabase + form builder,19.5
+70,therapists & counselors,price benchmark,"Therapists & counselors: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,4,2,7,8,Next.js + LLM extraction + Postgres,19.4
+302,photographers & videographers,intake & onboarding forms,Photographers & videographers: smart intake form that collects shoot briefs from clients and pre-fills your system,4,4,2,5,0,2,3,Next.js + Supabase + form builder,19.4
+371,property managers,client portal,"Property managers: simple portal where tenants see status, lease documents and next steps",3,4,5,4,2,7,8,Next.js + Supabase auth,19.4
+375,property managers,inventory alerts,Property managers: low-stock and reorder alerts with one-tap supplier orders,3,4,5,4,2,7,8,Next.js + Postgres + email,19.4
+624,coaches & consultants,no-show reducer,Coaches & consultants: automated reminders and rebooking for clients to cut no-shows,4,5,3,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,19.4
+651,accounting firms,client portal,"Accounting firms: simple portal where clients see status, tax documents and next steps",3,4,5,4,2,7,8,Next.js + Supabase auth,19.4
+655,accounting firms,inventory alerts,Accounting firms: low-stock and reorder alerts with one-tap supplier orders,3,4,5,4,2,7,8,Next.js + Postgres + email,19.4
+802,freelancers,intake & onboarding forms,Freelancers: smart intake form that collects project briefs from clients and pre-fills your system,4,4,2,5,0,2,3,Next.js + Supabase + form builder,19.4
+824,course creators,no-show reducer,Course creators: automated reminders and rebooking for students to cut no-shows,4,5,3,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,19.4
+844,podcasters,no-show reducer,Podcasters: automated reminders and rebooking for guests to cut no-shows,4,5,3,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,19.4
+62,therapists & counselors,intake & onboarding forms,Therapists & counselors: smart intake form that collects intake forms from clients and pre-fills your system,4,4,3,4,2,4,5,Next.js + Supabase + form builder,19.3
+93,gyms & fitness studios,contract & e-sign,Gyms & fitness studios: generate agreements around memberships and collect e-signatures,4,4,3,4,1,4,5,PDF templates + e-sign API,19.3
+96,gyms & fitness studios,voice-note to record,Gyms & fitness studios: record a voice note after each visit and get structured notes for members,4,4,3,4,1,4,5,Whisper/STT + LLM + webhooks,19.3
+98,gyms & fitness studios,win-back campaigns,Gyms & fitness studios: find lapsed members and send personalised win-back messages,4,4,3,4,1,4,5,CSV/API import + LLM + SMS,19.3
+99,gyms & fitness studios,referral & loyalty,Gyms & fitness studios: simple referral and loyalty program for members with no app to install,4,4,3,4,1,4,5,Next.js + QR/links + Stripe,19.3
+101,yoga & pilates studios,document chaser,Yoga & pilates studios: auto-request and chase missing class packs from students by email/WhatsApp until complete,4,3,2,4,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,19.3
+109,yoga & pilates studios,compliance tracker,"Yoga & pilates studios: track licences, certificates and renewals with automatic alerts",4,3,2,4,1,4,5,Next.js + Postgres + email alerts,19.3
+173,restaurants,contract & e-sign,Restaurants: generate agreements around reservations and collect e-signatures,4,4,3,4,1,4,5,PDF templates + e-sign API,19.3
+176,restaurants,voice-note to record,Restaurants: record a voice note after each visit and get structured notes for diners,4,4,3,4,1,4,5,Whisper/STT + LLM + webhooks,19.3
+178,restaurants,win-back campaigns,Restaurants: find lapsed diners and send personalised win-back messages,4,4,3,4,1,4,5,CSV/API import + LLM + SMS,19.3
+179,restaurants,referral & loyalty,Restaurants: simple referral and loyalty program for diners with no app to install,4,4,3,4,1,4,5,Next.js + QR/links + Stripe,19.3
+203,small hotels & guesthouses,quote generator,Small hotels & guesthouses: turn notes or photos into a professional quote for guests in minutes,3,3,4,3,1,4,5,Next.js + LLM vision + PDF,19.3
+323,event venues,quote generator,Event venues: turn notes or photos into a professional quote for organizers in minutes,3,3,4,3,1,4,5,Next.js + LLM vision + PDF,19.3
+393,home inspectors,contract & e-sign,Home inspectors: generate agreements around inspection reports and collect e-signatures,4,4,3,4,1,4,5,PDF templates + e-sign API,19.3
+396,home inspectors,voice-note to record,Home inspectors: record a voice note after each visit and get structured notes for clients,4,4,3,4,1,4,5,Whisper/STT + LLM + webhooks,19.3
+398,home inspectors,win-back campaigns,Home inspectors: find lapsed clients and send personalised win-back messages,4,4,3,4,1,4,5,CSV/API import + LLM + SMS,19.3
+399,home inspectors,referral & loyalty,Home inspectors: simple referral and loyalty program for clients with no app to install,4,4,3,4,1,4,5,Next.js + QR/links + Stripe,19.3
+506,auto repair shops,payment chaser,Auto repair shops: automatic polite payment reminders and pay links for overdue repair estimates,4,5,4,4,1,4,5,Stripe/Razorpay + email/SMS,19.3
+508,auto repair shops,lead follow-up,Auto repair shops: instant multi-step follow-up for every new enquiry from car owners,4,5,4,4,1,4,5,Webhooks + LLM + email/SMS,19.3
+573,tutoring centers,contract & e-sign,Tutoring centers: generate agreements around progress reports and collect e-signatures,4,4,3,4,1,4,5,PDF templates + e-sign API,19.3
+576,tutoring centers,voice-note to record,Tutoring centers: record a voice note after each visit and get structured notes for parents,4,4,3,4,1,4,5,Whisper/STT + LLM + webhooks,19.3
+578,tutoring centers,win-back campaigns,Tutoring centers: find lapsed parents and send personalised win-back messages,4,4,3,4,1,4,5,CSV/API import + LLM + SMS,19.3
+579,tutoring centers,referral & loyalty,Tutoring centers: simple referral and loyalty program for parents with no app to install,4,4,3,4,1,4,5,Next.js + QR/links + Stripe,19.3
+585,private schools,review requester,Private schools: ask happy parents for reviews at the right moment and route unhappy ones privately,5,5,4,2,2,4,5,Next.js + Google Business API + SMS,19.3
+597,private schools,content generator,"Private schools: social posts, emails and ads generated from your real admissions forms and brand voice",5,5,4,2,2,4,5,LLM + scheduler,19.3
+666,bookkeepers,payment chaser,Bookkeepers: automatic polite payment reminders and pay links for overdue receipts,4,5,4,4,1,4,5,Stripe/Razorpay + email/SMS,19.3
+668,bookkeepers,lead follow-up,Bookkeepers: instant multi-step follow-up for every new enquiry from clients,4,5,4,4,1,4,5,Webhooks + LLM + email/SMS,19.3
+6,dental clinics,payment chaser,Dental clinics: automatic polite payment reminders and pay links for overdue treatment plans,4,5,5,3,2,6,7,Stripe/Razorpay + email/SMS,19.2
+8,dental clinics,lead follow-up,Dental clinics: instant multi-step follow-up for every new enquiry from patients,4,5,5,3,2,6,7,Webhooks + LLM + email/SMS,19.2
+526,car dealers,payment chaser,Car dealers: automatic polite payment reminders and pay links for overdue vehicle listings,4,5,5,3,2,6,7,Stripe/Razorpay + email/SMS,19.2
+528,car dealers,lead follow-up,Car dealers: instant multi-step follow-up for every new enquiry from buyers,4,5,5,3,2,6,7,Webhooks + LLM + email/SMS,19.2
+713,immigration consultants,contract & e-sign,Immigration consultants: generate agreements around application checklists and collect e-signatures,4,4,4,3,3,6,7,PDF templates + e-sign API,19.2
+716,immigration consultants,voice-note to record,Immigration consultants: record a voice note after each visit and get structured notes for applicants,4,4,4,3,3,6,7,Whisper/STT + LLM + webhooks,19.2
+718,immigration consultants,win-back campaigns,Immigration consultants: find lapsed applicants and send personalised win-back messages,4,4,4,3,3,6,7,CSV/API import + LLM + SMS,19.2
+719,immigration consultants,referral & loyalty,Immigration consultants: simple referral and loyalty program for applicants with no app to install,4,4,4,3,3,6,7,Next.js + QR/links + Stripe,19.2
+744,mortgage brokers,no-show reducer,Mortgage brokers: automated reminders and rebooking for borrowers to cut no-shows,4,5,5,3,3,6,7,Twilio/WhatsApp + cron + Calendar API,19.2
+946,solar installers,payment chaser,Solar installers: automatic polite payment reminders and pay links for overdue site surveys,4,5,5,3,2,6,7,Stripe/Razorpay + email/SMS,19.2
+948,solar installers,lead follow-up,Solar installers: instant multi-step follow-up for every new enquiry from homeowners,4,5,5,3,2,6,7,Webhooks + LLM + email/SMS,19.2
+973,pharmacies,contract & e-sign,Pharmacies: generate agreements around prescription refills and collect e-signatures,4,4,4,3,3,6,7,PDF templates + e-sign API,19.2
+976,pharmacies,voice-note to record,Pharmacies: record a voice note after each visit and get structured notes for patients,4,4,4,3,3,6,7,Whisper/STT + LLM + webhooks,19.2
+978,pharmacies,win-back campaigns,Pharmacies: find lapsed patients and send personalised win-back messages,4,4,4,3,3,6,7,CSV/API import + LLM + SMS,19.2
+979,pharmacies,referral & loyalty,Pharmacies: simple referral and loyalty program for patients with no app to install,4,4,4,3,3,6,7,Next.js + QR/links + Stripe,19.2
+145,spas & wellness centers,review requester,Spas & wellness centers: ask happy guests for reviews at the right moment and route unhappy ones privately,5,5,3,3,1,3,4,Next.js + Google Business API + SMS,19.1
+157,spas & wellness centers,content generator,"Spas & wellness centers: social posts, emails and ads generated from your real packages and brand voice",5,5,3,3,1,3,4,LLM + scheduler,19.1
+225,homestays & villas,review requester,Homestays & villas: ask happy guests for reviews at the right moment and route unhappy ones privately,5,5,3,3,1,3,4,Next.js + Google Business API + SMS,19.1
+237,homestays & villas,content generator,"Homestays & villas: social posts, emails and ads generated from your real check-in documents and brand voice",5,5,3,3,1,3,4,LLM + scheduler,19.1
+245,travel agencies,review requester,Travel agencies: ask happy travelers for reviews at the right moment and route unhappy ones privately,5,5,3,3,1,3,4,Next.js + Google Business API + SMS,19.1
+257,travel agencies,content generator,"Travel agencies: social posts, emails and ads generated from your real itineraries and brand voice",5,5,3,3,1,3,4,LLM + scheduler,19.1
+265,tour operators,review requester,Tour operators: ask happy travelers for reviews at the right moment and route unhappy ones privately,5,5,3,3,1,3,4,Next.js + Google Business API + SMS,19.1
+277,tour operators,content generator,"Tour operators: social posts, emails and ads generated from your real trip bookings and brand voice",5,5,3,3,1,3,4,LLM + scheduler,19.1
+283,wedding planners,quote generator,Wedding planners: turn notes or photos into a professional quote for couples in minutes,3,3,3,4,0,3,4,Next.js + LLM vision + PDF,19.1
+313,photographers & videographers,contract & e-sign,Photographers & videographers: generate agreements around shoot briefs and collect e-signatures,4,4,2,5,0,3,4,PDF templates + e-sign API,19.1
+316,photographers & videographers,voice-note to record,Photographers & videographers: record a voice note after each visit and get structured notes for clients,4,4,2,5,0,3,4,Whisper/STT + LLM + webhooks,19.1
+318,photographers & videographers,win-back campaigns,Photographers & videographers: find lapsed clients and send personalised win-back messages,4,4,2,5,0,3,4,CSV/API import + LLM + SMS,19.1
+319,photographers & videographers,referral & loyalty,Photographers & videographers: simple referral and loyalty program for clients with no app to install,4,4,2,5,0,3,4,Next.js + QR/links + Stripe,19.1
+463,cleaning companies,quote generator,Cleaning companies: turn notes or photos into a professional quote for customers in minutes,3,3,3,4,0,3,4,Next.js + LLM vision + PDF,19.1
+483,landscapers,quote generator,Landscapers: turn notes or photos into a professional quote for customers in minutes,3,3,3,4,0,3,4,Next.js + LLM vision + PDF,19.1
+626,coaches & consultants,payment chaser,Coaches & consultants: automatic polite payment reminders and pay links for overdue session notes,4,5,3,5,0,3,4,Stripe/Razorpay + email/SMS,19.1
+628,coaches & consultants,lead follow-up,Coaches & consultants: instant multi-step follow-up for every new enquiry from clients,4,5,3,5,0,3,4,Webhooks + LLM + email/SMS,19.1
+691,small law firms,client portal,"Small law firms: simple portal where clients see status, case documents and next steps",3,4,5,4,3,8,9,Next.js + Supabase auth,19.1
+695,small law firms,inventory alerts,Small law firms: low-stock and reorder alerts with one-tap supplier orders,3,4,5,4,3,8,9,Next.js + Postgres + email,19.1
+731,insurance brokers,client portal,"Insurance brokers: simple portal where policyholders see status, policy renewals and next steps",3,4,5,4,3,8,9,Next.js + Supabase auth,19.1
+735,insurance brokers,inventory alerts,Insurance brokers: low-stock and reorder alerts with one-tap supplier orders,3,4,5,4,3,8,9,Next.js + Postgres + email,19.1
+813,freelancers,contract & e-sign,Freelancers: generate agreements around project briefs and collect e-signatures,4,4,2,5,0,3,4,PDF templates + e-sign API,19.1
+816,freelancers,voice-note to record,Freelancers: record a voice note after each visit and get structured notes for clients,4,4,2,5,0,3,4,Whisper/STT + LLM + webhooks,19.1
+818,freelancers,win-back campaigns,Freelancers: find lapsed clients and send personalised win-back messages,4,4,2,5,0,3,4,CSV/API import + LLM + SMS,19.1
+819,freelancers,referral & loyalty,Freelancers: simple referral and loyalty program for clients with no app to install,4,4,2,5,0,3,4,Next.js + QR/links + Stripe,19.1
+826,course creators,payment chaser,Course creators: automatic polite payment reminders and pay links for overdue course content,4,5,3,5,0,3,4,Stripe/Razorpay + email/SMS,19.1
+828,course creators,lead follow-up,Course creators: instant multi-step follow-up for every new enquiry from students,4,5,3,5,0,3,4,Webhooks + LLM + email/SMS,19.1
+846,podcasters,payment chaser,Podcasters: automatic polite payment reminders and pay links for overdue episode assets,4,5,3,5,0,3,4,Stripe/Razorpay + email/SMS,19.1
+848,podcasters,lead follow-up,Podcasters: instant multi-step follow-up for every new enquiry from guests,4,5,3,5,0,3,4,Webhooks + LLM + email/SMS,19.1
+23,physiotherapy clinics,quote generator,Physiotherapy clinics: turn notes or photos into a professional quote for patients in minutes,3,3,4,3,2,5,6,Next.js + LLM vision + PDF,19.0
+43,veterinary clinics,quote generator,Veterinary clinics: turn notes or photos into a professional quote for pet owners in minutes,3,3,4,3,2,5,6,Next.js + LLM vision + PDF,19.0
+73,therapists & counselors,contract & e-sign,Therapists & counselors: generate agreements around intake forms and collect e-signatures,4,4,3,4,2,5,6,PDF templates + e-sign API,19.0
+76,therapists & counselors,voice-note to record,Therapists & counselors: record a voice note after each visit and get structured notes for clients,4,4,3,4,2,5,6,Whisper/STT + LLM + webhooks,19.0
+78,therapists & counselors,win-back campaigns,Therapists & counselors: find lapsed clients and send personalised win-back messages,4,4,3,4,2,5,6,CSV/API import + LLM + SMS,19.0
+79,therapists & counselors,referral & loyalty,Therapists & counselors: simple referral and loyalty program for clients with no app to install,4,4,3,4,2,5,6,Next.js + QR/links + Stripe,19.0
+903,trucking & fleet owners,quote generator,Trucking & fleet owners: turn notes or photos into a professional quote for drivers in minutes,3,3,4,3,2,5,6,Next.js + LLM vision + PDF,19.0
+125,salons & barbershops,review requester,Salons & barbershops: ask happy customers for reviews at the right moment and route unhappy ones privately,5,5,2,4,0,2,3,Next.js + Google Business API + SMS,18.9
+137,salons & barbershops,content generator,"Salons & barbershops: social posts, emails and ads generated from your real bookings and brand voice",5,5,2,4,0,2,3,LLM + scheduler,18.9
+185,cafes & bakeries,review requester,Cafes & bakeries: ask happy regulars for reviews at the right moment and route unhappy ones privately,5,5,2,4,0,2,3,Next.js + Google Business API + SMS,18.9
+197,cafes & bakeries,content generator,"Cafes & bakeries: social posts, emails and ads generated from your real orders and brand voice",5,5,2,4,0,2,3,LLM + scheduler,18.9
+590,private schools,price benchmark,"Private schools: anonymous benchmark of what peers charge, from uploaded quotes",3,2,4,2,2,7,8,Next.js + LLM extraction + Postgres,18.9
+746,mortgage brokers,payment chaser,Mortgage brokers: automatic polite payment reminders and pay links for overdue loan documents,4,5,5,3,3,7,8,Stripe/Razorpay + email/SMS,18.9
+748,mortgage brokers,lead follow-up,Mortgage brokers: instant multi-step follow-up for every new enquiry from borrowers,4,5,5,3,3,7,8,Webhooks + LLM + email/SMS,18.9
+1005,event photographers,review requester,Event photographers: ask happy attendees for reviews at the right moment and route unhappy ones privately,5,5,2,4,0,2,3,Next.js + Google Business API + SMS,18.9
+1017,event photographers,content generator,"Event photographers: social posts, emails and ads generated from your real photo galleries and brand voice",5,5,2,4,0,2,3,LLM + scheduler,18.9
+83,gyms & fitness studios,quote generator,Gyms & fitness studios: turn notes or photos into a professional quote for members in minutes,3,3,3,4,1,4,5,Next.js + LLM vision + PDF,18.8
+163,restaurants,quote generator,Restaurants: turn notes or photos into a professional quote for diners in minutes,3,3,3,4,1,4,5,Next.js + LLM vision + PDF,18.8
+383,home inspectors,quote generator,Home inspectors: turn notes or photos into a professional quote for clients in minutes,3,3,3,4,1,4,5,Next.js + LLM vision + PDF,18.8
+431,electricians & plumbers,client portal,"Electricians & plumbers: simple portal where customers see status, job quotes and next steps",3,4,4,4,0,4,5,Next.js + Supabase auth,18.8
+435,electricians & plumbers,inventory alerts,Electricians & plumbers: low-stock and reorder alerts with one-tap supplier orders,3,4,4,4,0,4,5,Next.js + Postgres + email,18.8
+563,tutoring centers,quote generator,Tutoring centers: turn notes or photos into a professional quote for parents in minutes,3,3,3,4,1,4,5,Next.js + LLM vision + PDF,18.8
+582,private schools,intake & onboarding forms,Private schools: smart intake form that collects admissions forms from parents and pre-fills your system,4,4,4,2,2,4,5,Next.js + Supabase + form builder,18.8
+605,daycares & preschools,review requester,Daycares & preschools: ask happy parents for reviews at the right moment and route unhappy ones privately,5,5,3,3,2,4,5,Next.js + Google Business API + SMS,18.8
+617,daycares & preschools,content generator,"Daycares & preschools: social posts, emails and ads generated from your real enrolment forms and brand voice",5,5,3,3,2,4,5,LLM + scheduler,18.8
+921,farms & agribusiness,document chaser,Farms & agribusiness: auto-request and chase missing harvest records from buyers by email/WhatsApp until complete,4,3,3,2,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,18.8
+929,farms & agribusiness,compliance tracker,"Farms & agribusiness: track licences, certificates and renewals with automatic alerts",4,3,3,2,1,4,5,Next.js + Postgres + email alerts,18.8
+150,spas & wellness centers,price benchmark,"Spas & wellness centers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,3,1,6,7,Next.js + LLM extraction + Postgres,18.7
+230,homestays & villas,price benchmark,"Homestays & villas: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,3,1,6,7,Next.js + LLM extraction + Postgres,18.7
+250,travel agencies,price benchmark,"Travel agencies: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,3,1,6,7,Next.js + LLM extraction + Postgres,18.7
+270,tour operators,price benchmark,"Tour operators: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,3,1,6,7,Next.js + LLM extraction + Postgres,18.7
+411,general contractors,client portal,"General contractors: simple portal where homeowners see status, estimates and next steps",3,4,5,3,1,6,7,Next.js + Supabase auth,18.7
+415,general contractors,inventory alerts,General contractors: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,1,6,7,Next.js + Postgres + email,18.7
+451,HVAC companies,client portal,"Hvac companies: simple portal where customers see status, service tickets and next steps",3,4,5,3,1,6,7,Next.js + Supabase auth,18.7
+455,HVAC companies,inventory alerts,Hvac companies: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,1,6,7,Next.js + Postgres + email,18.7
+703,immigration consultants,quote generator,Immigration consultants: turn notes or photos into a professional quote for applicants in minutes,3,3,4,3,3,6,7,Next.js + LLM vision + PDF,18.7
+800,marketing agencies,vetted directory,Marketing agencies: vetted directory with lead-gen for clients looking for providers,2,3,4,5,0,6,7,Next.js + SEO + payments,18.7
+880,ecommerce stores,vetted directory,Ecommerce stores: vetted directory with lead-gen for shoppers looking for providers,2,3,4,5,0,6,7,Next.js + SEO + payments,18.7
+891,3PL & warehouse operators,client portal,"3pl & warehouse operators: simple portal where merchants see status, inbound shipments and next steps",3,4,5,3,1,6,7,Next.js + Supabase auth,18.7
+895,3PL & warehouse operators,inventory alerts,3pl & warehouse operators: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,1,6,7,Next.js + Postgres + email,18.7
+963,pharmacies,quote generator,Pharmacies: turn notes or photos into a professional quote for patients in minutes,3,3,4,3,3,6,7,Next.js + LLM vision + PDF,18.7
+105,yoga & pilates studios,review requester,Yoga & pilates studios: ask happy students for reviews at the right moment and route unhappy ones privately,5,5,2,4,1,3,4,Next.js + Google Business API + SMS,18.6
+117,yoga & pilates studios,content generator,"Yoga & pilates studios: social posts, emails and ads generated from your real class packs and brand voice",5,5,2,4,1,3,4,LLM + scheduler,18.6
+142,spas & wellness centers,intake & onboarding forms,Spas & wellness centers: smart intake form that collects packages from guests and pre-fills your system,4,4,3,3,1,3,4,Next.js + Supabase + form builder,18.6
+204,small hotels & guesthouses,no-show reducer,Small hotels & guesthouses: automated reminders and rebooking for guests to cut no-shows,4,5,4,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.6
+222,homestays & villas,intake & onboarding forms,Homestays & villas: smart intake form that collects check-in documents from guests and pre-fills your system,4,4,3,3,1,3,4,Next.js + Supabase + form builder,18.6
+242,travel agencies,intake & onboarding forms,Travel agencies: smart intake form that collects itineraries from travelers and pre-fills your system,4,4,3,3,1,3,4,Next.js + Supabase + form builder,18.6
+262,tour operators,intake & onboarding forms,Tour operators: smart intake form that collects trip bookings from travelers and pre-fills your system,4,4,3,3,1,3,4,Next.js + Supabase + form builder,18.6
+303,photographers & videographers,quote generator,Photographers & videographers: turn notes or photos into a professional quote for clients in minutes,3,3,2,5,0,3,4,Next.js + LLM vision + PDF,18.6
+324,event venues,no-show reducer,Event venues: automated reminders and rebooking for organizers to cut no-shows,4,5,4,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.6
+780,recruiting agencies,vetted directory,Recruiting agencies: vetted directory with lead-gen for candidates looking for providers,2,3,5,4,1,8,9,Next.js + SEO + payments,18.6
+787,marketing agencies,AI front desk,"Marketing agencies: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,4,5,0,3,4,LLM + WhatsApp API + calendar,18.6
+803,freelancers,quote generator,Freelancers: turn notes or photos into a professional quote for clients in minutes,3,3,2,5,0,3,4,Next.js + LLM vision + PDF,18.6
+867,ecommerce stores,AI front desk,"Ecommerce stores: AI assistant answering shoppers questions on website and WhatsApp, booking when needed",3,5,4,5,0,3,4,LLM + WhatsApp API + calendar,18.6
+981,churches & community groups,document chaser,Churches & community groups: auto-request and chase missing donations from members by email/WhatsApp until complete,4,3,2,3,0,3,4,Next.js + Supabase + Twilio/WhatsApp API,18.6
+989,churches & community groups,compliance tracker,"Churches & community groups: track licences, certificates and renewals with automatic alerts",4,3,2,3,0,3,4,Next.js + Postgres + email alerts,18.6
+63,therapists & counselors,quote generator,Therapists & counselors: turn notes or photos into a professional quote for clients in minutes,3,3,3,4,2,5,6,Next.js + LLM vision + PDF,18.5
+130,salons & barbershops,price benchmark,"Salons & barbershops: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,4,0,5,6,Next.js + LLM extraction + Postgres,18.5
+190,cafes & bakeries,price benchmark,"Cafes & bakeries: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,4,0,5,6,Next.js + LLM extraction + Postgres,18.5
+511,auto repair shops,client portal,"Auto repair shops: simple portal where car owners see status, repair estimates and next steps",3,4,4,4,1,5,6,Next.js + Supabase auth,18.5
+515,auto repair shops,inventory alerts,Auto repair shops: low-stock and reorder alerts with one-tap supplier orders,3,4,4,4,1,5,6,Next.js + Postgres + email,18.5
+593,private schools,contract & e-sign,Private schools: generate agreements around admissions forms and collect e-signatures,4,4,4,2,2,5,6,PDF templates + e-sign API,18.5
+596,private schools,voice-note to record,Private schools: record a voice note after each visit and get structured notes for parents,4,4,4,2,2,5,6,Whisper/STT + LLM + webhooks,18.5
+598,private schools,win-back campaigns,Private schools: find lapsed parents and send personalised win-back messages,4,4,4,2,2,5,6,CSV/API import + LLM + SMS,18.5
+599,private schools,referral & loyalty,Private schools: simple referral and loyalty program for parents with no app to install,4,4,4,2,2,5,6,Next.js + QR/links + Stripe,18.5
+671,bookkeepers,client portal,"Bookkeepers: simple portal where clients see status, receipts and next steps",3,4,4,4,1,5,6,Next.js + Supabase auth,18.5
+675,bookkeepers,inventory alerts,Bookkeepers: low-stock and reorder alerts with one-tap supplier orders,3,4,4,4,1,5,6,Next.js + Postgres + email,18.5
+767,recruiting agencies,AI front desk,"Recruiting agencies: AI assistant answering candidates questions on website and WhatsApp, booking when needed",3,5,5,4,1,5,6,LLM + WhatsApp API + calendar,18.5
+1010,event photographers,price benchmark,"Event photographers: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,4,0,5,6,Next.js + LLM extraction + Postgres,18.5
+11,dental clinics,client portal,"Dental clinics: simple portal where patients see status, treatment plans and next steps",3,4,5,3,2,7,8,Next.js + Supabase auth,18.4
+15,dental clinics,inventory alerts,Dental clinics: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,2,7,8,Next.js + Postgres + email,18.4
+122,salons & barbershops,intake & onboarding forms,Salons & barbershops: smart intake form that collects bookings from customers and pre-fills your system,4,4,2,4,0,2,3,Next.js + Supabase + form builder,18.4
+182,cafes & bakeries,intake & onboarding forms,Cafes & bakeries: smart intake form that collects orders from regulars and pre-fills your system,4,4,2,4,0,2,3,Next.js + Supabase + form builder,18.4
+284,wedding planners,no-show reducer,Wedding planners: automated reminders and rebooking for couples to cut no-shows,4,5,3,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,18.4
+360,real estate agents,vetted directory,Real estate agents: vetted directory with lead-gen for buyers looking for providers,2,3,4,5,1,7,8,Next.js + SEO + payments,18.4
+464,cleaning companies,no-show reducer,Cleaning companies: automated reminders and rebooking for customers to cut no-shows,4,5,3,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,18.4
+484,landscapers,no-show reducer,Landscapers: automated reminders and rebooking for customers to cut no-shows,4,5,3,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,18.4
+531,car dealers,client portal,"Car dealers: simple portal where buyers see status, vehicle listings and next steps",3,4,5,3,2,7,8,Next.js + Supabase auth,18.4
+535,car dealers,inventory alerts,Car dealers: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,2,7,8,Next.js + Postgres + email,18.4
+610,daycares & preschools,price benchmark,"Daycares & preschools: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,3,2,7,8,Next.js + LLM extraction + Postgres,18.4
+951,solar installers,client portal,"Solar installers: simple portal where homeowners see status, site surveys and next steps",3,4,5,3,2,7,8,Next.js + Supabase auth,18.4
+955,solar installers,inventory alerts,Solar installers: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,2,7,8,Next.js + Postgres + email,18.4
+1002,event photographers,intake & onboarding forms,Event photographers: smart intake form that collects photo galleries from attendees and pre-fills your system,4,4,2,4,0,2,3,Next.js + Supabase + form builder,18.4
+24,physiotherapy clinics,no-show reducer,Physiotherapy clinics: automated reminders and rebooking for patients to cut no-shows,4,5,4,3,2,4,5,Twilio/WhatsApp + cron + Calendar API,18.3
+44,veterinary clinics,no-show reducer,Veterinary clinics: automated reminders and rebooking for pet owners to cut no-shows,4,5,4,3,2,4,5,Twilio/WhatsApp + cron + Calendar API,18.3
+153,spas & wellness centers,contract & e-sign,Spas & wellness centers: generate agreements around packages and collect e-signatures,4,4,3,3,1,4,5,PDF templates + e-sign API,18.3
+156,spas & wellness centers,voice-note to record,Spas & wellness centers: record a voice note after each visit and get structured notes for guests,4,4,3,3,1,4,5,Whisper/STT + LLM + webhooks,18.3
+158,spas & wellness centers,win-back campaigns,Spas & wellness centers: find lapsed guests and send personalised win-back messages,4,4,3,3,1,4,5,CSV/API import + LLM + SMS,18.3
+159,spas & wellness centers,referral & loyalty,Spas & wellness centers: simple referral and loyalty program for guests with no app to install,4,4,3,3,1,4,5,Next.js + QR/links + Stripe,18.3
+206,small hotels & guesthouses,payment chaser,Small hotels & guesthouses: automatic polite payment reminders and pay links for overdue bookings,4,5,4,3,1,4,5,Stripe/Razorpay + email/SMS,18.3
+208,small hotels & guesthouses,lead follow-up,Small hotels & guesthouses: instant multi-step follow-up for every new enquiry from guests,4,5,4,3,1,4,5,Webhooks + LLM + email/SMS,18.3
+233,homestays & villas,contract & e-sign,Homestays & villas: generate agreements around check-in documents and collect e-signatures,4,4,3,3,1,4,5,PDF templates + e-sign API,18.3
+236,homestays & villas,voice-note to record,Homestays & villas: record a voice note after each visit and get structured notes for guests,4,4,3,3,1,4,5,Whisper/STT + LLM + webhooks,18.3
+238,homestays & villas,win-back campaigns,Homestays & villas: find lapsed guests and send personalised win-back messages,4,4,3,3,1,4,5,CSV/API import + LLM + SMS,18.3
+239,homestays & villas,referral & loyalty,Homestays & villas: simple referral and loyalty program for guests with no app to install,4,4,3,3,1,4,5,Next.js + QR/links + Stripe,18.3
+253,travel agencies,contract & e-sign,Travel agencies: generate agreements around itineraries and collect e-signatures,4,4,3,3,1,4,5,PDF templates + e-sign API,18.3
+256,travel agencies,voice-note to record,Travel agencies: record a voice note after each visit and get structured notes for travelers,4,4,3,3,1,4,5,Whisper/STT + LLM + webhooks,18.3
+258,travel agencies,win-back campaigns,Travel agencies: find lapsed travelers and send personalised win-back messages,4,4,3,3,1,4,5,CSV/API import + LLM + SMS,18.3
+259,travel agencies,referral & loyalty,Travel agencies: simple referral and loyalty program for travelers with no app to install,4,4,3,3,1,4,5,Next.js + QR/links + Stripe,18.3
+273,tour operators,contract & e-sign,Tour operators: generate agreements around trip bookings and collect e-signatures,4,4,3,3,1,4,5,PDF templates + e-sign API,18.3
+276,tour operators,voice-note to record,Tour operators: record a voice note after each visit and get structured notes for travelers,4,4,3,3,1,4,5,Whisper/STT + LLM + webhooks,18.3
+278,tour operators,win-back campaigns,Tour operators: find lapsed travelers and send personalised win-back messages,4,4,3,3,1,4,5,CSV/API import + LLM + SMS,18.3
+279,tour operators,referral & loyalty,Tour operators: simple referral and loyalty program for travelers with no app to install,4,4,3,3,1,4,5,Next.js + QR/links + Stripe,18.3
+326,event venues,payment chaser,Event venues: automatic polite payment reminders and pay links for overdue event contracts,4,5,4,3,1,4,5,Stripe/Razorpay + email/SMS,18.3
+328,event venues,lead follow-up,Event venues: instant multi-step follow-up for every new enquiry from organizers,4,5,4,3,1,4,5,Webhooks + LLM + email/SMS,18.3
+347,real estate agents,AI front desk,"Real estate agents: AI assistant answering buyers questions on website and WhatsApp, booking when needed",3,5,4,5,1,4,5,LLM + WhatsApp API + calendar,18.3
+380,property managers,vetted directory,Property managers: vetted directory with lead-gen for tenants looking for providers,2,3,5,4,2,9,10,Next.js + SEO + payments,18.3
+541,driving schools,document chaser,Driving schools: auto-request and chase missing lesson schedules from learners by email/WhatsApp until complete,4,3,2,3,1,4,5,Next.js + Supabase + Twilio/WhatsApp API,18.3
+549,driving schools,compliance tracker,"Driving schools: track licences, certificates and renewals with automatic alerts",4,3,2,3,1,4,5,Next.js + Postgres + email alerts,18.3
+602,daycares & preschools,intake & onboarding forms,Daycares & preschools: smart intake form that collects enrolment forms from parents and pre-fills your system,4,4,3,3,2,4,5,Next.js + Supabase + form builder,18.3
+631,coaches & consultants,client portal,"Coaches & consultants: simple portal where clients see status, session notes and next steps",3,4,3,5,0,4,5,Next.js + Supabase auth,18.3
+635,coaches & consultants,inventory alerts,Coaches & consultants: low-stock and reorder alerts with one-tap supplier orders,3,4,3,5,0,4,5,Next.js + Postgres + email,18.3
+660,accounting firms,vetted directory,Accounting firms: vetted directory with lead-gen for clients looking for providers,2,3,5,4,2,9,10,Next.js + SEO + payments,18.3
+794,marketing agencies,shift scheduling,Marketing agencies: staff scheduling and shift swaps over WhatsApp,3,5,4,5,0,4,5,Next.js + WhatsApp + calendar,18.3
+831,course creators,client portal,"Course creators: simple portal where students see status, course content and next steps",3,4,3,5,0,4,5,Next.js + Supabase auth,18.3
+835,course creators,inventory alerts,Course creators: low-stock and reorder alerts with one-tap supplier orders,3,4,3,5,0,4,5,Next.js + Postgres + email,18.3
+851,podcasters,client portal,"Podcasters: simple portal where guests see status, episode assets and next steps",3,4,3,5,0,4,5,Next.js + Supabase auth,18.3
+855,podcasters,inventory alerts,Podcasters: low-stock and reorder alerts with one-tap supplier orders,3,4,3,5,0,4,5,Next.js + Postgres + email,18.3
+874,ecommerce stores,shift scheduling,Ecommerce stores: staff scheduling and shift swaps over WhatsApp,3,5,4,5,0,4,5,Next.js + WhatsApp + calendar,18.3
+904,trucking & fleet owners,no-show reducer,Trucking & fleet owners: automated reminders and rebooking for drivers to cut no-shows,4,5,4,3,2,4,5,Twilio/WhatsApp + cron + Calendar API,18.3
+110,yoga & pilates studios,price benchmark,"Yoga & pilates studios: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,4,1,6,7,Next.js + LLM extraction + Postgres,18.2
+367,property managers,AI front desk,"Property managers: AI assistant answering tenants questions on website and WhatsApp, booking when needed",3,5,5,4,2,6,7,LLM + WhatsApp API + calendar,18.2
+647,accounting firms,AI front desk,"Accounting firms: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,5,4,2,6,7,LLM + WhatsApp API + calendar,18.2
+774,recruiting agencies,shift scheduling,Recruiting agencies: staff scheduling and shift swaps over WhatsApp,3,5,5,4,1,6,7,Next.js + WhatsApp + calendar,18.2
+84,gyms & fitness studios,no-show reducer,Gyms & fitness studios: automated reminders and rebooking for members to cut no-shows,4,5,3,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.1
+102,yoga & pilates studios,intake & onboarding forms,Yoga & pilates studios: smart intake form that collects class packs from students and pre-fills your system,4,4,2,4,1,3,4,Next.js + Supabase + form builder,18.1
+133,salons & barbershops,contract & e-sign,Salons & barbershops: generate agreements around bookings and collect e-signatures,4,4,2,4,0,3,4,PDF templates + e-sign API,18.1
+136,salons & barbershops,voice-note to record,Salons & barbershops: record a voice note after each visit and get structured notes for customers,4,4,2,4,0,3,4,Whisper/STT + LLM + webhooks,18.1
+138,salons & barbershops,win-back campaigns,Salons & barbershops: find lapsed customers and send personalised win-back messages,4,4,2,4,0,3,4,CSV/API import + LLM + SMS,18.1
+139,salons & barbershops,referral & loyalty,Salons & barbershops: simple referral and loyalty program for customers with no app to install,4,4,2,4,0,3,4,Next.js + QR/links + Stripe,18.1
+164,restaurants,no-show reducer,Restaurants: automated reminders and rebooking for diners to cut no-shows,4,5,3,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.1
+193,cafes & bakeries,contract & e-sign,Cafes & bakeries: generate agreements around orders and collect e-signatures,4,4,2,4,0,3,4,PDF templates + e-sign API,18.1
+196,cafes & bakeries,voice-note to record,Cafes & bakeries: record a voice note after each visit and get structured notes for regulars,4,4,2,4,0,3,4,Whisper/STT + LLM + webhooks,18.1
+198,cafes & bakeries,win-back campaigns,Cafes & bakeries: find lapsed regulars and send personalised win-back messages,4,4,2,4,0,3,4,CSV/API import + LLM + SMS,18.1
+199,cafes & bakeries,referral & loyalty,Cafes & bakeries: simple referral and loyalty program for regulars with no app to install,4,4,2,4,0,3,4,Next.js + QR/links + Stripe,18.1
+286,wedding planners,payment chaser,Wedding planners: automatic polite payment reminders and pay links for overdue vendor quotes,4,5,3,4,0,3,4,Stripe/Razorpay + email/SMS,18.1
+288,wedding planners,lead follow-up,Wedding planners: instant multi-step follow-up for every new enquiry from couples,4,5,3,4,0,3,4,Webhooks + LLM + email/SMS,18.1
+384,home inspectors,no-show reducer,Home inspectors: automated reminders and rebooking for clients to cut no-shows,4,5,3,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.1
+466,cleaning companies,payment chaser,Cleaning companies: automatic polite payment reminders and pay links for overdue recurring jobs,4,5,3,4,0,3,4,Stripe/Razorpay + email/SMS,18.1
+468,cleaning companies,lead follow-up,Cleaning companies: instant multi-step follow-up for every new enquiry from customers,4,5,3,4,0,3,4,Webhooks + LLM + email/SMS,18.1
+486,landscapers,payment chaser,Landscapers: automatic polite payment reminders and pay links for overdue seasonal quotes,4,5,3,4,0,3,4,Stripe/Razorpay + email/SMS,18.1
+488,landscapers,lead follow-up,Landscapers: instant multi-step follow-up for every new enquiry from customers,4,5,3,4,0,3,4,Webhooks + LLM + email/SMS,18.1
+564,tutoring centers,no-show reducer,Tutoring centers: automated reminders and rebooking for parents to cut no-shows,4,5,3,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,18.1
+751,mortgage brokers,client portal,"Mortgage brokers: simple portal where borrowers see status, loan documents and next steps",3,4,5,3,3,8,9,Next.js + Supabase auth,18.1
+755,mortgage brokers,inventory alerts,Mortgage brokers: low-stock and reorder alerts with one-tap supplier orders,3,4,5,3,3,8,9,Next.js + Postgres + email,18.1
+925,farms & agribusiness,review requester,Farms & agribusiness: ask happy buyers for reviews at the right moment and route unhappy ones privately,5,5,3,2,1,3,4,Next.js + Google Business API + SMS,18.1
+937,farms & agribusiness,content generator,"Farms & agribusiness: social posts, emails and ads generated from your real harvest records and brand voice",5,5,3,2,1,3,4,LLM + scheduler,18.1
+1013,event photographers,contract & e-sign,Event photographers: generate agreements around photo galleries and collect e-signatures,4,4,2,4,0,3,4,PDF templates + e-sign API,18.1
+1016,event photographers,voice-note to record,Event photographers: record a voice note after each visit and get structured notes for attendees,4,4,2,4,0,3,4,Whisper/STT + LLM + webhooks,18.1
+1018,event photographers,win-back campaigns,Event photographers: find lapsed attendees and send personalised win-back messages,4,4,2,4,0,3,4,CSV/API import + LLM + SMS,18.1
+1019,event photographers,referral & loyalty,Event photographers: simple referral and loyalty program for attendees with no app to install,4,4,2,4,0,3,4,Next.js + QR/links + Stripe,18.1
+26,physiotherapy clinics,payment chaser,Physiotherapy clinics: automatic polite payment reminders and pay links for overdue care plans,4,5,4,3,2,5,6,Stripe/Razorpay + email/SMS,18.0
+28,physiotherapy clinics,lead follow-up,Physiotherapy clinics: instant multi-step follow-up for every new enquiry from patients,4,5,4,3,2,5,6,Webhooks + LLM + email/SMS,18.0
+46,veterinary clinics,payment chaser,Veterinary clinics: automatic polite payment reminders and pay links for overdue vaccination records,4,5,4,3,2,5,6,Stripe/Razorpay + email/SMS,18.0
+48,veterinary clinics,lead follow-up,Veterinary clinics: instant multi-step follow-up for every new enquiry from pet owners,4,5,4,3,2,5,6,Webhooks + LLM + email/SMS,18.0
+354,real estate agents,shift scheduling,Real estate agents: staff scheduling and shift swaps over WhatsApp,3,5,4,5,1,5,6,Next.js + WhatsApp + calendar,18.0
+583,private schools,quote generator,Private schools: turn notes or photos into a professional quote for parents in minutes,3,3,4,2,2,5,6,Next.js + LLM vision + PDF,18.0
+613,daycares & preschools,contract & e-sign,Daycares & preschools: generate agreements around enrolment forms and collect e-signatures,4,4,3,3,2,5,6,PDF templates + e-sign API,18.0
+616,daycares & preschools,voice-note to record,Daycares & preschools: record a voice note after each visit and get structured notes for parents,4,4,3,3,2,5,6,Whisper/STT + LLM + webhooks,18.0
+618,daycares & preschools,win-back campaigns,Daycares & preschools: find lapsed parents and send personalised win-back messages,4,4,3,3,2,5,6,CSV/API import + LLM + SMS,18.0
+619,daycares & preschools,referral & loyalty,Daycares & preschools: simple referral and loyalty program for parents with no app to install,4,4,3,3,2,5,6,Next.js + QR/links + Stripe,18.0
+700,small law firms,vetted directory,Small law firms: vetted directory with lead-gen for clients looking for providers,2,3,5,4,3,10,11,Next.js + SEO + payments,18.0
+704,immigration consultants,no-show reducer,Immigration consultants: automated reminders and rebooking for applicants to cut no-shows,4,5,4,3,3,5,6,Twilio/WhatsApp + cron + Calendar API,18.0
+740,insurance brokers,vetted directory,Insurance brokers: vetted directory with lead-gen for policyholders looking for providers,2,3,5,4,3,10,11,Next.js + SEO + payments,18.0
+906,trucking & fleet owners,payment chaser,Trucking & fleet owners: automatic polite payment reminders and pay links for overdue trip logs,4,5,4,3,2,5,6,Stripe/Razorpay + email/SMS,18.0
+908,trucking & fleet owners,lead follow-up,Trucking & fleet owners: instant multi-step follow-up for every new enquiry from drivers,4,5,4,3,2,5,6,Webhooks + LLM + email/SMS,18.0
+964,pharmacies,no-show reducer,Pharmacies: automated reminders and rebooking for patients to cut no-shows,4,5,4,3,3,5,6,Twilio/WhatsApp + cron + Calendar API,18.0
+304,photographers & videographers,no-show reducer,Photographers & videographers: automated reminders and rebooking for clients to cut no-shows,4,5,2,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,17.9
+374,property managers,shift scheduling,Property managers: staff scheduling and shift swaps over WhatsApp,3,5,5,4,2,7,8,Next.js + WhatsApp + calendar,17.9
+654,accounting firms,shift scheduling,Accounting firms: staff scheduling and shift swaps over WhatsApp,3,5,5,4,2,7,8,Next.js + WhatsApp + calendar,17.9
+687,small law firms,AI front desk,"Small law firms: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,5,4,3,7,8,LLM + WhatsApp API + calendar,17.9
+727,insurance brokers,AI front desk,"Insurance brokers: AI assistant answering policyholders questions on website and WhatsApp, booking when needed",3,5,5,4,3,7,8,LLM + WhatsApp API + calendar,17.9
+804,freelancers,no-show reducer,Freelancers: automated reminders and rebooking for clients to cut no-shows,4,5,2,5,0,2,3,Twilio/WhatsApp + cron + Calendar API,17.9
+985,churches & community groups,review requester,Churches & community groups: ask happy members for reviews at the right moment and route unhappy ones privately,5,5,2,3,0,2,3,Next.js + Google Business API + SMS,17.9
+997,churches & community groups,content generator,"Churches & community groups: social posts, emails and ads generated from your real donations and brand voice",5,5,2,3,0,2,3,LLM + scheduler,17.9
+64,therapists & counselors,no-show reducer,Therapists & counselors: automated reminders and rebooking for clients to cut no-shows,4,5,3,4,2,4,5,Twilio/WhatsApp + cron + Calendar API,17.8
+86,gyms & fitness studios,payment chaser,Gyms & fitness studios: automatic polite payment reminders and pay links for overdue memberships,4,5,3,4,1,4,5,Stripe/Razorpay + email/SMS,17.8
+88,gyms & fitness studios,lead follow-up,Gyms & fitness studios: instant multi-step follow-up for every new enquiry from members,4,5,3,4,1,4,5,Webhooks + LLM + email/SMS,17.8
+113,yoga & pilates studios,contract & e-sign,Yoga & pilates studios: generate agreements around class packs and collect e-signatures,4,4,2,4,1,4,5,PDF templates + e-sign API,17.8
+116,yoga & pilates studios,voice-note to record,Yoga & pilates studios: record a voice note after each visit and get structured notes for students,4,4,2,4,1,4,5,Whisper/STT + LLM + webhooks,17.8
+118,yoga & pilates studios,win-back campaigns,Yoga & pilates studios: find lapsed students and send personalised win-back messages,4,4,2,4,1,4,5,CSV/API import + LLM + SMS,17.8
+119,yoga & pilates studios,referral & loyalty,Yoga & pilates studios: simple referral and loyalty program for students with no app to install,4,4,2,4,1,4,5,Next.js + QR/links + Stripe,17.8
+143,spas & wellness centers,quote generator,Spas & wellness centers: turn notes or photos into a professional quote for guests in minutes,3,3,3,3,1,4,5,Next.js + LLM vision + PDF,17.8
+166,restaurants,payment chaser,Restaurants: automatic polite payment reminders and pay links for overdue reservations,4,5,3,4,1,4,5,Stripe/Razorpay + email/SMS,17.8
+168,restaurants,lead follow-up,Restaurants: instant multi-step follow-up for every new enquiry from diners,4,5,3,4,1,4,5,Webhooks + LLM + email/SMS,17.8
+223,homestays & villas,quote generator,Homestays & villas: turn notes or photos into a professional quote for guests in minutes,3,3,3,3,1,4,5,Next.js + LLM vision + PDF,17.8
+243,travel agencies,quote generator,Travel agencies: turn notes or photos into a professional quote for travelers in minutes,3,3,3,3,1,4,5,Next.js + LLM vision + PDF,17.8
+263,tour operators,quote generator,Tour operators: turn notes or photos into a professional quote for travelers in minutes,3,3,3,3,1,4,5,Next.js + LLM vision + PDF,17.8
+386,home inspectors,payment chaser,Home inspectors: automatic polite payment reminders and pay links for overdue inspection reports,4,5,3,4,1,4,5,Stripe/Razorpay + email/SMS,17.8
+388,home inspectors,lead follow-up,Home inspectors: instant multi-step follow-up for every new enquiry from clients,4,5,3,4,1,4,5,Webhooks + LLM + email/SMS,17.8
+566,tutoring centers,payment chaser,Tutoring centers: automatic polite payment reminders and pay links for overdue progress reports,4,5,3,4,1,4,5,Stripe/Razorpay + email/SMS,17.8
+568,tutoring centers,lead follow-up,Tutoring centers: instant multi-step follow-up for every new enquiry from parents,4,5,3,4,1,4,5,Webhooks + LLM + email/SMS,17.8
+440,electricians & plumbers,vetted directory,Electricians & plumbers: vetted directory with lead-gen for customers looking for providers,2,3,4,4,0,6,7,Next.js + SEO + payments,17.7
+706,immigration consultants,payment chaser,Immigration consultants: automatic polite payment reminders and pay links for overdue application checklists,4,5,4,3,3,6,7,Stripe/Razorpay + email/SMS,17.7
+708,immigration consultants,lead follow-up,Immigration consultants: instant multi-step follow-up for every new enquiry from applicants,4,5,4,3,3,6,7,Webhooks + LLM + email/SMS,17.7
+930,farms & agribusiness,price benchmark,"Farms & agribusiness: anonymous benchmark of what peers charge, from uploaded quotes",3,2,3,2,1,6,7,Next.js + LLM extraction + Postgres,17.7
+966,pharmacies,payment chaser,Pharmacies: automatic polite payment reminders and pay links for overdue prescription refills,4,5,4,3,3,6,7,Stripe/Razorpay + email/SMS,17.7
+968,pharmacies,lead follow-up,Pharmacies: instant multi-step follow-up for every new enquiry from patients,4,5,4,3,3,6,7,Webhooks + LLM + email/SMS,17.7
+123,salons & barbershops,quote generator,Salons & barbershops: turn notes or photos into a professional quote for customers in minutes,3,3,2,4,0,3,4,Next.js + LLM vision + PDF,17.6
+183,cafes & bakeries,quote generator,Cafes & bakeries: turn notes or photos into a professional quote for regulars in minutes,3,3,2,4,0,3,4,Next.js + LLM vision + PDF,17.6
+306,photographers & videographers,payment chaser,Photographers & videographers: automatic polite payment reminders and pay links for overdue shoot briefs,4,5,2,5,0,3,4,Stripe/Razorpay + email/SMS,17.6
+308,photographers & videographers,lead follow-up,Photographers & videographers: instant multi-step follow-up for every new enquiry from clients,4,5,2,5,0,3,4,Webhooks + LLM + email/SMS,17.6
+420,general contractors,vetted directory,General contractors: vetted directory with lead-gen for homeowners looking for providers,2,3,5,3,1,8,9,Next.js + SEO + payments,17.6
+427,electricians & plumbers,AI front desk,"Electricians & plumbers: AI assistant answering customers questions on website and WhatsApp, booking when needed",3,5,4,4,0,3,4,LLM + WhatsApp API + calendar,17.6
+460,HVAC companies,vetted directory,Hvac companies: vetted directory with lead-gen for customers looking for providers,2,3,5,3,1,8,9,Next.js + SEO + payments,17.6
+545,driving schools,review requester,Driving schools: ask happy learners for reviews at the right moment and route unhappy ones privately,5,5,2,3,1,3,4,Next.js + Google Business API + SMS,17.6
+557,driving schools,content generator,"Driving schools: social posts, emails and ads generated from your real lesson schedules and brand voice",5,5,2,3,1,3,4,LLM + scheduler,17.6
+694,small law firms,shift scheduling,Small law firms: staff scheduling and shift swaps over WhatsApp,3,5,5,4,3,8,9,Next.js + WhatsApp + calendar,17.6
+734,insurance brokers,shift scheduling,Insurance brokers: staff scheduling and shift swaps over WhatsApp,3,5,5,4,3,8,9,Next.js + WhatsApp + calendar,17.6
+806,freelancers,payment chaser,Freelancers: automatic polite payment reminders and pay links for overdue project briefs,4,5,2,5,0,3,4,Stripe/Razorpay + email/SMS,17.6
+808,freelancers,lead follow-up,Freelancers: instant multi-step follow-up for every new enquiry from clients,4,5,2,5,0,3,4,Webhooks + LLM + email/SMS,17.6
+900,3PL & warehouse operators,vetted directory,3pl & warehouse operators: vetted directory with lead-gen for merchants looking for providers,2,3,5,3,1,8,9,Next.js + SEO + payments,17.6
+922,farms & agribusiness,intake & onboarding forms,Farms & agribusiness: smart intake form that collects harvest records from buyers and pre-fills your system,4,4,3,2,1,3,4,Next.js + Supabase + form builder,17.6
+1003,event photographers,quote generator,Event photographers: turn notes or photos into a professional quote for attendees in minutes,3,3,2,4,0,3,4,Next.js + LLM vision + PDF,17.6
+66,therapists & counselors,payment chaser,Therapists & counselors: automatic polite payment reminders and pay links for overdue intake forms,4,5,3,4,2,5,6,Stripe/Razorpay + email/SMS,17.5
+68,therapists & counselors,lead follow-up,Therapists & counselors: instant multi-step follow-up for every new enquiry from clients,4,5,3,4,2,5,6,Webhooks + LLM + email/SMS,17.5
+211,small hotels & guesthouses,client portal,"Small hotels & guesthouses: simple portal where guests see status, bookings and next steps",3,4,4,3,1,5,6,Next.js + Supabase auth,17.5
+215,small hotels & guesthouses,inventory alerts,Small hotels & guesthouses: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,1,5,6,Next.js + Postgres + email,17.5
+331,event venues,client portal,"Event venues: simple portal where organizers see status, event contracts and next steps",3,4,4,3,1,5,6,Next.js + Supabase auth,17.5
+335,event venues,inventory alerts,Event venues: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,1,5,6,Next.js + Postgres + email,17.5
+407,general contractors,AI front desk,"General contractors: AI assistant answering homeowners questions on website and WhatsApp, booking when needed",3,5,5,3,1,5,6,LLM + WhatsApp API + calendar,17.5
+447,HVAC companies,AI front desk,"Hvac companies: AI assistant answering customers questions on website and WhatsApp, booking when needed",3,5,5,3,1,5,6,LLM + WhatsApp API + calendar,17.5
+603,daycares & preschools,quote generator,Daycares & preschools: turn notes or photos into a professional quote for parents in minutes,3,3,3,3,2,5,6,Next.js + LLM vision + PDF,17.5
+887,3PL & warehouse operators,AI front desk,"3pl & warehouse operators: AI assistant answering merchants questions on website and WhatsApp, booking when needed",3,5,5,3,1,5,6,LLM + WhatsApp API + calendar,17.5
+990,churches & community groups,price benchmark,"Churches & community groups: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,3,0,5,6,Next.js + LLM extraction + Postgres,17.5
+520,auto repair shops,vetted directory,Auto repair shops: vetted directory with lead-gen for car owners looking for providers,2,3,4,4,1,7,8,Next.js + SEO + payments,17.4
+680,bookkeepers,vetted directory,Bookkeepers: vetted directory with lead-gen for clients looking for providers,2,3,4,4,1,7,8,Next.js + SEO + payments,17.4
+982,churches & community groups,intake & onboarding forms,Churches & community groups: smart intake form that collects donations from members and pre-fills your system,4,4,2,3,0,2,3,Next.js + Supabase + form builder,17.4
+20,dental clinics,vetted directory,Dental clinics: vetted directory with lead-gen for patients looking for providers,2,3,5,3,2,9,10,Next.js + SEO + payments,17.3
+103,yoga & pilates studios,quote generator,Yoga & pilates studios: turn notes or photos into a professional quote for students in minutes,3,3,2,4,1,4,5,Next.js + LLM vision + PDF,17.3
+291,wedding planners,client portal,"Wedding planners: simple portal where couples see status, vendor quotes and next steps",3,4,3,4,0,4,5,Next.js + Supabase auth,17.3
+295,wedding planners,inventory alerts,Wedding planners: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,0,4,5,Next.js + Postgres + email,17.3
+434,electricians & plumbers,shift scheduling,Electricians & plumbers: staff scheduling and shift swaps over WhatsApp,3,5,4,4,0,4,5,Next.js + WhatsApp + calendar,17.3
+471,cleaning companies,client portal,"Cleaning companies: simple portal where customers see status, recurring jobs and next steps",3,4,3,4,0,4,5,Next.js + Supabase auth,17.3
+475,cleaning companies,inventory alerts,Cleaning companies: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,0,4,5,Next.js + Postgres + email,17.3
+491,landscapers,client portal,"Landscapers: simple portal where customers see status, seasonal quotes and next steps",3,4,3,4,0,4,5,Next.js + Supabase auth,17.3
+495,landscapers,inventory alerts,Landscapers: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,0,4,5,Next.js + Postgres + email,17.3
+507,auto repair shops,AI front desk,"Auto repair shops: AI assistant answering car owners questions on website and WhatsApp, booking when needed",3,5,4,4,1,4,5,LLM + WhatsApp API + calendar,17.3
+540,car dealers,vetted directory,Car dealers: vetted directory with lead-gen for buyers looking for providers,2,3,5,3,2,9,10,Next.js + SEO + payments,17.3
+584,private schools,no-show reducer,Private schools: automated reminders and rebooking for parents to cut no-shows,4,5,4,2,2,4,5,Twilio/WhatsApp + cron + Calendar API,17.3
+667,bookkeepers,AI front desk,"Bookkeepers: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,4,4,1,4,5,LLM + WhatsApp API + calendar,17.3
+933,farms & agribusiness,contract & e-sign,Farms & agribusiness: generate agreements around harvest records and collect e-signatures,4,4,3,2,1,4,5,PDF templates + e-sign API,17.3
+936,farms & agribusiness,voice-note to record,Farms & agribusiness: record a voice note after each visit and get structured notes for buyers,4,4,3,2,1,4,5,Whisper/STT + LLM + webhooks,17.3
+938,farms & agribusiness,win-back campaigns,Farms & agribusiness: find lapsed buyers and send personalised win-back messages,4,4,3,2,1,4,5,CSV/API import + LLM + SMS,17.3
+939,farms & agribusiness,referral & loyalty,Farms & agribusiness: simple referral and loyalty program for buyers with no app to install,4,4,3,2,1,4,5,Next.js + QR/links + Stripe,17.3
+960,solar installers,vetted directory,Solar installers: vetted directory with lead-gen for homeowners looking for providers,2,3,5,3,2,9,10,Next.js + SEO + payments,17.3
+7,dental clinics,AI front desk,"Dental clinics: AI assistant answering patients questions on website and WhatsApp, booking when needed",3,5,5,3,2,6,7,LLM + WhatsApp API + calendar,17.2
+31,physiotherapy clinics,client portal,"Physiotherapy clinics: simple portal where patients see status, care plans and next steps",3,4,4,3,2,6,7,Next.js + Supabase auth,17.2
+35,physiotherapy clinics,inventory alerts,Physiotherapy clinics: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,2,6,7,Next.js + Postgres + email,17.2
+51,veterinary clinics,client portal,"Veterinary clinics: simple portal where pet owners see status, vaccination records and next steps",3,4,4,3,2,6,7,Next.js + Supabase auth,17.2
+55,veterinary clinics,inventory alerts,Veterinary clinics: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,2,6,7,Next.js + Postgres + email,17.2
+414,general contractors,shift scheduling,General contractors: staff scheduling and shift swaps over WhatsApp,3,5,5,3,1,6,7,Next.js + WhatsApp + calendar,17.2
+454,HVAC companies,shift scheduling,Hvac companies: staff scheduling and shift swaps over WhatsApp,3,5,5,3,1,6,7,Next.js + WhatsApp + calendar,17.2
+527,car dealers,AI front desk,"Car dealers: AI assistant answering buyers questions on website and WhatsApp, booking when needed",3,5,5,3,2,6,7,LLM + WhatsApp API + calendar,17.2
+550,driving schools,price benchmark,"Driving schools: anonymous benchmark of what peers charge, from uploaded quotes",3,2,2,3,1,6,7,Next.js + LLM extraction + Postgres,17.2
+640,coaches & consultants,vetted directory,Coaches & consultants: vetted directory with lead-gen for clients looking for providers,2,3,3,5,0,6,7,Next.js + SEO + payments,17.2
+840,course creators,vetted directory,Course creators: vetted directory with lead-gen for students looking for providers,2,3,3,5,0,6,7,Next.js + SEO + payments,17.2
+860,podcasters,vetted directory,Podcasters: vetted directory with lead-gen for guests looking for providers,2,3,3,5,0,6,7,Next.js + SEO + payments,17.2
+894,3PL & warehouse operators,shift scheduling,3pl & warehouse operators: staff scheduling and shift swaps over WhatsApp,3,5,5,3,1,6,7,Next.js + WhatsApp + calendar,17.2
+911,trucking & fleet owners,client portal,"Trucking & fleet owners: simple portal where drivers see status, trip logs and next steps",3,4,4,3,2,6,7,Next.js + Supabase auth,17.2
+915,trucking & fleet owners,inventory alerts,Trucking & fleet owners: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,2,6,7,Next.js + Postgres + email,17.2
+947,solar installers,AI front desk,"Solar installers: AI assistant answering homeowners questions on website and WhatsApp, booking when needed",3,5,5,3,2,6,7,LLM + WhatsApp API + calendar,17.2
+144,spas & wellness centers,no-show reducer,Spas & wellness centers: automated reminders and rebooking for guests to cut no-shows,4,5,3,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,17.1
+224,homestays & villas,no-show reducer,Homestays & villas: automated reminders and rebooking for guests to cut no-shows,4,5,3,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,17.1
+244,travel agencies,no-show reducer,Travel agencies: automated reminders and rebooking for travelers to cut no-shows,4,5,3,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,17.1
+264,tour operators,no-show reducer,Tour operators: automated reminders and rebooking for travelers to cut no-shows,4,5,3,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,17.1
+542,driving schools,intake & onboarding forms,Driving schools: smart intake form that collects lesson schedules from learners and pre-fills your system,4,4,2,3,1,3,4,Next.js + Supabase + form builder,17.1
+627,coaches & consultants,AI front desk,"Coaches & consultants: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,3,5,0,3,4,LLM + WhatsApp API + calendar,17.1
+827,course creators,AI front desk,"Course creators: AI assistant answering students questions on website and WhatsApp, booking when needed",3,5,3,5,0,3,4,LLM + WhatsApp API + calendar,17.1
+847,podcasters,AI front desk,"Podcasters: AI assistant answering guests questions on website and WhatsApp, booking when needed",3,5,3,5,0,3,4,LLM + WhatsApp API + calendar,17.1
+993,churches & community groups,contract & e-sign,Churches & community groups: generate agreements around donations and collect e-signatures,4,4,2,3,0,3,4,PDF templates + e-sign API,17.1
+996,churches & community groups,voice-note to record,Churches & community groups: record a voice note after each visit and get structured notes for members,4,4,2,3,0,3,4,Whisper/STT + LLM + webhooks,17.1
+998,churches & community groups,win-back campaigns,Churches & community groups: find lapsed members and send personalised win-back messages,4,4,2,3,0,3,4,CSV/API import + LLM + SMS,17.1
+999,churches & community groups,referral & loyalty,Churches & community groups: simple referral and loyalty program for members with no app to install,4,4,2,3,0,3,4,Next.js + QR/links + Stripe,17.1
+91,gyms & fitness studios,client portal,"Gyms & fitness studios: simple portal where members see status, memberships and next steps",3,4,3,4,1,5,6,Next.js + Supabase auth,17.0
+95,gyms & fitness studios,inventory alerts,Gyms & fitness studios: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,1,5,6,Next.js + Postgres + email,17.0
+171,restaurants,client portal,"Restaurants: simple portal where diners see status, reservations and next steps",3,4,3,4,1,5,6,Next.js + Supabase auth,17.0
+175,restaurants,inventory alerts,Restaurants: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,1,5,6,Next.js + Postgres + email,17.0
+391,home inspectors,client portal,"Home inspectors: simple portal where clients see status, inspection reports and next steps",3,4,3,4,1,5,6,Next.js + Supabase auth,17.0
+395,home inspectors,inventory alerts,Home inspectors: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,1,5,6,Next.js + Postgres + email,17.0
+514,auto repair shops,shift scheduling,Auto repair shops: staff scheduling and shift swaps over WhatsApp,3,5,4,4,1,5,6,Next.js + WhatsApp + calendar,17.0
+571,tutoring centers,client portal,"Tutoring centers: simple portal where parents see status, progress reports and next steps",3,4,3,4,1,5,6,Next.js + Supabase auth,17.0
+575,tutoring centers,inventory alerts,Tutoring centers: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,1,5,6,Next.js + Postgres + email,17.0
+586,private schools,payment chaser,Private schools: automatic polite payment reminders and pay links for overdue admissions forms,4,5,4,2,2,5,6,Stripe/Razorpay + email/SMS,17.0
+588,private schools,lead follow-up,Private schools: instant multi-step follow-up for every new enquiry from parents,4,5,4,2,2,5,6,Webhooks + LLM + email/SMS,17.0
+674,bookkeepers,shift scheduling,Bookkeepers: staff scheduling and shift swaps over WhatsApp,3,5,4,4,1,5,6,Next.js + WhatsApp + calendar,17.0
+760,mortgage brokers,vetted directory,Mortgage brokers: vetted directory with lead-gen for borrowers looking for providers,2,3,5,3,3,10,11,Next.js + SEO + payments,17.0
+14,dental clinics,shift scheduling,Dental clinics: staff scheduling and shift swaps over WhatsApp,3,5,5,3,2,7,8,Next.js + WhatsApp + calendar,16.9
+124,salons & barbershops,no-show reducer,Salons & barbershops: automated reminders and rebooking for customers to cut no-shows,4,5,2,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,16.9
+184,cafes & bakeries,no-show reducer,Cafes & bakeries: automated reminders and rebooking for regulars to cut no-shows,4,5,2,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,16.9
+534,car dealers,shift scheduling,Car dealers: staff scheduling and shift swaps over WhatsApp,3,5,5,3,2,7,8,Next.js + WhatsApp + calendar,16.9
+711,immigration consultants,client portal,"Immigration consultants: simple portal where applicants see status, application checklists and next steps",3,4,4,3,3,7,8,Next.js + Supabase auth,16.9
+715,immigration consultants,inventory alerts,Immigration consultants: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,3,7,8,Next.js + Postgres + email,16.9
+747,mortgage brokers,AI front desk,"Mortgage brokers: AI assistant answering borrowers questions on website and WhatsApp, booking when needed",3,5,5,3,3,7,8,LLM + WhatsApp API + calendar,16.9
+954,solar installers,shift scheduling,Solar installers: staff scheduling and shift swaps over WhatsApp,3,5,5,3,2,7,8,Next.js + WhatsApp + calendar,16.9
+971,pharmacies,client portal,"Pharmacies: simple portal where patients see status, prescription refills and next steps",3,4,4,3,3,7,8,Next.js + Supabase auth,16.9
+975,pharmacies,inventory alerts,Pharmacies: low-stock and reorder alerts with one-tap supplier orders,3,4,4,3,3,7,8,Next.js + Postgres + email,16.9
+1004,event photographers,no-show reducer,Event photographers: automated reminders and rebooking for attendees to cut no-shows,4,5,2,4,0,2,3,Twilio/WhatsApp + cron + Calendar API,16.9
+146,spas & wellness centers,payment chaser,Spas & wellness centers: automatic polite payment reminders and pay links for overdue packages,4,5,3,3,1,4,5,Stripe/Razorpay + email/SMS,16.8
+148,spas & wellness centers,lead follow-up,Spas & wellness centers: instant multi-step follow-up for every new enquiry from guests,4,5,3,3,1,4,5,Webhooks + LLM + email/SMS,16.8
+226,homestays & villas,payment chaser,Homestays & villas: automatic polite payment reminders and pay links for overdue check-in documents,4,5,3,3,1,4,5,Stripe/Razorpay + email/SMS,16.8
+228,homestays & villas,lead follow-up,Homestays & villas: instant multi-step follow-up for every new enquiry from guests,4,5,3,3,1,4,5,Webhooks + LLM + email/SMS,16.8
+246,travel agencies,payment chaser,Travel agencies: automatic polite payment reminders and pay links for overdue itineraries,4,5,3,3,1,4,5,Stripe/Razorpay + email/SMS,16.8
+248,travel agencies,lead follow-up,Travel agencies: instant multi-step follow-up for every new enquiry from travelers,4,5,3,3,1,4,5,Webhooks + LLM + email/SMS,16.8
+266,tour operators,payment chaser,Tour operators: automatic polite payment reminders and pay links for overdue trip bookings,4,5,3,3,1,4,5,Stripe/Razorpay + email/SMS,16.8
+268,tour operators,lead follow-up,Tour operators: instant multi-step follow-up for every new enquiry from travelers,4,5,3,3,1,4,5,Webhooks + LLM + email/SMS,16.8
+311,photographers & videographers,client portal,"Photographers & videographers: simple portal where clients see status, shoot briefs and next steps",3,4,2,5,0,4,5,Next.js + Supabase auth,16.8
+315,photographers & videographers,inventory alerts,Photographers & videographers: low-stock and reorder alerts with one-tap supplier orders,3,4,2,5,0,4,5,Next.js + Postgres + email,16.8
+553,driving schools,contract & e-sign,Driving schools: generate agreements around lesson schedules and collect e-signatures,4,4,2,3,1,4,5,PDF templates + e-sign API,16.8
+556,driving schools,voice-note to record,Driving schools: record a voice note after each visit and get structured notes for learners,4,4,2,3,1,4,5,Whisper/STT + LLM + webhooks,16.8
+558,driving schools,win-back campaigns,Driving schools: find lapsed learners and send personalised win-back messages,4,4,2,3,1,4,5,CSV/API import + LLM + SMS,16.8
+559,driving schools,referral & loyalty,Driving schools: simple referral and loyalty program for learners with no app to install,4,4,2,3,1,4,5,Next.js + QR/links + Stripe,16.8
+604,daycares & preschools,no-show reducer,Daycares & preschools: automated reminders and rebooking for parents to cut no-shows,4,5,3,3,2,4,5,Twilio/WhatsApp + cron + Calendar API,16.8
+634,coaches & consultants,shift scheduling,Coaches & consultants: staff scheduling and shift swaps over WhatsApp,3,5,3,5,0,4,5,Next.js + WhatsApp + calendar,16.8
+811,freelancers,client portal,"Freelancers: simple portal where clients see status, project briefs and next steps",3,4,2,5,0,4,5,Next.js + Supabase auth,16.8
+815,freelancers,inventory alerts,Freelancers: low-stock and reorder alerts with one-tap supplier orders,3,4,2,5,0,4,5,Next.js + Postgres + email,16.8
+834,course creators,shift scheduling,Course creators: staff scheduling and shift swaps over WhatsApp,3,5,3,5,0,4,5,Next.js + WhatsApp + calendar,16.8
+854,podcasters,shift scheduling,Podcasters: staff scheduling and shift swaps over WhatsApp,3,5,3,5,0,4,5,Next.js + WhatsApp + calendar,16.8
+923,farms & agribusiness,quote generator,Farms & agribusiness: turn notes or photos into a professional quote for buyers in minutes,3,3,3,2,1,4,5,Next.js + LLM vision + PDF,16.8
+71,therapists & counselors,client portal,"Therapists & counselors: simple portal where clients see status, intake forms and next steps",3,4,3,4,2,6,7,Next.js + Supabase auth,16.7
+75,therapists & counselors,inventory alerts,Therapists & counselors: low-stock and reorder alerts with one-tap supplier orders,3,4,3,4,2,6,7,Next.js + Postgres + email,16.7
+104,yoga & pilates studios,no-show reducer,Yoga & pilates studios: automated reminders and rebooking for students to cut no-shows,4,5,2,4,1,3,4,Twilio/WhatsApp + cron + Calendar API,16.6
+126,salons & barbershops,payment chaser,Salons & barbershops: automatic polite payment reminders and pay links for overdue bookings,4,5,2,4,0,3,4,Stripe/Razorpay + email/SMS,16.6
+128,salons & barbershops,lead follow-up,Salons & barbershops: instant multi-step follow-up for every new enquiry from customers,4,5,2,4,0,3,4,Webhooks + LLM + email/SMS,16.6
+186,cafes & bakeries,payment chaser,Cafes & bakeries: automatic polite payment reminders and pay links for overdue orders,4,5,2,4,0,3,4,Stripe/Razorpay + email/SMS,16.6
+188,cafes & bakeries,lead follow-up,Cafes & bakeries: instant multi-step follow-up for every new enquiry from regulars,4,5,2,4,0,3,4,Webhooks + LLM + email/SMS,16.6
+754,mortgage brokers,shift scheduling,Mortgage brokers: staff scheduling and shift swaps over WhatsApp,3,5,5,3,3,8,9,Next.js + WhatsApp + calendar,16.6
+983,churches & community groups,quote generator,Churches & community groups: turn notes or photos into a professional quote for members in minutes,3,3,2,3,0,3,4,Next.js + LLM vision + PDF,16.6
+1006,event photographers,payment chaser,Event photographers: automatic polite payment reminders and pay links for overdue photo galleries,4,5,2,4,0,3,4,Stripe/Razorpay + email/SMS,16.6
+1008,event photographers,lead follow-up,Event photographers: instant multi-step follow-up for every new enquiry from attendees,4,5,2,4,0,3,4,Webhooks + LLM + email/SMS,16.6
+606,daycares & preschools,payment chaser,Daycares & preschools: automatic polite payment reminders and pay links for overdue enrolment forms,4,5,3,3,2,5,6,Stripe/Razorpay + email/SMS,16.5
+608,daycares & preschools,lead follow-up,Daycares & preschools: instant multi-step follow-up for every new enquiry from parents,4,5,3,3,2,5,6,Webhooks + LLM + email/SMS,16.5
+220,small hotels & guesthouses,vetted directory,Small hotels & guesthouses: vetted directory with lead-gen for guests looking for providers,2,3,4,3,1,7,8,Next.js + SEO + payments,16.4
+340,event venues,vetted directory,Event venues: vetted directory with lead-gen for organizers looking for providers,2,3,4,3,1,7,8,Next.js + SEO + payments,16.4
+106,yoga & pilates studios,payment chaser,Yoga & pilates studios: automatic polite payment reminders and pay links for overdue class packs,4,5,2,4,1,4,5,Stripe/Razorpay + email/SMS,16.3
+108,yoga & pilates studios,lead follow-up,Yoga & pilates studios: instant multi-step follow-up for every new enquiry from students,4,5,2,4,1,4,5,Webhooks + LLM + email/SMS,16.3
+207,small hotels & guesthouses,AI front desk,"Small hotels & guesthouses: AI assistant answering guests questions on website and WhatsApp, booking when needed",3,5,4,3,1,4,5,LLM + WhatsApp API + calendar,16.3
+327,event venues,AI front desk,"Event venues: AI assistant answering organizers questions on website and WhatsApp, booking when needed",3,5,4,3,1,4,5,LLM + WhatsApp API + calendar,16.3
+543,driving schools,quote generator,Driving schools: turn notes or photos into a professional quote for learners in minutes,3,3,2,3,1,4,5,Next.js + LLM vision + PDF,16.3
+300,wedding planners,vetted directory,Wedding planners: vetted directory with lead-gen for couples looking for providers,2,3,3,4,0,6,7,Next.js + SEO + payments,16.2
+480,cleaning companies,vetted directory,Cleaning companies: vetted directory with lead-gen for customers looking for providers,2,3,3,4,0,6,7,Next.js + SEO + payments,16.2
+500,landscapers,vetted directory,Landscapers: vetted directory with lead-gen for customers looking for providers,2,3,3,4,0,6,7,Next.js + SEO + payments,16.2
+591,private schools,client portal,"Private schools: simple portal where parents see status, admissions forms and next steps",3,4,4,2,2,6,7,Next.js + Supabase auth,16.2
+595,private schools,inventory alerts,Private schools: low-stock and reorder alerts with one-tap supplier orders,3,4,4,2,2,6,7,Next.js + Postgres + email,16.2
+40,physiotherapy clinics,vetted directory,Physiotherapy clinics: vetted directory with lead-gen for patients looking for providers,2,3,4,3,2,8,9,Next.js + SEO + payments,16.1
+60,veterinary clinics,vetted directory,Veterinary clinics: vetted directory with lead-gen for pet owners looking for providers,2,3,4,3,2,8,9,Next.js + SEO + payments,16.1
+287,wedding planners,AI front desk,"Wedding planners: AI assistant answering couples questions on website and WhatsApp, booking when needed",3,5,3,4,0,3,4,LLM + WhatsApp API + calendar,16.1
+467,cleaning companies,AI front desk,"Cleaning companies: AI assistant answering customers questions on website and WhatsApp, booking when needed",3,5,3,4,0,3,4,LLM + WhatsApp API + calendar,16.1
+487,landscapers,AI front desk,"Landscapers: AI assistant answering customers questions on website and WhatsApp, booking when needed",3,5,3,4,0,3,4,LLM + WhatsApp API + calendar,16.1
+920,trucking & fleet owners,vetted directory,Trucking & fleet owners: vetted directory with lead-gen for drivers looking for providers,2,3,4,3,2,8,9,Next.js + SEO + payments,16.1
+924,farms & agribusiness,no-show reducer,Farms & agribusiness: automated reminders and rebooking for buyers to cut no-shows,4,5,3,2,1,3,4,Twilio/WhatsApp + cron + Calendar API,16.1
+27,physiotherapy clinics,AI front desk,"Physiotherapy clinics: AI assistant answering patients questions on website and WhatsApp, booking when needed",3,5,4,3,2,5,6,LLM + WhatsApp API + calendar,16.0
+47,veterinary clinics,AI front desk,"Veterinary clinics: AI assistant answering pet owners questions on website and WhatsApp, booking when needed",3,5,4,3,2,5,6,LLM + WhatsApp API + calendar,16.0
+151,spas & wellness centers,client portal,"Spas & wellness centers: simple portal where guests see status, packages and next steps",3,4,3,3,1,5,6,Next.js + Supabase auth,16.0
+155,spas & wellness centers,inventory alerts,Spas & wellness centers: low-stock and reorder alerts with one-tap supplier orders,3,4,3,3,1,5,6,Next.js + Postgres + email,16.0
+214,small hotels & guesthouses,shift scheduling,Small hotels & guesthouses: staff scheduling and shift swaps over WhatsApp,3,5,4,3,1,5,6,Next.js + WhatsApp + calendar,16.0
+231,homestays & villas,client portal,"Homestays & villas: simple portal where guests see status, check-in documents and next steps",3,4,3,3,1,5,6,Next.js + Supabase auth,16.0
+235,homestays & villas,inventory alerts,Homestays & villas: low-stock and reorder alerts with one-tap supplier orders,3,4,3,3,1,5,6,Next.js + Postgres + email,16.0
+251,travel agencies,client portal,"Travel agencies: simple portal where travelers see status, itineraries and next steps",3,4,3,3,1,5,6,Next.js + Supabase auth,16.0
+255,travel agencies,inventory alerts,Travel agencies: low-stock and reorder alerts with one-tap supplier orders,3,4,3,3,1,5,6,Next.js + Postgres + email,16.0
+271,tour operators,client portal,"Tour operators: simple portal where travelers see status, trip bookings and next steps",3,4,3,3,1,5,6,Next.js + Supabase auth,16.0
+275,tour operators,inventory alerts,Tour operators: low-stock and reorder alerts with one-tap supplier orders,3,4,3,3,1,5,6,Next.js + Postgres + email,16.0
+334,event venues,shift scheduling,Event venues: staff scheduling and shift swaps over WhatsApp,3,5,4,3,1,5,6,Next.js + WhatsApp + calendar,16.0
+907,trucking & fleet owners,AI front desk,"Trucking & fleet owners: AI assistant answering drivers questions on website and WhatsApp, booking when needed",3,5,4,3,2,5,6,LLM + WhatsApp API + calendar,16.0
+100,gyms & fitness studios,vetted directory,Gyms & fitness studios: vetted directory with lead-gen for members looking for providers,2,3,3,4,1,7,8,Next.js + SEO + payments,15.9
+180,restaurants,vetted directory,Restaurants: vetted directory with lead-gen for diners looking for providers,2,3,3,4,1,7,8,Next.js + SEO + payments,15.9
+400,home inspectors,vetted directory,Home inspectors: vetted directory with lead-gen for clients looking for providers,2,3,3,4,1,7,8,Next.js + SEO + payments,15.9
+580,tutoring centers,vetted directory,Tutoring centers: vetted directory with lead-gen for parents looking for providers,2,3,3,4,1,7,8,Next.js + SEO + payments,15.9
+984,churches & community groups,no-show reducer,Churches & community groups: automated reminders and rebooking for members to cut no-shows,4,5,2,3,0,2,3,Twilio/WhatsApp + cron + Calendar API,15.9
+87,gyms & fitness studios,AI front desk,"Gyms & fitness studios: AI assistant answering members questions on website and WhatsApp, booking when needed",3,5,3,4,1,4,5,LLM + WhatsApp API + calendar,15.8
+131,salons & barbershops,client portal,"Salons & barbershops: simple portal where customers see status, bookings and next steps",3,4,2,4,0,4,5,Next.js + Supabase auth,15.8
+135,salons & barbershops,inventory alerts,Salons & barbershops: low-stock and reorder alerts with one-tap supplier orders,3,4,2,4,0,4,5,Next.js + Postgres + email,15.8
+167,restaurants,AI front desk,"Restaurants: AI assistant answering diners questions on website and WhatsApp, booking when needed",3,5,3,4,1,4,5,LLM + WhatsApp API + calendar,15.8
+191,cafes & bakeries,client portal,"Cafes & bakeries: simple portal where regulars see status, orders and next steps",3,4,2,4,0,4,5,Next.js + Supabase auth,15.8
+195,cafes & bakeries,inventory alerts,Cafes & bakeries: low-stock and reorder alerts with one-tap supplier orders,3,4,2,4,0,4,5,Next.js + Postgres + email,15.8
+294,wedding planners,shift scheduling,Wedding planners: staff scheduling and shift swaps over WhatsApp,3,5,3,4,0,4,5,Next.js + WhatsApp + calendar,15.8
+387,home inspectors,AI front desk,"Home inspectors: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,3,4,1,4,5,LLM + WhatsApp API + calendar,15.8
+474,cleaning companies,shift scheduling,Cleaning companies: staff scheduling and shift swaps over WhatsApp,3,5,3,4,0,4,5,Next.js + WhatsApp + calendar,15.8
+494,landscapers,shift scheduling,Landscapers: staff scheduling and shift swaps over WhatsApp,3,5,3,4,0,4,5,Next.js + WhatsApp + calendar,15.8
+567,tutoring centers,AI front desk,"Tutoring centers: AI assistant answering parents questions on website and WhatsApp, booking when needed",3,5,3,4,1,4,5,LLM + WhatsApp API + calendar,15.8
+720,immigration consultants,vetted directory,Immigration consultants: vetted directory with lead-gen for applicants looking for providers,2,3,4,3,3,9,10,Next.js + SEO + payments,15.8
+926,farms & agribusiness,payment chaser,Farms & agribusiness: automatic polite payment reminders and pay links for overdue harvest records,4,5,3,2,1,4,5,Stripe/Razorpay + email/SMS,15.8
+928,farms & agribusiness,lead follow-up,Farms & agribusiness: instant multi-step follow-up for every new enquiry from buyers,4,5,3,2,1,4,5,Webhooks + LLM + email/SMS,15.8
+980,pharmacies,vetted directory,Pharmacies: vetted directory with lead-gen for patients looking for providers,2,3,4,3,3,9,10,Next.js + SEO + payments,15.8
+1011,event photographers,client portal,"Event photographers: simple portal where attendees see status, photo galleries and next steps",3,4,2,4,0,4,5,Next.js + Supabase auth,15.8
+1015,event photographers,inventory alerts,Event photographers: low-stock and reorder alerts with one-tap supplier orders,3,4,2,4,0,4,5,Next.js + Postgres + email,15.8
+34,physiotherapy clinics,shift scheduling,Physiotherapy clinics: staff scheduling and shift swaps over WhatsApp,3,5,4,3,2,6,7,Next.js + WhatsApp + calendar,15.7
+54,veterinary clinics,shift scheduling,Veterinary clinics: staff scheduling and shift swaps over WhatsApp,3,5,4,3,2,6,7,Next.js + WhatsApp + calendar,15.7
+320,photographers & videographers,vetted directory,Photographers & videographers: vetted directory with lead-gen for clients looking for providers,2,3,2,5,0,6,7,Next.js + SEO + payments,15.7
+611,daycares & preschools,client portal,"Daycares & preschools: simple portal where parents see status, enrolment forms and next steps",3,4,3,3,2,6,7,Next.js + Supabase auth,15.7
+615,daycares & preschools,inventory alerts,Daycares & preschools: low-stock and reorder alerts with one-tap supplier orders,3,4,3,3,2,6,7,Next.js + Postgres + email,15.7
+707,immigration consultants,AI front desk,"Immigration consultants: AI assistant answering applicants questions on website and WhatsApp, booking when needed",3,5,4,3,3,6,7,LLM + WhatsApp API + calendar,15.7
+820,freelancers,vetted directory,Freelancers: vetted directory with lead-gen for clients looking for providers,2,3,2,5,0,6,7,Next.js + SEO + payments,15.7
+914,trucking & fleet owners,shift scheduling,Trucking & fleet owners: staff scheduling and shift swaps over WhatsApp,3,5,4,3,2,6,7,Next.js + WhatsApp + calendar,15.7
+967,pharmacies,AI front desk,"Pharmacies: AI assistant answering patients questions on website and WhatsApp, booking when needed",3,5,4,3,3,6,7,LLM + WhatsApp API + calendar,15.7
+80,therapists & counselors,vetted directory,Therapists & counselors: vetted directory with lead-gen for clients looking for providers,2,3,3,4,2,8,9,Next.js + SEO + payments,15.6
+307,photographers & videographers,AI front desk,"Photographers & videographers: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,2,5,0,3,4,LLM + WhatsApp API + calendar,15.6
+544,driving schools,no-show reducer,Driving schools: automated reminders and rebooking for learners to cut no-shows,4,5,2,3,1,3,4,Twilio/WhatsApp + cron + Calendar API,15.6
+807,freelancers,AI front desk,"Freelancers: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,2,5,0,3,4,LLM + WhatsApp API + calendar,15.6
+986,churches & community groups,payment chaser,Churches & community groups: automatic polite payment reminders and pay links for overdue donations,4,5,2,3,0,3,4,Stripe/Razorpay + email/SMS,15.6
+988,churches & community groups,lead follow-up,Churches & community groups: instant multi-step follow-up for every new enquiry from members,4,5,2,3,0,3,4,Webhooks + LLM + email/SMS,15.6
+67,therapists & counselors,AI front desk,"Therapists & counselors: AI assistant answering clients questions on website and WhatsApp, booking when needed",3,5,3,4,2,5,6,LLM + WhatsApp API + calendar,15.5
+94,gyms & fitness studios,shift scheduling,Gyms & fitness studios: staff scheduling and shift swaps over WhatsApp,3,5,3,4,1,5,6,Next.js + WhatsApp + calendar,15.5
+111,yoga & pilates studios,client portal,"Yoga & pilates studios: simple portal where students see status, class packs and next steps",3,4,2,4,1,5,6,Next.js + Supabase auth,15.5
+115,yoga & pilates studios,inventory alerts,Yoga & pilates studios: low-stock and reorder alerts with one-tap supplier orders,3,4,2,4,1,5,6,Next.js + Postgres + email,15.5
+174,restaurants,shift scheduling,Restaurants: staff scheduling and shift swaps over WhatsApp,3,5,3,4,1,5,6,Next.js + WhatsApp + calendar,15.5
+394,home inspectors,shift scheduling,Home inspectors: staff scheduling and shift swaps over WhatsApp,3,5,3,4,1,5,6,Next.js + WhatsApp + calendar,15.5
+574,tutoring centers,shift scheduling,Tutoring centers: staff scheduling and shift swaps over WhatsApp,3,5,3,4,1,5,6,Next.js + WhatsApp + calendar,15.5
+714,immigration consultants,shift scheduling,Immigration consultants: staff scheduling and shift swaps over WhatsApp,3,5,4,3,3,7,8,Next.js + WhatsApp + calendar,15.4
+974,pharmacies,shift scheduling,Pharmacies: staff scheduling and shift swaps over WhatsApp,3,5,4,3,3,7,8,Next.js + WhatsApp + calendar,15.4
+314,photographers & videographers,shift scheduling,Photographers & videographers: staff scheduling and shift swaps over WhatsApp,3,5,2,5,0,4,5,Next.js + WhatsApp + calendar,15.3
+546,driving schools,payment chaser,Driving schools: automatic polite payment reminders and pay links for overdue lesson schedules,4,5,2,3,1,4,5,Stripe/Razorpay + email/SMS,15.3
+548,driving schools,lead follow-up,Driving schools: instant multi-step follow-up for every new enquiry from learners,4,5,2,3,1,4,5,Webhooks + LLM + email/SMS,15.3
+814,freelancers,shift scheduling,Freelancers: staff scheduling and shift swaps over WhatsApp,3,5,2,5,0,4,5,Next.js + WhatsApp + calendar,15.3
+74,therapists & counselors,shift scheduling,Therapists & counselors: staff scheduling and shift swaps over WhatsApp,3,5,3,4,2,6,7,Next.js + WhatsApp + calendar,15.2
+600,private schools,vetted directory,Private schools: vetted directory with lead-gen for parents looking for providers,2,3,4,2,2,8,9,Next.js + SEO + payments,15.1
+587,private schools,AI front desk,"Private schools: AI assistant answering parents questions on website and WhatsApp, booking when needed",3,5,4,2,2,5,6,LLM + WhatsApp API + calendar,15.0
+931,farms & agribusiness,client portal,"Farms & agribusiness: simple portal where buyers see status, harvest records and next steps",3,4,3,2,1,5,6,Next.js + Supabase auth,15.0
+935,farms & agribusiness,inventory alerts,Farms & agribusiness: low-stock and reorder alerts with one-tap supplier orders,3,4,3,2,1,5,6,Next.js + Postgres + email,15.0
+160,spas & wellness centers,vetted directory,Spas & wellness centers: vetted directory with lead-gen for guests looking for providers,2,3,3,3,1,7,8,Next.js + SEO + payments,14.9
+240,homestays & villas,vetted directory,Homestays & villas: vetted directory with lead-gen for guests looking for providers,2,3,3,3,1,7,8,Next.js + SEO + payments,14.9
+260,travel agencies,vetted directory,Travel agencies: vetted directory with lead-gen for travelers looking for providers,2,3,3,3,1,7,8,Next.js + SEO + payments,14.9
+280,tour operators,vetted directory,Tour operators: vetted directory with lead-gen for travelers looking for providers,2,3,3,3,1,7,8,Next.js + SEO + payments,14.9
+147,spas & wellness centers,AI front desk,"Spas & wellness centers: AI assistant answering guests questions on website and WhatsApp, booking when needed",3,5,3,3,1,4,5,LLM + WhatsApp API + calendar,14.8
+227,homestays & villas,AI front desk,"Homestays & villas: AI assistant answering guests questions on website and WhatsApp, booking when needed",3,5,3,3,1,4,5,LLM + WhatsApp API + calendar,14.8
+247,travel agencies,AI front desk,"Travel agencies: AI assistant answering travelers questions on website and WhatsApp, booking when needed",3,5,3,3,1,4,5,LLM + WhatsApp API + calendar,14.8
+267,tour operators,AI front desk,"Tour operators: AI assistant answering travelers questions on website and WhatsApp, booking when needed",3,5,3,3,1,4,5,LLM + WhatsApp API + calendar,14.8
+991,churches & community groups,client portal,"Churches & community groups: simple portal where members see status, donations and next steps",3,4,2,3,0,4,5,Next.js + Supabase auth,14.8
+995,churches & community groups,inventory alerts,Churches & community groups: low-stock and reorder alerts with one-tap supplier orders,3,4,2,3,0,4,5,Next.js + Postgres + email,14.8
+140,salons & barbershops,vetted directory,Salons & barbershops: vetted directory with lead-gen for customers looking for providers,2,3,2,4,0,6,7,Next.js + SEO + payments,14.7
+200,cafes & bakeries,vetted directory,Cafes & bakeries: vetted directory with lead-gen for regulars looking for providers,2,3,2,4,0,6,7,Next.js + SEO + payments,14.7
+594,private schools,shift scheduling,Private schools: staff scheduling and shift swaps over WhatsApp,3,5,4,2,2,6,7,Next.js + WhatsApp + calendar,14.7
+1020,event photographers,vetted directory,Event photographers: vetted directory with lead-gen for attendees looking for providers,2,3,2,4,0,6,7,Next.js + SEO + payments,14.7
+127,salons & barbershops,AI front desk,"Salons & barbershops: AI assistant answering customers questions on website and WhatsApp, booking when needed",3,5,2,4,0,3,4,LLM + WhatsApp API + calendar,14.6
+187,cafes & bakeries,AI front desk,"Cafes & bakeries: AI assistant answering regulars questions on website and WhatsApp, booking when needed",3,5,2,4,0,3,4,LLM + WhatsApp API + calendar,14.6
+620,daycares & preschools,vetted directory,Daycares & preschools: vetted directory with lead-gen for parents looking for providers,2,3,3,3,2,8,9,Next.js + SEO + payments,14.6
+1007,event photographers,AI front desk,"Event photographers: AI assistant answering attendees questions on website and WhatsApp, booking when needed",3,5,2,4,0,3,4,LLM + WhatsApp API + calendar,14.6
+154,spas & wellness centers,shift scheduling,Spas & wellness centers: staff scheduling and shift swaps over WhatsApp,3,5,3,3,1,5,6,Next.js + WhatsApp + calendar,14.5
+234,homestays & villas,shift scheduling,Homestays & villas: staff scheduling and shift swaps over WhatsApp,3,5,3,3,1,5,6,Next.js + WhatsApp + calendar,14.5
+254,travel agencies,shift scheduling,Travel agencies: staff scheduling and shift swaps over WhatsApp,3,5,3,3,1,5,6,Next.js + WhatsApp + calendar,14.5
+274,tour operators,shift scheduling,Tour operators: staff scheduling and shift swaps over WhatsApp,3,5,3,3,1,5,6,Next.js + WhatsApp + calendar,14.5
+551,driving schools,client portal,"Driving schools: simple portal where learners see status, lesson schedules and next steps",3,4,2,3,1,5,6,Next.js + Supabase auth,14.5
+555,driving schools,inventory alerts,Driving schools: low-stock and reorder alerts with one-tap supplier orders,3,4,2,3,1,5,6,Next.js + Postgres + email,14.5
+607,daycares & preschools,AI front desk,"Daycares & preschools: AI assistant answering parents questions on website and WhatsApp, booking when needed",3,5,3,3,2,5,6,LLM + WhatsApp API + calendar,14.5
+120,yoga & pilates studios,vetted directory,Yoga & pilates studios: vetted directory with lead-gen for students looking for providers,2,3,2,4,1,7,8,Next.js + SEO + payments,14.4
+107,yoga & pilates studios,AI front desk,"Yoga & pilates studios: AI assistant answering students questions on website and WhatsApp, booking when needed",3,5,2,4,1,4,5,LLM + WhatsApp API + calendar,14.3
+134,salons & barbershops,shift scheduling,Salons & barbershops: staff scheduling and shift swaps over WhatsApp,3,5,2,4,0,4,5,Next.js + WhatsApp + calendar,14.3
+194,cafes & bakeries,shift scheduling,Cafes & bakeries: staff scheduling and shift swaps over WhatsApp,3,5,2,4,0,4,5,Next.js + WhatsApp + calendar,14.3
+1014,event photographers,shift scheduling,Event photographers: staff scheduling and shift swaps over WhatsApp,3,5,2,4,0,4,5,Next.js + WhatsApp + calendar,14.3
+614,daycares & preschools,shift scheduling,Daycares & preschools: staff scheduling and shift swaps over WhatsApp,3,5,3,3,2,6,7,Next.js + WhatsApp + calendar,14.2
+114,yoga & pilates studios,shift scheduling,Yoga & pilates studios: staff scheduling and shift swaps over WhatsApp,3,5,2,4,1,5,6,Next.js + WhatsApp + calendar,14.0
+940,farms & agribusiness,vetted directory,Farms & agribusiness: vetted directory with lead-gen for buyers looking for providers,2,3,3,2,1,7,8,Next.js + SEO + payments,13.9
+927,farms & agribusiness,AI front desk,"Farms & agribusiness: AI assistant answering buyers questions on website and WhatsApp, booking when needed",3,5,3,2,1,4,5,LLM + WhatsApp API + calendar,13.8
+1000,churches & community groups,vetted directory,Churches & community groups: vetted directory with lead-gen for members looking for providers,2,3,2,3,0,6,7,Next.js + SEO + payments,13.7
+987,churches & community groups,AI front desk,"Churches & community groups: AI assistant answering members questions on website and WhatsApp, booking when needed",3,5,2,3,0,3,4,LLM + WhatsApp API + calendar,13.6
+934,farms & agribusiness,shift scheduling,Farms & agribusiness: staff scheduling and shift swaps over WhatsApp,3,5,3,2,1,5,6,Next.js + WhatsApp + calendar,13.5
+560,driving schools,vetted directory,Driving schools: vetted directory with lead-gen for learners looking for providers,2,3,2,3,1,7,8,Next.js + SEO + payments,13.4
+547,driving schools,AI front desk,"Driving schools: AI assistant answering learners questions on website and WhatsApp, booking when needed",3,5,2,3,1,4,5,LLM + WhatsApp API + calendar,13.3
+994,churches & community groups,shift scheduling,Churches & community groups: staff scheduling and shift swaps over WhatsApp,3,5,2,3,0,4,5,Next.js + WhatsApp + calendar,13.3
+554,driving schools,shift scheduling,Driving schools: staff scheduling and shift swaps over WhatsApp,3,5,2,3,1,5,6,Next.js + WhatsApp + calendar,13.0
