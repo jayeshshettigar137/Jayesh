@@ -1,0 +1,31 @@
+name: Submit a prediction
+description: Suggest a public, dated, specific prediction for the scoreboard
+labels: ["submission"]
+body:
+  - type: input
+    id: speaker
+    attributes: {label: "Who said it?", placeholder: "Name or channel"}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: "Link to the video/post", description: "Must be public. Add the timestamp if it is a video."}
+    validations: {required: true}
+  - type: textarea
+    id: quote
+    attributes: {label: "Exact quote", description: "Word for word. No paraphrasing."}
+    validations: {required: true}
+  - type: input
+    id: said_on
+    attributes: {label: "Date it was said (YYYY-MM-DD)"}
+    validations: {required: true}
+  - type: input
+    id: target
+    attributes: {label: "Asset, direction, price level and deadline", placeholder: "BTC above 150000 by 2026-12-31"}
+    validations: {required: true}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - {label: "The statement is public and I quoted it exactly", required: true}
+        - {label: "It names a specific level and a deadline", required: true}

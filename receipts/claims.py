@@ -19,6 +19,9 @@ class Claim:
     confidence: Optional[float] = None   # stated probability 0-1, if the speaker gave one
     status: str = PENDING
     note: str = ""
+    id: str = ""
+    asset: str = ""
+    sample: bool = False
 
     @property
     def scorable(self) -> bool:

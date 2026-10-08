@@ -1,0 +1,12 @@
+name: Dispute a receipt
+description: Tell us if a quote, date or data point is wrong
+labels: ["dispute"]
+body:
+  - type: input
+    id: receipt
+    attributes: {label: "Receipt link or ID"}
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: "What is wrong?", description: "Link to evidence if you can."}
+    validations: {required: true}

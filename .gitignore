@@ -16,3 +16,6 @@ recordings/
 *.mp4
 *.mov
 *.pgn
+
+# Receipts build output
+site/
