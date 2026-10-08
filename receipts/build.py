@@ -9,9 +9,9 @@ from collections import defaultdict
 from datetime import date
 
 from .claims import FALSE, PENDING, TRUE, Claim
-from .data import load_claims, load_prices
+from .data import load_claims, load_prices, load_resolutions
 from .render import E, LABEL, card_svg, money, page, slug
-from .resolve import resolve
+from .resolve import resolve, resolve_evidence
 from .score import MIN_RESOLVED, score
 
 DEFAULT_CFG = {"name": "Receipts", "tagline": "What they predicted. What happened.",
@@ -70,11 +70,16 @@ def svg_to_png(svg_path):
 def build(data_dir, out_dir, cfg, png=False):
     claims = load_claims(os.path.join(data_dir, "claims.csv"))
     prices = load_prices(os.path.join(data_dir, "prices"))
-    as_of = max((max(s) for s in prices.values() if s), default=date.today())
+    evidence = load_resolutions(os.path.join(data_dir, "resolutions.csv"))
+    as_of = max([max(s) for s in prices.values() if s] + [e[2] for e in evidence.values()],
+                default=date.today())
     sample = any(c.sample for c in claims)
     for c in claims:
         series = prices.get(c.asset.upper())
-        if series is None:
+        if c.id in evidence:
+            bv, bd, ao, c.evidence_url = evidence[c.id]
+            resolve_evidence(c, bv, bd, ao)
+        elif series is None:
             c.status, c.note = "unscorable", f"no price data for {c.asset}"
         else:
             resolve(c, series, as_of)
@@ -95,7 +100,8 @@ def build(data_dir, out_dir, cfg, png=False):
 <a href="{E(c.source_url)}" rel="noopener nofollow">source</a></p>
 <blockquote>{E(c.text)}</blockquote>
 <p>Claim: <b>{E(c.subject)}</b> {E(c.direction)} <b>{money(c.target)}</b> by <b>{c.deadline.isoformat()}</b></p>
-<p>{pill(c.status)} <span class="mut">{E(c.note)} (data as of {as_of.isoformat()})</span></p>
+<p>{pill(c.status)} <span class="mut">{E(c.note)} (data as of {as_of.isoformat()})</span>
+{('<br><span class="mut">Evidence: <a href="' + E(c.evidence_url) + '" rel="noopener nofollow">data source</a></span>') if c.evidence_url else ''}</p>
 <p><img src="{E(c.id)}.svg" alt="Share card" style="max-width:100%;border:1px solid var(--line);border-radius:8px"></p>
 <p><a class="btn" href="https://twitter.com/intent/tweet?text={E(c.speaker)}%20said%20it.%20Here%27s%20what%20happened&amp;url={E(cfg['url'].rstrip('/'))}/c/{E(c.id)}.html">Share</a>
  <a href="../dispute.html">Dispute this</a></p>

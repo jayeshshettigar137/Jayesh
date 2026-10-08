@@ -18,3 +18,21 @@ def resolve(claim: Claim, series: Dict[date, float], today: date) -> Claim:
     else:
         claim.status = PENDING
     return claim
+
+
+def resolve_evidence(claim: Claim, best_value: float, best_date: date, as_of: date) -> Claim:
+    """Resolve from one licensed-data summary: the peak (for 'above') or trough (for 'below')
+    between claim.said_on and min(deadline, as_of). Lets a site publish evidence without
+    redistributing a raw price series."""
+    if not claim.scorable:
+        claim.status = UNSCORABLE
+        return claim
+    reached = best_value >= claim.target if claim.direction == ABOVE else best_value <= claim.target
+    word = "peak" if claim.direction == ABOVE else "low"
+    if reached:
+        claim.status, claim.note = TRUE, f"{word} {best_value:,.0f} on {best_date.isoformat()}"
+    elif as_of > claim.deadline:
+        claim.status, claim.note = FALSE, f"{word} was {best_value:,.0f} ({best_date.isoformat()}); target not reached"
+    else:
+        claim.status = PENDING
+    return claim

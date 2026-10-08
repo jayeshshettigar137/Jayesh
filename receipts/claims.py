@@ -22,6 +22,7 @@ class Claim:
     id: str = ""
     asset: str = ""
     sample: bool = False
+    evidence_url: str = ""
 
     @property
     def scorable(self) -> bool:

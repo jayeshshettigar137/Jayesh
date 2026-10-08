@@ -52,3 +52,17 @@ def load_prices(folder: str) -> Dict[str, Dict[date, float]]:
                 series[date.fromisoformat(r["date"])] = float(r["close"])
         prices[name[:-4].upper()] = series
     return prices
+
+
+def load_resolutions(path: str):
+    """resolutions.csv: id,best_value,best_date,as_of,source_url (summary of licensed data)."""
+    out = {}
+    if not os.path.exists(path):
+        return out
+    with open(path, newline="", encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if not r["source_url"].strip().startswith(("http://", "https://")):
+                raise ValueError(f"resolution source_url must be http(s): {r['source_url']!r}")
+            out[r["id"].strip()] = (float(r["best_value"]), date.fromisoformat(r["best_date"]),
+                                    date.fromisoformat(r["as_of"]), r["source_url"].strip())
+    return out

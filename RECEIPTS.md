@@ -14,7 +14,9 @@ python3 -m http.server -d site 8000                       # preview
 1. `data/receipts/claims.csv`: one row per claim. Columns: `id, speaker, source_url, said_on, quote, subject, asset, direction, target, deadline, confidence, verified, sample`.
    - `verified` must be `yes`, and you must have checked the exact quote at the source. Rows without it are never published.
    - `quote` is word for word. `direction` is `above` or `below`. `source_url` must be http(s); `id` letters/digits/-/_ only.
-2. `data/receipts/prices/<ASSET>.csv`: `date,close` daily prices, filename = asset (e.g. `BTC.csv`). Use a source you can cite; mention it on the methodology page.
+2. Outcomes, either way:
+   - `data/receipts/resolutions.csv` (preferred for real launch): `id,best_value,best_date,as_of,source_url`, the peak (above) or trough (below) in the window from a source whose terms allow it. Publishes evidence without redistributing a price series.
+   - or `data/receipts/prices/<ASSET>.csv`: `date,close` daily prices, filename = asset (e.g. `BTC.csv`). Use a source you can cite; mention it on the methodology page.
 3. Rebuild. A claim with no price file shows as UNSCORABLE, never as wrong.
 4. Nobody is ranked until they have 10 resolved claims.
 
@@ -37,6 +39,9 @@ python3 -m http.server -d site 8000                       # preview
 - Tagline (<=60 chars): Every prediction, checked. Who was actually right?
 - Description: Receipts tracks public, dated predictions by creators and pundits and checks them against real data. Every receipt links to the original quote. Nobody is ranked until they have 10 resolved claims, using a conservative score so lucky streaks can't win. Submit a prediction or dispute one on GitHub.
 - First comment: why you built it, how scoring works (link /methodology.html), and an honest line on limits: hit rate is not skill, and we only score clear numeric claims.
+
+## Candidates
+`data/candidates.csv` has 10 named Bitcoin predictions found via search snippets. All are UNVERIFIED; see `VERIFY.md`.
 
 ## Known limits
 - Only numeric price-style claims (an asset, a level, a deadline). Politics/sports need other resolvers.
